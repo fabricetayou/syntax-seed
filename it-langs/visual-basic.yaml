@@ -1,0 +1,36 @@
+# it-langs fiche — Visual Basic — corpus for the Pica agent (syntax-seed)
+name: Visual Basic
+slug: visual-basic
+first_appeared: 1991
+year_note: VB 1.0 1991; VB6 1998 (end of classic line); VB.NET 2002 continues as a .NET language
+creators: Microsoft (from Alan Cooper's 'Ruby' prototype)
+origin: Microsoft (USA)
+era: 1990s
+status: discontinued
+paradigms:
+- imperative
+- event-driven
+- component-based (form designer + Basic dialect)
+typing: dynamic-ish with compile-time checking variants
+execution: compiled to P-code or native in classic VB; VB.NET compiles to CIL
+non_executable: false
+family: BASIC family — the GUI industrialization
+influenced_by:
+- BASIC (QuickBASIC dialect)
+- Cooper's Ruby prototype
+- HyperCard's empowerment spirit
+influenced:
+- VB.NET (successor)
+- a whole generation of business and internal tool builders
+underlying: classic VB runtime; the Visual Studio form designer
+domains:
+- Windows business apps
+- internal tools
+- database front-ends (1991-2003)
+hello_world: |-
+  Sub Form_Load()
+      MsgBox "Hello, World!"
+  End Sub
+tag: drag, drop, code — RAD for the masses (1991)
+summary: 'The language that dragged millions of non-programmers into software: draw the form, double-click the button,
+  write Basic between the events. Its Rapid Application Development model is the ancestor of every visual app builder.'

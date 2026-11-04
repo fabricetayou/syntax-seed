@@ -1,0 +1,27 @@
+# it-langs fiche — X10 — corpus for the Pica agent (syntax-seed)
+name: X10
+slug: x10
+first_appeared: 2004
+creators: Vijay Saraswat and IBM Research team
+origin: IBM Research (USA)
+era: 2000s
+status: maintained
+paradigms:
+- class-based OO with PGAS (partitioned global address space)
+- async/finish concurrency
+typing: static, strong (with dependent-types research directions)
+execution: compiled to C++ or JVM backends
+non_executable: false
+family: 'HPC research family (DARPA HPCS siblings: Fortress, Chapel)'
+influenced_by:
+- Java (surface)
+- PGAS research (UPC, Co-Array Fortran ideas)
+influenced:
+- async/finish tasking ideas that echo in modern parallel runtimes
+underlying: its XRX runtime over MPI/PGAS transports
+domains:
+- research HPC
+- scaling studies
+tag: async/finish and places — IBM's PGAS algebra (2004)
+summary: 'IBM''s DARPA HPCS entry: ''places'' partition memory, async/finish tames tasks — a clean algebra for clusters.
+  Its concurrency vocabulary quietly migrated into mainstream parallel programming.'

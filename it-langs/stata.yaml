@@ -1,0 +1,27 @@
+# it-langs fiche — Stata — corpus for the Pica agent (syntax-seed)
+name: Stata
+slug: stata
+first_appeared: 1985
+creators: StataCorp (William Gould's team, College Station)
+origin: StataCorp (USA)
+era: 1980s
+status: active
+paradigms:
+- imperative statistics scripting (commands on datasets)
+typing: dynamic, dataset-schema driven
+execution: interpreted (compiled ado routines)
+non_executable: false
+family: statistical language line (SAS branch cousin)
+influenced_by:
+- SAS-era batch statistics
+- econometrics practice
+influenced:
+- econometrics and social-science teaching worldwide
+underlying: the Stata runtime
+domains:
+- economics
+- epidemiology
+- political science research
+tag: the .do-file language of economics papers
+summary: 'The econometrician''s workhorse: dataset-first commands and .do-file scripts that make analyses reproducible
+  by construction. Half the empirical economics papers you read carry a .do file behind them.'

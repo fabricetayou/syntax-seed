@@ -1,0 +1,32 @@
+# it-langs fiche — HCL — corpus for the Pica agent (syntax-seed)
+name: HCL
+slug: hcl
+first_appeared: 2014
+year_note: HashiCorp Configuration Language, extracted from Terraform (2014) and Serf-era tooling
+creators: HashiCorp (Mitchell Hashimoto and team)
+origin: HashiCorp (USA)
+era: 2010s
+status: active
+paradigms:
+- declarative configuration with expressions (blocks, attributes, interpolation)
+typing: dynamic values, schema-validated by the consuming tool
+execution: evaluated by Terraform and HashiCorp tools (none on its own)
+non_executable: true
+family: infrastructure-configuration family
+influenced_by:
+- the failings of JSON/YAML for ops
+- libucl ideas
+influenced:
+- Terraform's entire infrastructure-as-code civilization
+- OpenTofu's fork keeps it
+underlying: Terraform/OpenTofu evaluation and their provider SDKs
+domains:
+- cloud infrastructure declarations
+hello_world: |-
+  resource "null_resource" "hello" {
+    triggers = { greeting = "Hello, World!" }
+  }
+docs: https://developer.hashicorp.com/terraform/language
+tag: infrastructure as declarative code — the Terraform tongue
+summary: 'The configuration language that taught clouds to be diffed and planned: declarative blocks describing
+  infrastructure, evaluated into graphs of resources. Its plan/apply loop changed how ops teams think.'

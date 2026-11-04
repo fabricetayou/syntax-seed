@@ -1,0 +1,38 @@
+# it-langs fiche — VHDL — corpus for the Pica agent (syntax-seed)
+name: VHDL
+slug: vhdl
+first_appeared: 1983
+year_note: developed under the US DoD VHSIC program; IEEE 1076 standard 1987, revised through 2019
+creators: TI, Intermetrics and IBM consortium for the VHSIC program
+origin: US Department of Defense program (USA)
+era: 1980s
+status: active
+paradigms:
+- 'hardware description: strongly typed'
+- concurrent/behavioral
+- Ada-flavored
+typing: static, strong, very strict (enumerated std_logic with 9 values)
+execution: simulated (event-driven) or synthesized to hardware
+non_executable: false
+family: HDL family (Ada branch)
+influenced_by:
+- Ada (syntax and type philosophy)
+influenced:
+- safety-first FPGA/ASIC practice in Europe especially
+underlying: synthesis and simulation toolchains (Vivado, Questa, GHDL)
+domains:
+- aerospace/defense chips
+- FPGA designs where formal rigor matters
+hello_world: |-
+  use std.textio.all;
+
+  entity hello is
+  end entity;
+
+  architecture run of hello is
+  begin
+    report "Hello, World!";
+  end architecture;
+tag: the strict Ada of hardware description
+summary: 'The DoD''s Ada-flavored hardware language: verbose, strict, and proud of it. Where Verilog is casual C,
+  VHDL is bureaucratic Ada — and in aerospace and defense silicon, bureaucracy is a feature.'

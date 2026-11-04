@@ -1,0 +1,44 @@
+# it-langs fiche — Fortran — corpus for the Pica agent (syntax-seed)
+name: Fortran
+slug: fortran
+first_appeared: 1957
+year_note: first compiler delivered 1957; modern standard Fortran 2023
+creators: John Backus and the IBM 704 team
+origin: IBM (USA)
+era: 1950s
+status: active
+paradigms:
+- imperative
+- procedural
+- array-oriented (Fortran 90+)
+- object-oriented (2003+)
+typing: static, strong (with legacy numeric implicit conversions)
+execution: compiled to native code by aggressively optimizing compilers
+non_executable: false
+family: Fortran family (independent root)
+influenced_by:
+- IBM 704 assembly
+- the era's algebraic-notation efforts
+influenced:
+- PL/I
+- BASIC
+- Ratfor
+- MATLAB (array style)
+- Julia (array notation)
+underlying: native machine code (gfortran, flang, ifx); CUDA Fortran for GPUs; coarrays for parallelism
+domains:
+- numerical weather and climate
+- CFD
+- computational physics
+- the core of many supercomputer codes
+hello_world: |-
+  program hello
+    print *, "Hello, World!"
+  end program hello
+install: gfortran (apt/homebrew), Intel ifx, LLVM flang
+docs: https://fortran-lang.org/
+tag: the first successful high-level language (1957), still the HPC workhorse
+summary: 'The first high-level language to succeed commercially: FORmula TRANslation, shipped for the IBM 704 in
+  1957 after Backus''s team bet that compilation could approach hand-written assembly quality. Still the reference
+  language of high-performance scientific computing, repeatedly modernized (90 array syntax, 2003 object orientation,
+  2018 parallelism).'

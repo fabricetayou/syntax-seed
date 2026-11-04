@@ -1,0 +1,28 @@
+# it-langs fiche — GameMaker Language (GML) — corpus for the Pica agent (syntax-seed)
+name: GameMaker Language (GML)
+slug: gml
+first_appeared: 1999
+creators: Mark Overmars (Utrecht University), later YoYo Games
+origin: Utrecht University (Netherlands)
+era: 1990s
+status: active
+paradigms:
+- imperative
+- event-driven game scripting
+typing: dynamic (loosening toward typed with each release)
+execution: interpreted (with YYC native compilation option)
+non_executable: false
+family: game scripting family
+influenced_by:
+- teaching-friendly C-flavored syntax
+influenced:
+- the indie game wave's first steps (Undertale, Hyper Light Drifter began here)
+underlying: GameMaker's runtime with its room/sprite/object model
+domains:
+- 2D indie games
+- game-jam culture
+- teaching game making
+hello_world: show_debug_message("Hello, World!");
+tag: the on-ramp language of the indie game renaissance
+summary: 'The scripting language of GameMaker: events attached to sprites and rooms, readable enough for teenagers,
+  capable enough for commercial hits. A quiet on-ramp of the indie game renaissance.'

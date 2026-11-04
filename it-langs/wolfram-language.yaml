@@ -1,0 +1,36 @@
+# it-langs fiche — Wolfram Language (Mathematica) — corpus for the Pica agent (syntax-seed)
+name: Wolfram Language (Mathematica)
+slug: wolfram-language
+first_appeared: 1988
+year_note: Mathematica 1.0 1988; branded 'Wolfram Language' from 2013
+creators: Stephen Wolfram and Wolfram Research
+origin: Wolfram Research (USA/UK)
+era: 1980s
+status: active
+paradigms:
+- symbolic
+- rule-based rewriting
+- notebook-oriented
+- knowledgebase-connected
+typing: dynamic, symbolic (expressions stay unevaluated)
+execution: interpreted kernel with compilation (FunctionCompile) and cloud execution
+non_executable: false
+family: symbolic CAS family (Macsyma's commercial rival branch)
+influenced_by:
+- Macsyma/Maple
+- SMP (Wolfram's earlier system)
+- term rewriting
+influenced:
+- notebook interfaces everywhere (Jupyter is its cultural grandchild)
+- computational essays
+underlying: the Wolfram kernel with curated data and the Wolfram Alpha engine
+domains:
+- math research
+- education
+- engineering
+- data science with built-in knowledge
+hello_world: Print["Hello, World!"]
+docs: https://reference.wolfram.com/language/
+tag: symbolic rewriting plus a built-in encyclopedia of everything
+summary: Wolfram's symbolic engine where programming is rewriting term trees, backed by built-in curated knowledge
+  of the world. Its notebook paradigm — code, math and prose interleaved — shaped how science computes today.

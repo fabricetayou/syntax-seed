@@ -1,0 +1,44 @@
+# it-langs fiche — Go — corpus for the Pica agent (syntax-seed)
+name: Go
+slug: go
+first_appeared: 2009
+year_note: announced November 2009; 1.0 in 2012
+creators: Robert Griesemer, Rob Pike and Ken Thompson (Google)
+origin: Google (USA)
+era: 2000s
+status: active
+paradigms:
+- imperative
+- structural typing via interfaces
+- CSP concurrency (goroutines and channels)
+typing: static, strong, deliberately minimal
+execution: compiled to native static binaries (fast compilation by design)
+non_executable: false
+family: C-syntax family with Oberon/Modula taste and CSP concurrency
+influenced_by:
+- C (surface)
+- Oberon/Modula-2 (declaration and module taste)
+- Newsqueak/Alef/Limbo (channels and CSP)
+influenced:
+- the cloud-native infrastructure stack (Docker, Kubernetes, most CNCF projects)
+- Rust (partly as counter-inspiration)
+- V and Zig (philosophical descendants)
+underlying: native code; its runtime embeds scheduler, GC and netpoller in every binary
+domains:
+- cloud infrastructure
+- CLIs
+- network services
+- DevOps tooling
+hello_world: |-
+  package main
+
+  import "fmt"
+
+  func main() {
+      fmt.Println("Hello, World!")
+  }
+install: go install / official toolchain; go.dev playground
+docs: https://go.dev/doc/
+tag: Unix philosophy reborn for the cloud — goroutines and one static binary
+summary: 'Pike and Thompson''s ''less is more'' systems language: compile fast, ship one static binary, and make
+  concurrency a language feature again. Docker and Kubernetes made its choice feel inevitable for cloud software.'

@@ -1,0 +1,38 @@
+# it-langs fiche — Sass — corpus for the Pica agent (syntax-seed)
+name: Sass
+slug: sass
+first_appeared: 2006
+year_note: Hampton Catlin 2006; SCSS syntax 2010; DartSass as the modern engine
+creators: Hampton Catlin, developed with Nathan Weizenbaum and Chris Eppstein
+origin: open source (USA)
+era: 2000s
+status: active
+paradigms:
+- 'CSS extension language: variables'
+- nesting
+- mixins
+- control flow
+typing: dynamic-ish values, compiled away
+execution: transpiled to plain CSS by the Sass compiler
+non_executable: false
+family: CSS-preprocessor family (with Less)
+influenced_by:
+- CSS's own limits
+- YAML-flavored indentation (original syntax)
+influenced:
+- SCSS syntax spread back into design systems everywhere
+- Less (its rival)
+underlying: Dart Sass compiler (dart-sass)
+domains:
+- design systems
+- large front-end codebases
+hello_world: |-
+  $color: crimson;
+
+  body {
+    color: $color;
+  }
+docs: https://sass-lang.com/documentation/
+tag: the preprocessor that taught CSS variables (2006)
+summary: 'CSS grown up: variables, nesting and mixins transpiled down to vanilla stylesheets. Its SCSS dialect became
+  the industry''s default authoring format for design systems.'

@@ -1,0 +1,31 @@
+# it-langs fiche — JSX — corpus for the Pica agent (syntax-seed)
+name: JSX
+slug: jsx
+first_appeared: 2014
+creators: Facebook React team (Jordan Walke's earlier ideas; JSX popularized with React's open-sourcing 2013-2015)
+origin: Facebook/Meta (USA)
+era: 2010s
+status: active
+paradigms:
+- 'syntax extension: HTML-like expressions that compile to function calls'
+typing: static when used in TypeScript (.tsx)
+execution: transpiled away to JavaScript createElement calls
+non_executable: false
+family: embedded-markup family (the EJS/JSX branch)
+influenced_by:
+- PHP/JSP template interleaving
+- XML literals in ECMAScript proposals (E4X)
+influenced:
+- Vue's templates (counter-culture)
+- Solid/ Qwik's JSX variants
+- MDX
+underlying: Babel/esbuild/SWC transpilers to React or other render calls
+domains:
+- UI components — the industry's dominant front-end notation
+hello_world: |-
+  function Hello() {
+    return <h1>Hello, World!</h1>;
+  }
+tag: markup inside JavaScript — the UI notation wars' winner (2014)
+summary: 'HTML hand-dropped into JavaScript: markup as expressions that become function calls. Despised on arrival,
+  then so convenient it became the world''s default way to describe interfaces.'

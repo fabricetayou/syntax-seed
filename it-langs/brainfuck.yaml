@@ -1,0 +1,25 @@
+# it-langs fiche — Brainfuck — corpus for the Pica agent (syntax-seed)
+name: Brainfuck
+slug: brainfuck
+first_appeared: 1993
+creators: Urban Muller
+origin: Amiga demoscene (Switzerland/Netherlands milieu)
+era: 1990s
+status: esoteric
+paradigms:
+- 'esoteric minimalism: eight commands'
+- a tape and a pointer
+typing: untyped cells
+execution: interpreted
+non_executable: false
+family: esoteric family — the minimalist benchmark
+influenced_by:
+- Turing machine abstraction itself
+influenced:
+- every 'smaller than Brainfuck' challenger
+- teaching Turing completeness
+underlying: hundreds of interpreters (fits in a tweet)
+hello_world: ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+tag: eight commands, one tape — the minimalism benchmark
+summary: 'The canonical joke: eight commands, one tape, Turing-complete. It is the purity benchmark every esolang
+  measures itself against — and the smallest complete language most programmers can memorize.'

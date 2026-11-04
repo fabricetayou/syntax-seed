@@ -1,0 +1,31 @@
+# it-langs fiche — Modula-2 — corpus for the Pica agent (syntax-seed)
+name: Modula-2
+slug: modula-2
+first_appeared: 1978
+creators: Niklaus Wirth (ETH Zurich)
+origin: ETH Zurich (Switzerland)
+era: 1970s
+status: maintained
+paradigms:
+- imperative
+- procedural
+- module-centered
+typing: static, strong
+execution: compiled (to Lilith machine code originally, native today)
+non_executable: false
+family: 'Wirth line: Pascal → Modula-2 → Oberon'
+influenced_by:
+- Pascal
+- Mesa's module ideas
+influenced:
+- Oberon
+- Ada (module/package flavor partly)
+- the units concept in Turbo Pascal/Delphi
+underlying: GNU Modula-2 (in GCC), ADW Modula-2
+domains:
+- teaching systems programming
+- embedded workstations (Lilith)
+- niche embedded
+tag: 'Pascal grows up: modules and clean separate compilation'
+summary: Wirth's Pascal with modules and explicit import/export — separate compilation done cleanly. Its restraint
+  is its teaching power, and its lineage ends in Oberon, the smallest complete systems language.

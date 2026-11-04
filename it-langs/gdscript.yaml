@@ -1,0 +1,34 @@
+# it-langs fiche — GDScript — corpus for the Pica agent (syntax-seed)
+name: GDScript
+slug: gdscript
+first_appeared: 2014
+year_note: built for Godot Engine 1.x; Godot 4's GDScript 2.0 added static typing
+creators: Juan Linietsky, Ariel Manzur and Godot community
+origin: Godot Engine project (Argentina roots)
+era: 2010s
+status: active
+paradigms:
+- Python-flavored
+- scene-tree-aware game scripting
+typing: dynamic (gradual annotations in Godot 4)
+execution: interpreted (bytecode VM, fast enough for game loops)
+non_executable: false
+family: game scripting family
+influenced_by:
+- Python (surface)
+- Lua (the embedding role it plays)
+influenced:
+- the indie-exodus from Unity to Godot's default tongue
+underlying: inside the Godot engine, tied to its node/scene model
+domains:
+- indie 2D/3D games
+- game jams
+hello_world: |-
+  extends Node
+
+  func _ready():
+      print("Hello, World!")
+docs: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/
+tag: Godot's built-in tongue — the indie exodus language
+summary: 'Godot''s home language: Python-shaped, node-shaped, built to feel like the engine''s own grammar. When
+  Unity''s pricing revolt happened, a generation of indies learned it in a month.'

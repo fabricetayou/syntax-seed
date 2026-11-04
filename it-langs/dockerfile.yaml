@@ -1,0 +1,30 @@
+# it-langs fiche — Dockerfile — corpus for the Pica agent (syntax-seed)
+name: Dockerfile
+slug: dockerfile
+first_appeared: 2013
+creators: Docker (dotCloud team, Solomon Hykes)
+origin: dotCloud/Docker (France/USA)
+era: 2010s
+status: active
+paradigms:
+- 'imperative build recipe (layer-producing instructions: FROM, RUN, COPY)'
+typing: n/a (instruction streams)
+execution: executed by container builders into image layers
+non_executable: false
+family: container/build-recipe family
+influenced_by:
+- Make's imperative recipes
+- Vagrantfile's reproducibility goals
+influenced:
+- OCI image spec culture
+- BuildKit's frontend extensions
+underlying: Docker/BuildKit/Podman builders producing layer filesystems
+domains:
+- packaging every server application on Earth
+hello_world: |-
+  FROM alpine
+  RUN echo "Hello, World!" > /hello
+  CMD ["cat", "/hello"]
+tag: the recipe language of containers (2013)
+summary: 'The recipe language of the container age: each instruction bakes a filesystem layer, and the cache decides
+  your build time. Twelve keywords that reorganized how software ships.'

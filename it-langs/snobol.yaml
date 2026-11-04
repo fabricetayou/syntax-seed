@@ -1,0 +1,30 @@
+# it-langs fiche — SNOBOL — corpus for the Pica agent (syntax-seed)
+name: SNOBOL
+slug: snobol
+first_appeared: 1962
+year_note: SNOBOL 1962; the influential SNOBOL4 in 1967
+creators: Ralph Griswold, Ivan Polonsky and David Farber (Bell Labs)
+origin: Bell Labs (USA)
+era: 1960s
+status: dormant
+paradigms:
+- string processing
+- pattern matching
+- imperative
+typing: dynamic
+execution: interpreted (SNOBOL4)
+non_executable: false
+family: string-manipulation line (with MIT's COMIT)
+influenced_by:
+- COMIT's string-processing drive
+influenced:
+- Icon (direct descendant)
+- AWK (pattern-action spirit)
+- regex culture
+underlying: SNOBOL4 interpreters (Catspaw's version was maintained for decades)
+domains:
+- 'text processing in the 1960s-70s: compiler front ends'
+- humanities computing
+tag: the pattern-matching power tool of the 60s
+summary: 'Bell Labs'' string laboratory: patterns as first-class values combined by operators, with famously free-wheeling
+  control flow. Its pattern algebra prefigured supercharged regular expressions and led directly to Icon.'

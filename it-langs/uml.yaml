@@ -1,0 +1,31 @@
+# it-langs fiche — UML — corpus for the Pica agent (syntax-seed)
+name: UML
+slug: uml
+first_appeared: 1997
+year_note: Booch-OMT-OOSE methods merged; UML 1.1 adopted by OMG 1997; UML 2.5.1 current
+creators: Grady Booch, Ivar Jacobson and James Rumbaugh ('the Three Amigos') at Rational
+origin: Rational Software (USA)
+era: 1990s
+status: maintained
+paradigms:
+- graphical modeling language (structural and behavioral diagrams)
+typing: n/a (diagram notation with defined metamodel)
+execution: none — descriptive notation (some diagrams have execution semantics, e.g., state machines)
+non_executable: true
+family: modeling family (with SysML, ER diagrams as ancestors)
+influenced_by:
+- Booch
+- OMT
+- OOSE methods
+- entity-relationship tradition
+influenced:
+- SysML
+- model-driven engineering tools
+- the vocabulary of enterprise architecture ('use case', 'sequence diagram')
+underlying: drawn in modeling tools (Enterprise Architect, StarUML, PlantUML renders it)
+domains:
+- software design documentation
+- enterprise architecture
+tag: the diagram language of software design (1997)
+summary: 'The Three Amigos'' unified diagram notation: the language software speaks when it doesn''t run but gets
+  designed. Over-promised as executable engineering, it survives as architecture''s shared vocabulary.'

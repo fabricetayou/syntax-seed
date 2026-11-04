@@ -1,0 +1,27 @@
+# it-langs fiche — Piet — corpus for the Pica agent (syntax-seed)
+name: Piet
+slug: piet
+first_appeared: 2000
+year_note: created around 2000 by Morgan-Mar, after painter Piet Mondrian
+creators: David Morgan-Mar
+origin: Australia (esolang community)
+era: 2000s
+status: esoteric
+paradigms:
+- esoteric — programs are abstract images (color-block transitions encode operations)
+typing: untyped stack
+execution: interpreted from the bitmap by a Piet interpreter
+non_executable: false
+family: esoteric family — the visual branch
+influenced_by:
+- Brainfuck's stack
+- Mondrian's canvases
+influenced:
+- the visual-esolang genre (Pietmona Lisa artifacts)
+underlying: Piet interpreters (npiet)
+domains:
+- art that computes
+- gallery-grade hello worlds
+tag: programs as Mondrian paintings — code you hang on a wall
+summary: 'Named for Mondrian: the program IS the painting — the interpreter''s ''codel pointer'' walks color blocks
+  whose hue changes define commands. The only language whose hello world hangs in a frame.'

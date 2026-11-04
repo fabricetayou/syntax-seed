@@ -1,0 +1,35 @@
+# it-langs fiche — Julia — corpus for the Pica agent (syntax-seed)
+name: Julia
+slug: julia
+first_appeared: 2012
+creators: Jeff Bezanson, Stefan Karpinski, Viral Shah and Alan Edelman
+origin: MIT (USA)
+era: 2010s
+status: active
+paradigms:
+- multiple-dispatch centered
+- imperative-functional
+- array-native
+typing: dynamic, strong, with optional type annotations that guide compilation
+execution: just-in-time compiled to native code (LLVM) via specialization on types
+non_executable: false
+family: scientific-computing line (Lisp's grandchild by marriage to MATLAB)
+influenced_by:
+- MATLAB and R's problems
+- Scheme (meta-programming)
+- Dylan (multiple dispatch)
+influenced:
+- the scientific-python generation's performance tier
+- SciML ecosystem
+underlying: LLVM JIT; its package manager Pkg; distributed computing built in
+domains:
+- scientific computing
+- ML research
+- simulation
+- data science at speed
+hello_world: println("Hello, World!")
+install: julialang.org installer; try at replit or juliabox-style sandboxes
+docs: https://docs.julialang.org/
+tag: walk like Python, run like Fortran (MIT, 2012)
+summary: 'The answer to the ''two-language problem'': write like Python, compile like Fortran via multiple dispatch
+  on specialized code. It gave researchers back their evenings — one eagerly-compiled method at a time.'

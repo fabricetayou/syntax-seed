@@ -1,0 +1,35 @@
+# it-langs fiche — HyperTalk — corpus for the Pica agent (syntax-seed)
+name: HyperTalk
+slug: hypertalk
+first_appeared: 1987
+creators: Dan Winkler and Bill Atkinson (Apple, for HyperCard)
+origin: Apple (USA)
+era: 1980s
+status: discontinued
+paradigms:
+- imperative
+- event-driven
+- natural-language-flavored scripting
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: end-user scripting line (leads to LiveCode)
+influenced_by:
+- Apple's Easy English aspirations
+- Smalltalk's user-empowerment spirit
+influenced:
+- LiveCode (direct descendant)
+- AppleScript's style
+- the no-code movement's philosophy
+underlying: the HyperCard runtime's stacks, cards and buttons
+domains:
+- hypermedia authoring
+- education stacks
+- the 1980s-90s pre-web
+hello_world: |-
+  on mouseUp
+    answer "Hello, World!"
+  end mouseUp
+tag: English-flavored scripting for everyone — the pre-web HyperCard
+summary: The scripting language of HyperCard, where a button's script read almost like English ('on mouseUp, go
+  to next card'). It put programming into teachers' and artists' hands a decade before 'no-code' was coined.

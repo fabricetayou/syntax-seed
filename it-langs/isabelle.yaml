@@ -1,0 +1,33 @@
+# it-langs fiche — Isabelle — corpus for the Pica agent (syntax-seed)
+name: Isabelle
+slug: isabelle
+first_appeared: 1986
+year_note: Isar structured proof language added in the late 1990s; AFP library since 2004
+creators: Lawrence Paulson (University of Cambridge) and Tobias Nipkow (TU Munich)
+origin: Cambridge (UK) / Munich (Germany)
+era: 1980s
+status: active
+paradigms:
+- generic proof assistant
+- Isar proof language
+- object logics encoded (HOL, ZF, ...)
+typing: static via the HOL object logic
+execution: the Isabelle/HOL kernel typechecks proofs; code generation to Haskell/OCaml/SML
+non_executable: false
+family: proof-assistant family — the LCF-heritage branch
+influenced_by:
+- LCF (Milner's meta-language tradition)
+- ML
+influenced:
+- the Archive of Formal Proofs
+- seL4's verified microkernel
+underlying: small trusted inference kernel; generated code runs natively
+domains:
+- verified kernels (seL4)
+- mathematics
+- protocol verification
+hello_world: 'theorem hello: "True" by simp'
+docs: https://isabelle.in.tum.de/documentation.html
+tag: textbook-style proofs (Isar) and the verified seL4 kernel
+summary: Cambridge's proof assistant where the Isar language makes proofs read like textbook arguments. It carried
+  seL4 to full functional correctness — the OS kernel that proves itself.

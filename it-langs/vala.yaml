@@ -1,0 +1,32 @@
+# it-langs fiche — Vala — corpus for the Pica agent (syntax-seed)
+name: Vala
+slug: vala
+first_appeared: 2006
+creators: Jurgen Billeter and Raffaele Sandrini (GNOME project)
+origin: GNOME (Switzerland/Italy)
+era: 2000s
+status: maintained
+paradigms:
+- imperative
+- object-oriented (C#-shaped syntax)
+typing: static, strong
+execution: transpiled to C calling GLib/GObject (native speed, no VM)
+non_executable: false
+family: GObject transpiler line
+influenced_by:
+- C# and Java syntax surface
+- the GObject C object system as substrate
+influenced:
+- elementaryOS applications
+- a lineage of lightweight GNOME apps
+underlying: C + GLib/GObject underneath — memory managed by reference counting
+domains:
+- GNOME/elementary desktop apps ( rapid native GUIs)
+hello_world: |-
+  void main () {
+      print ("Hello, World!\n");
+  }
+docs: https://wiki.gnome.org/Projects/Vala
+tag: C# syntax in, fast GObject C out
+summary: 'The GNOME project''s trick: write C#-style code, get plain fast C with GObject glue. It lets desktop apps
+  feel native without a runtime — a transpiler serving a whole desktop civilization.'

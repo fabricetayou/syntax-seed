@@ -1,0 +1,28 @@
+# it-langs fiche — RPG — corpus for the Pica agent (syntax-seed)
+name: RPG
+slug: rpg
+first_appeared: 1964
+year_note: born on the IBM 1401; RPG II/III followed; today RPG IV free-form on IBM i
+creators: IBM
+origin: IBM (USA)
+era: 1960s
+status: active
+paradigms:
+- report-generation
+- cycle-oriented
+- modern RPG IV is free-form procedural
+typing: static, column-sensitive historically
+execution: compiled
+non_executable: false
+family: 4GL report line (descends from FARGO-era report generators)
+influenced_by:
+- IBM's report-generator lineage (FARGO)
+influenced:
+- the 4GL report concepts of the 1970s-80s
+underlying: IBM i (AS/400) toolchain
+domains:
+- business reporting and ERP logic on IBM midrange systems
+tag: still running inside thousands of AS/400 systems
+summary: 'Report Program Generator: born in 1964 to let businesses print reports without classic programming, and
+  still the beating heart of countless IBM i ERP systems. Its fixed-column heritage and the ''logic cycle'' make
+  it one of the strangest-looking mainstream survivors.'

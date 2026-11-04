@@ -1,0 +1,33 @@
+# it-langs fiche — Shakespeare Programming Language — corpus for the Pica agent (syntax-seed)
+name: Shakespeare Programming Language
+slug: shakespeare
+first_appeared: 2001
+creators: Kalle Hasselstrom and Jon Astlund (Karlstad University)
+origin: Karlstad University (Sweden)
+era: 2000s
+status: esoteric
+paradigms:
+- esoteric — programs are Shakespearean plays (characters as variables, dialogue as operations)
+typing: untyped stacks per character
+execution: transpiled to C then compiled
+non_executable: false
+family: esoteric family — the literary branch
+influenced_by:
+- the literary ambition of Chef and the esolang wave
+influenced:
+- the literary-programming genre (Chef as sibling)
+underlying: spl2c transpiler
+domains:
+- art
+- teaching (a play that computes)
+hello_world: |
+  Romeo, a young man with remarkable patience.
+
+  Act I: Scene I: The Greeting.
+  [Enter Romeo]
+
+  Romeo:
+  Speak your mind!
+tag: programs as Elizabethan drama (2001)
+summary: 'A program must read like a play: characters are variables, their praises and insults push and pop values.
+  ''Hello World'' takes an entire dramatic act — the punkest exorcism of syntax ever printed.'

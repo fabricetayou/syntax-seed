@@ -1,0 +1,40 @@
+# it-langs fiche — Common Lisp — corpus for the Pica agent (syntax-seed)
+name: Common Lisp
+slug: common-lisp
+first_appeared: 1984
+year_note: '''Common Lisp the Language'' 1984; ANSI standard X3.226 in 1994'
+creators: the Common Lisp standardization committee (Guy Steele central; consolidating the Maclisp/ZetaLisp dialect
+  wars)
+origin: US industry-academic consortium (Symbolics, DEC, CMU, ...)
+era: 1980s
+status: active
+paradigms:
+- 'multi-paradigm Lisp: functional'
+- object-oriented (CLOS)
+- imperative
+- meta (macros)
+typing: dynamic, strong, with optional declarations
+execution: compiled to native code (with interactive redefinition)
+non_executable: false
+family: Lisp family — the great dialect unification
+influenced_by:
+- Maclisp
+- ZetaLisp/Lisp Machine Lisp
+- Scheme (lexical scope)
+influenced:
+- Clojure (partly)
+- Julia's image
+- many DSLs built in CLOS
+underlying: SBCL, CCL, ABCL (JVM), ECL engines
+domains:
+- AI (the 80s boom)
+- planning/scheduling (e.g., airline schedulers famously)
+- symbolic math
+- exploratory programming
+hello_world: (format t "Hello, World!~%")
+install: SBCL (common.lisp), Quicklisp library manager
+docs: https://common-lisp.net/
+tag: the ANSI-unified Lisp with CLOS and unmatched macros
+summary: 'The treaty that ended the Lisp dialect wars: one ANSI language absorbing ZetaLisp''s object system and
+  Scheme''s scoping, with the most powerful object system (CLOS) and macro system ever standardized. The language
+  of the 1980s AI boom''s big software.'

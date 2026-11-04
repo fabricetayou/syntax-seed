@@ -1,0 +1,42 @@
+# it-langs fiche — Pascal — corpus for the Pica agent (syntax-seed)
+name: Pascal
+slug: pascal
+first_appeared: 1970
+year_note: designed 1968-1969 as an ALGOL W successor; Turbo Pascal shipped 1983
+creators: Niklaus Wirth (ETH Zurich)
+origin: ETH Zurich (Switzerland)
+era: 1970s
+status: maintained
+paradigms:
+- imperative
+- procedural
+- structured
+typing: static, strong, safe (subranges, variant-record checks)
+execution: compiled (to P-code in UCSD Pascal, to native code by Borland)
+non_executable: false
+family: Algol family — Wirth branch (Pascal, Modula-2, Oberon)
+influenced_by:
+- ALGOL 60
+- ALGOL W
+influenced:
+- Modula-2
+- Oberon
+- Ada (spirit and syntax partly)
+- Delphi/Object Pascal
+- and two decades of introductory courses
+underlying: native code (Turbo Pascal lineage) or P-code (UCSD); today Free Pascal targets many platforms
+domains:
+- teaching
+- early commercial software (Turbo Pascal era)
+- Apple System libraries' Pascal interface era
+hello_world: |-
+  program Hello;
+  begin
+    WriteLn('Hello, World!');
+  end.
+install: Free Pascal (fpc), Lazarus IDE, online compilers
+docs: https://www.freepascal.org/docs.html
+tag: the structured-programming teaching classic
+summary: 'Wirth''s disciplined, teachable Algol: strong typing, subrange types and structured control made it the
+  world''s introductory language for fifteen years. Turbo Pascal''s fast compile cycle created the modern IDE experience,
+  and its commercial energy survives in Delphi.'

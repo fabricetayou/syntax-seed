@@ -1,0 +1,33 @@
+# it-langs fiche — Nix (language) — corpus for the Pica agent (syntax-seed)
+name: Nix (language)
+slug: nix
+first_appeared: 2004
+year_note: Dolstra's Utrecht thesis project from 2003-2004; Nixpkgs ecosystem later
+creators: Eelco Dolstra (Utrecht University)
+origin: Utrecht University (Netherlands)
+era: 2000s
+status: active
+paradigms:
+- purely functional
+- lazily evaluated configuration/expression language
+typing: dynamic, strong
+execution: interpreted (lazy attribute sets)
+non_executable: false
+family: functional-package-management family (its own branch)
+influenced_by:
+- Haskell-style purity and laziness applied to system configuration
+influenced:
+- NixOS
+- home-manager
+- the reproducible-builds movement
+- flakes' dialect debates
+underlying: the Nix evaluator + store (derivations build the system)
+domains:
+- package definitions
+- whole-OS declarations
+- reproducible environments
+hello_world: let greeting = "Hello, World!"; in greeting
+docs: https://nix.dev/manual/nix/stable/language/
+tag: the pure functional language that describes whole systems
+summary: The language where an entire operating system is a lazily-evaluated function value. Purity and reproducibility
+  taken to the operating system itself — the maximalist answer to 'it works on my machine'.

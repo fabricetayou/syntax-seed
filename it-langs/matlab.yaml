@@ -1,0 +1,34 @@
+# it-langs fiche — MATLAB — corpus for the Pica agent (syntax-seed)
+name: MATLAB
+slug: matlab
+first_appeared: 1984
+year_note: Moler's original Fortran MATLAB late 1970s; MathWorks founded 1984
+creators: Cleve Moler; commercialized by MathWorks (Moler and Jack Little)
+origin: University of New Mexico, then MathWorks (USA)
+era: 1980s
+status: active
+paradigms:
+- array-oriented imperative scripting
+typing: dynamic, matrix-first
+execution: interpreted (JIT for hot loops in modern versions)
+non_executable: false
+family: array/numerical line (APL-without-glyphs branch)
+influenced_by:
+- LINPACK/EISPACK Fortran libraries
+- APL's array mindset
+influenced:
+- Octave and Scilab (open clones)
+- NumPy's MATLAB-flavored culture
+- Simulink toolchains
+underlying: the MATLAB runtime with LAPACK/BLAS underneath
+domains:
+- control engineering
+- signal processing
+- simulations
+- teaching numerical methods
+hello_world: disp('Hello, World!')
+docs: https://www.mathworks.com/help/matlab/
+tag: the engineer's matrix laboratory — arrays as the mother tongue
+summary: 'The MATrix LABoratory: linear algebra as a native language, with toolboxes growing into an engineering
+  civilization. Its syntax (1-based indexing, everything-is-a-matrix) shaped a generation of engineers — and NumPy''s
+  culture.'

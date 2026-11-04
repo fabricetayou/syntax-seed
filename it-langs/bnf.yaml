@@ -1,0 +1,30 @@
+# it-langs fiche — Backus-Naur Form (BNF) — corpus for the Pica agent (syntax-seed)
+name: Backus-Naur Form (BNF)
+slug: bnf
+first_appeared: 1959
+year_note: Backus's 1959 presentation; adopted for the ALGOL 60 report with Naur's edits (1963)
+creators: John Backus; extended and popularized by Peter Naur
+origin: ACM/ALGOL committee context (USA / Denmark)
+era: 1950s
+status: active
+paradigms:
+- declarative grammar notation
+typing: n/a (metalanguage)
+execution: none — pure notation, consumed by parser generators and humans
+non_executable: true
+family: grammar-specification family (EBNF, syntax diagrams, PEG descend from it)
+influenced_by:
+- Chomsky's formal grammars (1956)
+influenced:
+- EBNF
+- Yacc grammars
+- every language standard's syntax section
+underlying: describes the syntax of other languages
+domains:
+- language specification
+- parser generators
+- standards documents
+- teaching
+tag: the notation that defines all other languages
+summary: The metalanguage used to define syntax, first used to specify ALGOL 60. Every grammar ever printed in a
+  standard — Pascal, Java, YAML — is written in a BNF descendant.

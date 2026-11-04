@@ -1,0 +1,39 @@
+# it-langs fiche — Smalltalk — corpus for the Pica agent (syntax-seed)
+name: Smalltalk
+slug: smalltalk
+first_appeared: 1972
+year_note: Smalltalk-72 through Smalltalk-80 (1980) — the released classic
+creators: Alan Kay, Dan Ingalls, Adele Goldberg and the Learning Research Group (Xerox PARC)
+origin: Xerox PARC (USA)
+era: 1970s
+status: active
+paradigms:
+- pure object-oriented (message passing to objects, everything is an object)
+- live reflective environment
+typing: dynamic, strong
+execution: bytecode on a virtual machine with JIT research roots
+non_executable: false
+family: Lisp-family branch by philosophy — the OOP taproot with Simula
+influenced_by:
+- Simula (classes)
+- Lisp (dynamic live systems)
+- Kay's biology-inspired message metaphor
+influenced:
+- Objective-C
+- Ruby
+- Java (object semantics)
+- Python (object model partly)
+- Scratch (interface philosophy)
+- modern IDEs and GUIs
+underlying: Smalltalk-80-style image-based VMs; Pharo and Squeak today
+domains:
+- education (Kay's original goal)
+- enterprise apps in the 90s
+- live research environments
+hello_world: 'Transcript show: ''Hello, World!''; cr.'
+install: Pharo, Squeak/Scratch lineage; GNU Smalltalk
+docs: https://pharo.org/documentation
+tag: everything is an object, everything is live (PARC, 1972)
+summary: 'The purest expression of object orientation: even control structures are messages between objects, inside
+  a live, inspectable image. Its PARC environment also invented overlapping-window GUIs and the IDE — arguably the
+  most generative single language project ever.'

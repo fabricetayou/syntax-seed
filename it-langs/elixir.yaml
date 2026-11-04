@@ -1,0 +1,34 @@
+# it-langs fiche — Elixir — corpus for the Pica agent (syntax-seed)
+name: Elixir
+slug: elixir
+first_appeared: 2011
+creators: Jose Valim (Plataformatec, Brazil)
+origin: Sao Paulo, Brazil
+era: 2010s
+status: active
+paradigms:
+- functional
+- dynamic
+- concurrency-oriented (actors) on the BEAM
+typing: dynamic, strong
+execution: compiled to BEAM bytecode (Erlang's VM)
+non_executable: false
+family: Erlang/BEAM family — the friendly face
+influenced_by:
+- Erlang (the VM and semantics)
+- Ruby (syntax and ergonomics)
+- Clojure (tooling inspiration)
+influenced:
+- Phoenix web framework
+- a new wave of BEAM adoption
+underlying: 'the BEAM VM: millions of processes, supervision trees, OTP'
+domains:
+- real-time web (chat, presence)
+- IoT back-ends
+- high-availability services
+hello_world: IO.puts "Hello, World!"
+install: asdf/elixir installer; mix new; try at elixir school online
+docs: https://elixir-lang.org/getting-started/
+tag: Ruby's face on Erlang's body (Brazil, 2011)
+summary: 'Ruby''s ergonomics on Erlang''s nine-nines runtime: Jose Valim bolted friendly syntax, macros and tooling
+  onto the BEAM. Phoenix brought that industrial-grade concurrency to the web-tier conversation.'

@@ -1,0 +1,30 @@
+# it-langs fiche — SAS — corpus for the Pica agent (syntax-seed)
+name: SAS
+slug: sas
+first_appeared: 1976
+year_note: grew from a 1972 project at North Carolina State University
+creators: Anthony Barr and James Goodnight's NCSU project, then SAS Institute
+origin: North Carolina State University / SAS Institute (USA)
+era: 1970s
+status: active
+paradigms:
+- data-step imperative plus declarative PROC steps
+typing: static (dataset schema driven)
+execution: interpreted by the SAS runtime
+non_executable: false
+family: statistical language line (with S/R on the other branch)
+influenced_by:
+- statistical batch processing practice of the 1960s
+influenced:
+- clinical-report toolchains
+- an entire regulated-industry profession
+underlying: the proprietary SAS runtime
+domains:
+- clinical trials
+- pharma statistics
+- regulated reporting
+- banking analytics
+tag: the statistical language of clinical trials and regulators
+summary: 'The statistical heavyweight of regulated industries: DATA steps that read row by row and PROC steps that
+  do everything else, validated for FDA submissions. Where a mistake costs a drug approval, SAS''s audit trail still
+  wins the contract.'

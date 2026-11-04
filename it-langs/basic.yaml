@@ -1,0 +1,41 @@
+# it-langs fiche — BASIC — corpus for the Pica agent (syntax-seed)
+name: BASIC
+slug: basic
+first_appeared: 1964
+year_note: designed for the Dartmouth Time-Sharing System; microcomputer ROM BASICs from 1975 onward
+creators: John Kemeny and Thomas Kurtz (Dartmouth College)
+origin: Dartmouth College with GE time-sharing (USA)
+era: 1960s
+status: active
+paradigms:
+- imperative
+- procedural (line-numbered in its classic form)
+typing: dynamic
+execution: interpreted (DTSS, the era's flagship time-sharing service)
+non_executable: false
+family: BASIC family — a whole folk culture of home dialects
+influenced_by:
+- FORTRAN and ALGOL 60 (radically simplified)
+- DTSS goals
+influenced:
+- Applesoft
+- Commodore BASIC
+- GW-BASIC/QBasic
+- Visual Basic
+- FreeBASIC
+- Small Basic
+- calculator BASICs
+underlying: time-sharing interpreter originally; modern BASICs interpret or compile natively
+domains:
+- teaching
+- home computing (1978-1995)
+- scripting on calculators and instruments
+- legacy business tools
+hello_world: |-
+  10 PRINT "Hello, World!"
+  20 END
+docs: https://www.freebasic.net/
+tag: the first language of millions of home programmers
+summary: Beginners' All-purpose Symbolic Instruction Code, built for the age of time-sharing so anyone could program
+  minutes after sitting at a terminal. When microcomputers shipped a BASIC in ROM, it became the first language
+  of an entire generation.

@@ -1,0 +1,29 @@
+# it-langs fiche — dc — corpus for the Pica agent (syntax-seed)
+name: dc
+slug: dc
+first_appeared: 1969
+year_note: Bell Labs, early Unix era; exact attribution is debated
+creators: Bell Labs (commonly attributed to Robert Morris Sr.)
+origin: Bell Labs (USA)
+era: 1960s
+status: maintained
+paradigms:
+- stack-based (reverse-Polish) command language
+typing: untyped (arbitrary-precision numbers; macros as strings)
+execution: interpreted
+non_executable: false
+family: stack-calculator line (grandfather of RPN culture; cousin of Forth)
+influenced_by:
+- reverse-Polish calculator practice
+influenced:
+- bc (built on top of dc)
+- HP's RPN calculators
+- Forth's stack spirit
+underlying: part of the Unix userland; own arbitrary-precision arithmetic engine
+domains:
+- arbitrary-precision arithmetic in shell one-liners
+- esoteric code golf
+tag: the oldest Unix language still alive — RPN forever
+summary: 'The desk calculator: a tiny reverse-Polish stack language that is the oldest language still shipped with
+  every Unix. Numbers have arbitrary precision and macros are strings — a close spiritual cousin of Forth and the
+  ancestor of bc.'

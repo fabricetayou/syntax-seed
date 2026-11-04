@@ -1,0 +1,36 @@
+# it-langs fiche — TypeScript — corpus for the Pica agent (syntax-seed)
+name: TypeScript
+slug: typescript
+first_appeared: 2012
+year_note: public October 2012; Anders Hejlsberg again; strict mode revolution ~2016+
+creators: Microsoft (Anders Hejlsberg, Steve Lucco and Luke Hoban)
+origin: Microsoft (USA)
+era: 2010s
+status: active
+paradigms:
+- 'typed superset of JavaScript: OO + functional types'
+- gradual adoption
+typing: static, structural, gradual (types erase at runtime)
+execution: transpiled to JavaScript (tsc; erased types, downleveled syntax)
+non_executable: false
+family: JavaScript family — the typed layer
+influenced_by:
+- JavaScript (its substrate)
+- C# type design taste (Hejlsberg)
+influenced:
+- 'the entire modern web stack: frameworks'
+- Node tooling
+- editors' tool APIs
+underlying: compiles away to JavaScript — the type system is a static layer only
+domains:
+- large-scale web applications
+- libraries
+- Node services
+hello_world: |-
+  const greeting: string = "Hello, World!";
+  console.log(greeting);
+install: npm i -g typescript; tsc --init; or try typescriptlang.org/play
+docs: https://www.typescriptlang.org/docs/
+tag: JavaScript wearing a type system — and conquering the web (2012)
+summary: 'Hejlsberg''s second empire: JavaScript with a structural type system that erases at runtime. It converted
+  the chaotic web to typed discipline without asking anyone to abandon a single line of code.'

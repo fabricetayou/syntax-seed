@@ -1,0 +1,30 @@
+# it-langs fiche — TLA+ — corpus for the Pica agent (syntax-seed)
+name: TLA+
+slug: tla-plus
+first_appeared: 1999
+year_note: Lamport's TLA published 1994; the PlusCal language and TLC model checker ~1999-2000
+creators: Leslie Lamport (Microsoft Research)
+origin: Microsoft Research (USA)
+era: 1990s
+status: active
+paradigms:
+- specification language for concurrent systems (temporal logic of actions)
+typing: untyped-but-checked (TLC) or typed (Apalache's SMT encoding)
+execution: model-checked (exhaustive finite exploration) or proved with SMT backends
+non_executable: true
+family: formal-specification family
+influenced_by:
+- temporal logic
+- Lamport's distributed-systems work
+influenced:
+- AWS's protocol designs (famously)
+- Azure
+- database concurrency specs
+underlying: TLC model checker / Apalache; no executable output — it specifies
+domains:
+- specifying and checking distributed algorithms before building them
+hello_world: Hello == "Hello, World!"
+docs: https://lamport.azurewebsites.net/tla/tla.html
+tag: Leslie Lamport's language for specifying before building (1999)
+summary: Lamport's language for writing down what a concurrent system must do before coding it — then machine-exploring
+  every interleaving for deadlocks. AWS credits it with finding bugs no test suite would.

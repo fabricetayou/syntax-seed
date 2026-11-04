@@ -1,0 +1,34 @@
+# it-langs fiche — Protocol Buffers — corpus for the Pica agent (syntax-seed)
+name: Protocol Buffers
+slug: protobuf
+first_appeared: 2008
+year_note: internal at Google from ~2001; open-sourced 2008
+creators: Google
+origin: Google (USA)
+era: 2000s
+status: active
+paradigms:
+- declarative interface and schema definition language (messages, services, enums)
+typing: n/a (schemas; generated code is statically typed)
+execution: none as such — schemas are compiled to serializers; the wire format is binary
+non_executable: true
+family: schema/IDL family (with Thrift, Avro, Cap'n Proto)
+influenced_by:
+- Google's internal RPC needs
+- XDR's earlier schema thinking
+influenced:
+- gRPC's contract language
+- Envoy configs
+- the microservices IDL norm
+underlying: protoc compilers generating Java/C++/Python/Go/... bindings
+domains:
+- service contracts
+- data storage schemas
+- config (pbtxt sidecar)
+hello_world: |-
+  syntax = "proto3";
+  message Hello { string greeting = 1; }
+docs: https://protobuf.dev/
+tag: the IDL behind gRPC and Google's data (2008)
+summary: 'Google''s schema language: define a message once, generate serializers for every language, evolve fields
+  without breaking the wire. It became the default contract language of microservices via gRPC.'

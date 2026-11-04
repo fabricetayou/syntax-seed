@@ -1,0 +1,32 @@
+# it-langs fiche — REXX — corpus for the Pica agent (syntax-seed)
+name: REXX
+slug: rexx
+first_appeared: 1980
+year_note: designed from 1979; shipped with IBM VM/SP in the 1980s
+creators: Mike Cowlishaw (IBM UK)
+origin: IBM UK (UK)
+era: 1980s
+status: maintained
+paradigms:
+- imperative
+- procedural
+- human-readable scripting
+typing: dynamic, string-oriented
+execution: interpreted
+non_executable: false
+family: scripting family (parallel to the Unix shell world on mainframes)
+influenced_by:
+- EXEC and EXEC2 (VM's earlier command languages)
+- readability goals
+influenced:
+- NetRexx
+- ooRexx
+- the macro language culture of IBM products (ISPF, ...)
+underlying: 'interpreters: Regina, ooRexx, IBM''s z/VM REXX'
+domains:
+- mainframe automation and macros
+- OS/2 scripting
+- educational use
+tag: the mainframe's friendly scripting language
+summary: 'Cowlishaw''s readable scripting language for VM/CMS: English-like control flow and string-first values.
+  On mainframes it remains the automation glue, and its object-oriented descendant ooRexx still ships.'

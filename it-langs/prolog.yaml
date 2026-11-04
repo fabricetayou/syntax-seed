@@ -1,0 +1,41 @@
+# it-langs fiche — Prolog — corpus for the Pica agent (syntax-seed)
+name: Prolog
+slug: prolog
+first_appeared: 1972
+creators: Alain Colmerauer and Philippe Roussel (Universite d'Aix-Marseille), with Robert Kowalski's logic-programming
+  theory (Edinburgh)
+origin: Marseille (France) and Edinburgh (UK)
+era: 1970s
+status: active
+paradigms:
+- logic programming (declarative facts and rules, unification, backtracking search)
+typing: dynamic (untyped terms)
+execution: interpreted or compiled to WAM-style abstract machines
+non_executable: false
+family: logic family (Prolog, Datalog as query-restricted child)
+influenced_by:
+- automated theorem proving
+- Robinson's resolution
+influenced:
+- Datalog
+- Mercury
+- Clojure's core.logic
+- miniKanren
+- expert-systems culture
+- CodeQL's logic flavor
+underlying: SWI-Prolog, GNU Prolog, SICStus engines
+domains:
+- symbolic AI
+- expert systems
+- parsing
+- constraint solving
+- computational linguistics
+hello_world: |-
+  :- initialization(main).
+  main :- write('Hello, World!'), nl.
+install: swipl (SWI-Prolog), gprolus; try online at swish.swi-prolog.org
+docs: https://www.swi-prolog.org/pldoc/doc_for?object=manual
+tag: programming in logic — the declarative counter-tradition (Marseille, 1972)
+summary: 'The logic-programming bet: state facts and rules, and let unification plus backtracking derive answers.
+  It carried the AI boom''s symbolic hopes, remains superb for rule-heavy domains, and teaches every programmer
+  a different definition of ''program''.'

@@ -1,0 +1,34 @@
+# it-langs fiche — Elm — corpus for the Pica agent (syntax-seed)
+name: Elm
+slug: elm
+first_appeared: 2012
+creators: Evan Czaplicki (as a thesis at Harvard/Prezi)
+origin: Harvard thesis (USA)
+era: 2010s
+status: active
+paradigms:
+- 'pure functional front-end (the Elm architecture: model-update-view)'
+typing: static, strong, inferred; no runtime exceptions as a design promise
+execution: compiled to JavaScript
+non_executable: false
+family: Haskell family — the front-end branch
+influenced_by:
+- Haskell
+- FRP (functional reactive programming research)
+influenced:
+- Redux (the Elm architecture crossed into React culture)
+- typed-front-end movement
+underlying: compiles to lean JavaScript bundles with a virtual DOM runtime
+domains:
+- production web front-ends that must not crash
+hello_world: |-
+  module Main exposing (main)
+
+  import Html exposing (text)
+
+  main =
+      text "Hello, World!"
+docs: https://guide.elm-lang.org/
+tag: pure functional web UI with no runtime exceptions (2012)
+summary: The language that promised 'no runtime exceptions' for web UIs — and largely delivered. Its Model/Update/View
+  pattern escaped into JavaScript as Redux, shaping a decade of front-end state management.

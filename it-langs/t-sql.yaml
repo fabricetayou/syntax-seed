@@ -1,0 +1,29 @@
+# it-langs fiche — Transact-SQL (T-SQL) — corpus for the Pica agent (syntax-seed)
+name: Transact-SQL (T-SQL)
+slug: t-sql
+first_appeared: 1989
+year_note: Sybase SQL Server era; central to Microsoft SQL Server since its Sybase fork
+creators: Sybase (and later Microsoft)
+origin: Sybase / Microsoft (USA)
+era: 1980s
+status: active
+paradigms:
+- declarative SQL with procedural extensions (variables, control flow, triggers)
+typing: static, schema-driven
+execution: compiled and executed inside the database engine
+non_executable: false
+family: SQL procedural-dialect family (with PL/SQL, PL/pgSQL)
+influenced_by:
+- SQL (the base)
+- Sybase's procedural needs
+influenced:
+- the Microsoft data platform's stored-procedure culture
+underlying: Microsoft SQL Server engine (in-database execution)
+domains:
+- stored procedures
+- triggers
+- ETL inside SQL Server environments
+hello_world: PRINT 'Hello, World!';
+tag: the SQL Server dialect where business logic hides
+summary: 'SQL Server''s native tongue: declarative queries plus procedural stored-procedure machinery, all executed
+  next to the data. A huge share of business logic worldwide lives inside it.'

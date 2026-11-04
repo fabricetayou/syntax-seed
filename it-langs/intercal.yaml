@@ -1,0 +1,26 @@
+# it-langs fiche — INTERCAL — corpus for the Pica agent (syntax-seed)
+name: INTERCAL
+slug: intercal
+first_appeared: 1972
+creators: Donald Woods and James Lyon (as a parody, Princeton)
+origin: Princeton (USA)
+era: 1970s
+status: esoteric
+paradigms:
+- esoteric imperative (satire of the era's languages)
+typing: static, deliberately absurd
+execution: interpreted (original) / compiled (C-INTERCAL)
+non_executable: false
+family: first-generation esoteric family
+influenced_by:
+- contempt for the languages of its day (by design)
+influenced:
+- the entire esolang movement it founded
+underlying: JTC-INTERCAL and C-INTERCAL implementations
+domains:
+- humor
+- humility training
+tag: the original parody language that founded esolang culture
+summary: 'The first joke language: PLEASE politeness rules, ABSTAIN from statements, and COMEFROM (added by C-INTERCAL)
+  decades before anyone dreamed it seriously. It taught the world that language design could be satire — and therefore
+  also art.'

@@ -1,0 +1,38 @@
+# it-langs fiche — Ruby — corpus for the Pica agent (syntax-seed)
+name: Ruby
+slug: ruby
+first_appeared: 1995
+year_note: announced 1995; Ruby on Rails (2004) drove its global wave
+creators: Yukihiro 'Matz' Matsumoto
+origin: Japan (Matz's solo project)
+era: 1990s
+status: active
+paradigms:
+- pure object-oriented
+- imperative
+- with blocks and metaprogramming
+typing: dynamic, strong, duck-typed
+execution: interpreted (YARV bytecode VM in modern versions)
+non_executable: false
+family: Smalltalk + Perl synthesis
+influenced_by:
+- Smalltalk (pure objects)
+- Perl (practical scripting)
+- Lisp (blocks)
+- Python (partly, mutual)
+influenced:
+- Rails' DSL culture (Ruby itself as DSL material)
+- Crystal
+- Elixir (syntax borrowed)
+underlying: the Ruby interpreter (CRuby); alternative Rubinius/JRuby lineages
+domains:
+- web applications (Rails)
+- DevOps tooling (Chef, Vagrant)
+- DSLs
+hello_world: puts "Hello, World!"
+install: rbenv/rvm + ruby; gem install rails
+docs: https://www.ruby-lang.org/en/documentation/
+tag: programmer happiness as a design goal — then Rails happened
+summary: 'Matz''s language ''designed for programmer happiness'': pure object orientation from Smalltalk, pragmatism
+  from Perl, and blocks that make iteration read like English. Rails turned its expressiveness into the web''s most
+  productive decade.'

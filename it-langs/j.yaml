@@ -1,0 +1,29 @@
+# it-langs fiche — J — corpus for the Pica agent (syntax-seed)
+name: J
+slug: j
+first_appeared: 1990
+creators: Kenneth E. Iverson and Roger Hui
+origin: Iverson Software / Jsoftware (Canada)
+era: 1990s
+status: maintained
+paradigms:
+- array-functional
+- tacit (point-free) composition
+typing: dynamic
+execution: interpreted (with compiled hot paths)
+non_executable: false
+family: APL family — the ASCII branch
+influenced_by:
+- APL (Iverson's own first design)
+- Sharpened by Hui's tacit ideas
+influenced:
+- K and Q (Arthur Whitney's fork of the mindset)
+- BQN's tacit culture
+underlying: the J interpreter
+domains:
+- actuarial and financial analytics
+- terse data analysis
+hello_world: '''Hello, World!'''
+tag: APL reborn in ASCII, with tacit programming (1990)
+summary: 'Iverson''s second revolution: APL''s array thinking rewritten in pure ASCII, with forks and hooks making
+  point-free style practical. Programs shrink to a line that reads like calculus.'

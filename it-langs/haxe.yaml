@@ -1,0 +1,36 @@
+# it-langs fiche — Haxe — corpus for the Pica agent (syntax-seed)
+name: Haxe
+slug: haxe
+first_appeared: 2005
+creators: Nicolas Cannasse and Motion-Twin (Bordeaux)
+origin: Motion-Twin (France)
+era: 2000s
+status: active
+paradigms:
+- multi-paradigm (OO, functional features) designed for cross-compilation
+typing: static, strong, with macros
+execution: transpiled to JavaScript, JVM, C++, C#, PHP, Python, Lua (multi-target by design)
+non_executable: false
+family: transpiler-first family (its own branch)
+influenced_by:
+- ActionScript/ECMAScript surface
+- OCaml (implementer culture)
+- NekoVM (Cannasse's earlier VM)
+influenced:
+- cross-platform game frameworks (Heaps.io — used by major indie titles)
+- the HaxeFlixel ecosystem
+underlying: one source language compiled onto many runtimes
+domains:
+- games
+- web tools
+- anything needing one codebase on many platforms
+hello_world: |-
+  class Hello {
+      static public function main():Void {
+          trace("Hello, World!");
+      }
+  }
+docs: https://haxe.org/documentation/
+tag: write once, transpile everywhere (Bordeaux, 2005)
+summary: 'The French game industry''s answer to platform chaos: write once, transpile to eight targets including
+  C++ and JavaScript. Its macro system and multi-target design quietly influenced compile-to-many toolchains.'

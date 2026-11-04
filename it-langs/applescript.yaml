@@ -1,0 +1,28 @@
+# it-langs fiche — AppleScript — corpus for the Pica agent (syntax-seed)
+name: AppleScript
+slug: applescript
+first_appeared: 1993
+creators: Apple (system 7 team)
+origin: Apple (USA)
+era: 1990s
+status: maintained
+paradigms:
+- imperative scripting with natural-language-flavored syntax targeting application scripting
+typing: dynamic
+execution: interpreted via the Open Scripting Architecture
+non_executable: false
+family: end-user scripting line (HyperTalk's cousin)
+influenced_by:
+- HyperTalk's English-like style
+influenced:
+- macOS automation culture (Shortcuts' ancestors)
+- Workflow-era scripts
+underlying: macOS's Open Scripting Architecture + apps' scripting dictionaries
+domains:
+- 'macOS automation: file workflows'
+- app control
+- publishing pipelines
+hello_world: display dialog "Hello, World!"
+tag: scripting your Mac in near-English (1993)
+summary: 'Apple''s English-flavored automation language: applications expose ''dictionaries'' and scripts command
+  them in sentences. Verbally charming, famously finicky — and still the deep glue of macOS.'

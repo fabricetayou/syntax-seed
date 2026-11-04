@@ -1,0 +1,32 @@
+# it-langs fiche — PL/SQL — corpus for the Pica agent (syntax-seed)
+name: PL/SQL
+slug: pl-sql
+first_appeared: 1991
+creators: Oracle Corporation
+origin: Oracle (USA)
+era: 1990s
+status: active
+paradigms:
+- procedural SQL (block-structured extension of SQL)
+typing: static, schema-driven
+execution: compiled and executed inside the Oracle database engine
+non_executable: false
+family: SQL procedural-dialect family
+influenced_by:
+- SQL
+- Ada's block structure
+influenced:
+- enterprise database procedure culture
+- the pattern copied by PL/pgSQL
+underlying: the Oracle RDBMS engine (in-database execution)
+domains:
+- stored procedures
+- triggers
+- batch processing in Oracle estates
+hello_world: |-
+  BEGIN
+    DBMS_OUTPUT.PUT_LINE('Hello, World!');
+  END;
+tag: Oracle's in-database procedural SQL
+summary: 'Oracle''s procedural SQL: business logic compiled and executed next to the data. Thirty years of enterprise
+  rules live inside it — code that runs where the data lives, at the price of the database''s gravity.'

@@ -1,0 +1,33 @@
+# it-langs fiche — Hare — corpus for the Pica agent (syntax-seed)
+name: Hare
+slug: hare
+first_appeared: 2022
+creators: Drew DeVault and community
+origin: open source (sircmpwn ecosystem)
+era: 2020s
+status: maintained
+paradigms:
+- minimal imperative systems programming
+typing: static, strong, deliberate smallness
+execution: compiled via QBE to native code
+non_executable: false
+family: C-successor minimal branch
+influenced_by:
+- C (the target domain)
+- QBE's lean backend philosophy
+influenced:
+- the post-C minimalists' bench
+underlying: QBE backend; conservative stdlib, no libc dependency in core
+domains:
+- small systems tools
+- education in 'how little is enough'
+hello_world: |-
+  use fmt;
+
+  export fn main() void = {
+      fmt::println("Hello, World!")!;
+  };
+docs: https://harelang.org/documentation/
+tag: minimalism as a 50-year promise (2022)
+summary: 'DeVault''s minimalist C: a stable 50-year-language promise with a deliberately tiny surface. The contrarian
+  answer to feature-race languages — subtraction as a roadmap.'

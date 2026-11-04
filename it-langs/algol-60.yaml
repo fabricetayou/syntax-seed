@@ -1,0 +1,37 @@
+# it-langs fiche — ALGOL 60 — corpus for the Pica agent (syntax-seed)
+name: ALGOL 60
+slug: algol-60
+first_appeared: 1960
+year_note: report 1960; revised report 1963
+creators: international GAMM-ACM committee (Backus, Bauer, Naur, Perlis, van Wijngaarden and others)
+origin: joint European-American committee
+era: 1960s
+status: historical
+paradigms:
+- imperative
+- procedural
+- block-structured
+typing: static, strong, lexically scoped
+execution: compiled (many research compilers, few production ports)
+non_executable: false
+family: Algol family — the genealogical trunk of mainstream languages
+influenced_by:
+- ALGOL 58
+- lambda-calculus-inspired scoping
+influenced:
+- 'practically the entire mainstream: Pascal'
+- C
+- Ada
+- ML
+- Simula 67
+- PL/I
+- Modula-2
+- Java and beyond (block structure, lexical scope, BNF-specified syntax)
+underlying: machine code via per-machine compilers
+domains:
+- algorithm publication (the lingua franca of 1960s computing papers)
+- research
+tag: 'the common ancestor: block structure and lexical scope (1960)'
+summary: Defined by an international committee and specified in BNF, ALGOL 60 introduced block structure, lexical
+  scoping and call-by-name. It saw little commercial adoption, yet virtually every mainstream language descends
+  from it.

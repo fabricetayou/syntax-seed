@@ -1,0 +1,28 @@
+# it-langs fiche — sed — corpus for the Pica agent (syntax-seed)
+name: sed
+slug: sed
+first_appeared: 1974
+creators: Lee E. McMahon (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: active
+paradigms:
+- stream-editing DSL
+typing: n/a (untyped text)
+execution: interpreted stream engine
+non_executable: false
+family: Unix text-tool family (with grep and awk)
+influenced_by:
+- the ed editor's command language
+influenced:
+- Perl one-liners
+- the s/find/replace/g idiom everywhere
+underlying: part of POSIX userland
+domains:
+- text transforms in pipelines
+- log surgery
+- code golf
+hello_world: echo 'Hello' | sed 's/Hello/Hello, World!/'
+tag: the ed-derived stream editor language of Unix pipelines
+summary: 'The stream editor: a tiny command language for editing text as it flows by, inherited from ed''s substitution
+  commands. With its pattern and hold spaces it is even Turing-complete — a favorite tool of shell one-liner artisans.'

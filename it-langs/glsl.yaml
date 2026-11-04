@@ -1,0 +1,36 @@
+# it-langs fiche — GLSL — corpus for the Pica agent (syntax-seed)
+name: GLSL
+slug: glsl
+first_appeared: 2004
+year_note: ARB shading extensions ~2002-2003; core in OpenGL 2.0 (2004)
+creators: OpenGL Architecture Review Board / Khronos
+origin: Khronos Group (industry consortium)
+era: 2000s
+status: active
+paradigms:
+- 'C-family shading language: vertex/fragment/compute stages'
+- vector and matrix types native
+typing: static, with GPU-precision qualifiers
+execution: compiled by GPU drivers at runtime into hardware microcode
+non_executable: false
+family: shader family (with HLSL, Cg, MSL, WGSL as siblings)
+influenced_by:
+- C
+- RenderMan shading language
+- Cg research
+influenced:
+- HLSL/WGSL design
+- the entire real-time graphics discipline
+underlying: GPU driver compilers inside OpenGL/Vulkan pipelines
+domains:
+- games
+- visualizations
+- creative coding (shadertoy culture)
+hello_world: |-
+  void main() {
+      gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);
+  }
+docs: https://registry.khronos.org/OpenGL/refpages/gl4/
+tag: the vector-typed C that paints every game's pixels
+summary: 'The C-shaped language in which every pixel is reasoned about: vector types, swizzling (.xyzw), and thousands
+  of GPU threads. Its siblings HLSL (DirectX) and WGSL (WebGPU) cover the rest of the graphics world.'

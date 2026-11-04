@@ -1,0 +1,31 @@
+# it-langs fiche — PL/I — corpus for the Pica agent (syntax-seed)
+name: PL/I
+slug: pl-i
+first_appeared: 1964
+creators: IBM design committee (led by George Radin)
+origin: IBM (USA)
+era: 1960s
+status: maintained
+paradigms:
+- imperative
+- procedural
+- block-structured
+- object-oriented extensions later
+typing: static with famously permissive implicit conversions
+execution: compiled
+non_executable: false
+family: Algol-family convergence of the scientific and business lines
+influenced_by:
+- FORTRAN (scientific)
+- COBOL (business)
+- ALGOL 60 (structure)
+influenced:
+- less than IBM hoped — a lasting cautionary tale about kitchen-sink design
+underlying: IBM mainframe machine code
+domains:
+- IBM mainframe mixed commercial/scientific workloads
+- legacy systems
+tag: the kitchen-sink language of the mainframe age
+summary: IBM's bold attempt to merge FORTRAN, COBOL and ALGOL into one language for everyone. Its conversion-lax
+  type rules became the textbook example of why implicit conversions bite, and its ambition taught the industry
+  the perils of maximalist design.

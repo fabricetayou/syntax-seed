@@ -1,0 +1,36 @@
+# it-langs fiche — OCaml — corpus for the Pica agent (syntax-seed)
+name: OCaml
+slug: ocaml
+first_appeared: 1996
+year_note: Caml Special Light 1993 → OCaml 1996
+creators: Xavier Leroy, Jerome Vouillon, Damien Doligez, Didier Remy and INRIA teams
+origin: INRIA (France)
+era: 1990s
+status: active
+paradigms:
+- 'multi-paradigm ML: functional'
+- imperative
+- object-oriented
+- modular functors
+typing: static, strong, inferred, with a famously sound module system
+execution: compiled to native or bytecode
+non_executable: false
+family: ML family — the French pragmatic branch
+influenced_by:
+- Caml
+- Standard ML
+influenced:
+- F# (direct descendant)
+- Rust (its first compiler was written in OCaml; type ideas)
+- ReasonML
+underlying: the OCaml compiler; Dune/Opam toolchain; native threading
+domains:
+- financial trading systems (Jane Street's stack)
+- compilers
+- formal verification tooling
+hello_world: let () = print_endline "Hello, World!"
+install: opam installer; try ocaml.org
+docs: https://ocaml.org/docs
+tag: the industrial-strength ML from France (1996)
+summary: 'INRIA''s pragmatic ML: functional core with objects, functors and fast native compilation in one sound
+  system. It became the quiet secret weapon of trading firms and compiler writers — and Rust''s first cradle.'

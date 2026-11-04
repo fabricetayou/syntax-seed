@@ -1,0 +1,28 @@
+# it-langs fiche — AutoIt — corpus for the Pica agent (syntax-seed)
+name: AutoIt
+slug: autoit
+first_appeared: 1999
+creators: Jonathan Bennett and AutoIt team
+origin: open source (Australia)
+era: 1990s
+status: active
+paradigms:
+- BASIC-like imperative scripting for GUI automation
+typing: dynamic, weak-ish variants
+execution: interpreted
+non_executable: false
+family: Windows automation scripting line
+influenced_by:
+- BASIC dialects
+- Windows scripting needs
+influenced:
+- AutoHotkey (forked from an early AutoIt)
+underlying: AutoIt interpreter with Win32 automation functions
+domains:
+- Windows deployment automation
+- QA regression
+- IT administration
+hello_world: MsgBox(0, "Hello", "Hello, World!")
+tag: keystrokes and dialogs as language primitives (1999)
+summary: 'The BASIC-flavored Windows automation language of IT departments: simulate keystrokes, click dialogs,
+  wait for windows. Its community fork AutoHotkey outgrew it in fame.'

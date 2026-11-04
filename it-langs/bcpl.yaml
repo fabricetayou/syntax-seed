@@ -1,0 +1,29 @@
+# it-langs fiche — BCPL — corpus for the Pica agent (syntax-seed)
+name: BCPL
+slug: bcpl
+first_appeared: 1967
+creators: Martin Richards
+origin: Cambridge (UK) and MIT (USA)
+era: 1960s
+status: dormant
+paradigms:
+- imperative
+- procedural
+- typeless
+typing: typeless (words only)
+execution: compiled to portable Ocode/intcode — an early portability pioneer
+non_executable: false
+family: BCPL to B to C lineage
+influenced_by:
+- CPL
+influenced:
+- B
+- and through it C (curly braces, word orientation)
+underlying: Ocode translated to machine code
+domains:
+- systems programming
+- early cross-compilation
+tag: typeless grandfather of C, with the first curly braces
+summary: Martin Richards' typeless 'Basic CPL', designed for fast compilation and easy porting. It introduced the
+  curly-brace compound statement that marched through B into C, and proved a tiny systems language could travel
+  between machines.

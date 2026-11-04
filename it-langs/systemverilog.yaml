@@ -1,0 +1,33 @@
+# it-langs fiche — SystemVerilog — corpus for the Pica agent (syntax-seed)
+name: SystemVerilog
+slug: systemverilog
+first_appeared: 2003
+year_note: Accellera standard 2003-2005; IEEE 1800-2005; current 1800-2023
+creators: Accellera committee (Synopsys, Mentor, Cadence engineers)
+origin: Accellera / IEEE (USA)
+era: 2000s
+status: active
+paradigms:
+- hardware description plus verification (classes, constrained random, assertions SVA)
+typing: static, strong (2-state and 4-state types)
+execution: simulated (event-driven), synthesized to hardware, or formally verified
+non_executable: false
+family: HDL family — the industrial consolidation
+influenced_by:
+- Verilog (its base)
+- VHDL
+- Superlog/Vera/C++ verification tools it absorbed
+influenced:
+- the modern EDA verification stack
+- UVM methodology runs on its OOP layer
+underlying: commercial simulators/synthesizers (VCS, Questa, Vivado) and Verilator
+domains:
+- ASIC/FPGA design and — massively — chip verification testbenches
+hello_world: |-
+  module hello;
+    initial $display("Hello, World!");
+  endmodule
+docs: https://www.chipverify.com/systemverilog/systemverilog-tutorial
+tag: the chip industry's design-and-verification monolith (2003)
+summary: 'Verilog industrialized: hardware description fused with an object-oriented verification language and assertion
+  formalism. Every commercial chip taped out this century passed through its testbenches.'

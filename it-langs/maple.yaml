@@ -1,0 +1,26 @@
+# it-langs fiche — Maple — corpus for the Pica agent (syntax-seed)
+name: Maple
+slug: maple
+first_appeared: 1982
+creators: Symbolic Computation Group, University of Waterloo (Gaston Gonnet, Keith Geddes)
+origin: University of Waterloo (Canada)
+era: 1980s
+status: active
+paradigms:
+- imperative computer-algebra scripting with a worksheet interface
+typing: dynamic
+execution: interpreted (kernel in C)
+non_executable: false
+family: computer-algebra family (Macsyma's rival)
+influenced_by:
+- Macsyma's example
+- memory constraints (small kernel design)
+influenced:
+- engineering education (notebooks in every math faculty)
+underlying: Maple kernel with a tiny-core architecture
+domains:
+- symbolic math teaching
+- engineering computation
+tag: Waterloo's tiny-kernel CAS, teaching calculus worldwide
+summary: Waterloo's computer-algebra system with a deliberately tiny kernel and a huge library — the inverse of
+  Macsyma's monolith. Its worksheets taught calculus to generations of engineering students.

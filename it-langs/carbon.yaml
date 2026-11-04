@@ -1,0 +1,33 @@
+# it-langs fiche — Carbon — corpus for the Pica agent (syntax-seed)
+name: Carbon
+slug: carbon
+first_appeared: 2022
+creators: Google (Chandler Carruth's team), public experimental
+origin: Google (USA)
+era: 2020s
+status: maintained
+paradigms:
+- imperative systems
+- C++ interop-first ('successor language' ambitions)
+typing: static, strong, modern safety trajectory
+execution: experimental compilers; C++-interop execution model
+non_executable: false
+family: C++ succession experiments (with Rust as the radical rival)
+influenced_by:
+- C++ (its inheritance target)
+- Rust (its argument partner)
+- Clang culture
+influenced:
+- the C++-migration conversation it ignited
+underlying: LLVM toolchain experiments
+domains:
+- hypothetical gradual migration of giant C++ estates
+hello_world: |-
+  fn Main() -> i32 {
+      var x: i32 = 0;
+      return x;
+  }
+docs: https://github.com/carbon-language/carbon
+tag: the experimental C++ migration path (Google, 2022)
+summary: 'Google''s experimental ''C++ successor'': not a rewrite but a migration path — bidirectional interop with
+  existing code as the prime directive. A design conversation in language form.'

@@ -1,0 +1,27 @@
+# it-langs fiche — Pure Data — corpus for the Pica agent (syntax-seed)
+name: Pure Data
+slug: pure-data
+first_appeared: 1996
+creators: Miller Puckette
+origin: IRCAM heritage / UCSD (France/USA)
+era: 1990s
+status: active
+paradigms:
+- visual dataflow programming (patches, messages, signals)
+typing: dynamic per connection (messages vs signals)
+execution: executed by the Pd runtime (audio-rate and message-rate graphs)
+non_executable: false
+family: visual dataflow family — Max's open sibling
+influenced_by:
+- Max (Puckette's own earlier system)
+influenced:
+- PlugData and the live-electronics community
+- education in computer music
+underlying: the Pd engine with externals in C
+domains:
+- live electronic music
+- sound installations
+- teaching audio DSP
+tag: the free patch-cord language of electronic music
+summary: 'Puckette''s open-source second act after Max: the same patch-cord thinking, free forever. A generation
+  of laptop musicians and sound artists grew up wiring its boxes.'

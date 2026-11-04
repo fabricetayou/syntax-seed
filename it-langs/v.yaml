@@ -1,0 +1,35 @@
+# it-langs fiche — V — corpus for the Pica agent (syntax-seed)
+name: V
+slug: v
+first_appeared: 2019
+creators: Alexander Medvednikov and community
+origin: open source (community)
+era: 2010s
+status: maintained
+paradigms:
+- 'simple imperative: no null'
+- no globals
+- fast compilation
+typing: static, strong, minimal
+execution: transpiled to C (and JS/wasm) — compiles in seconds
+non_executable: false
+family: compile-to-C family (Go-flavored)
+influenced_by:
+- Go (surface)
+- Oberon (taste)
+- Zig-adjacent ambition
+influenced:
+- the fast-compile believer crowd
+underlying: self-hosted compiler bootstrapping to C
+domains:
+- CLI tools
+- web back-ends (vweb)
+- UI experiments (a UI library in the stdlib)
+hello_world: |-
+  fn main() {
+      println('Hello, World!')
+  }
+docs: https://github.com/vlang/v/blob/master/doc/docs.md
+tag: the minimalist compile-to-C challenger (2019)
+summary: 'The ''1 MB compiler, seconds-long builds'' language: Go-ish syntax compiling through C with a UI toolkit
+  in stdlib. Controversial in claims, fascinating in ambition.'

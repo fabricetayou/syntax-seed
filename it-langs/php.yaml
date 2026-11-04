@@ -1,0 +1,35 @@
+# it-langs fiche — PHP — corpus for the Pica agent (syntax-seed)
+name: PHP
+slug: php
+first_appeared: 1995
+year_note: PHP/FI 1995; the Zend rewrite (PHP 3) 1998; PHP 8 era with JIT
+creators: Rasmus Lerdorf, then the Zend pair Andi Gutmans and Zeev Suraski
+origin: personal project, then Israel (Zend)
+era: 1990s
+status: active
+paradigms:
+- imperative
+- procedural and object-oriented (since PHP 5)
+- templating-first
+typing: dynamic, weak coercions (tightened progressively in PHP 8)
+execution: interpreted (with opcache; JIT since PHP 8)
+non_executable: false
+family: web template scripting line (Perl-flavored)
+influenced_by:
+- C (implementation)
+- Perl (syntax feel)
+- CGI embedding model
+influenced:
+- 'a majority of the web''s long tail: WordPress'
+- Wikipedia
+- Facebook's early era (pre-Hack)
+underlying: the Zend engine; PHP-FPM behind web servers
+domains:
+- web sites and CMSs (WordPress powers a huge share of the web)
+- internal apps
+hello_world: <?php echo "Hello, World!";
+install: php from your distribution; composer for packages; XAMPP as classic bundle
+docs: https://www.php.net/docs.php
+tag: the server-side language that quietly powers the web's long tail
+summary: 'The template that became a language: code embedded in HTML, shipped to make Lerdorf''s home page dynamic.
+  Unloved by aesthetes, it quietly runs a double-digit share of the entire web.'

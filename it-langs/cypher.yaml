@@ -1,0 +1,33 @@
+# it-langs fiche — Cypher — corpus for the Pica agent (syntax-seed)
+name: Cypher
+slug: cypher
+first_appeared: 2010
+year_note: introduced incrementally with Neo4j; openCypher specification from 2015
+creators: Neo4j engineering (Andrés Taylor led the early design)
+origin: Neo4j (Sweden)
+era: 2010s
+status: active
+paradigms:
+- 'declarative graph query (ASCII-art patterns: (a)-[:KNOWS]->(b))'
+typing: dynamic, property-graph typed
+execution: evaluated by graph engines' planners
+non_executable: false
+family: graph query family (SPARQL's rival for property graphs)
+influenced_by:
+- SQL's declarative spirit
+- ASCII-art diagram conventions
+influenced:
+- openCypher adopters
+- GQL ISO standard (2024) carries its DNA
+underlying: Neo4j and other property-graph engines
+domains:
+- fraud detection
+- recommendations
+- knowledge graphs
+hello_world: |-
+  MATCH (a:Person)-[:KNOWS]->(b)
+  RETURN a, b;
+docs: https://neo4j.com/docs/cypher-manual/current/
+tag: queries that look like the graph they seek (2010)
+summary: 'The query language that draws: relationships are arrow patterns you can sketch on a napkin. Its DNA now
+  lives in the ISO GQL standard for graph databases.'

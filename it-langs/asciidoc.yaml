@@ -1,0 +1,33 @@
+# it-langs fiche — AsciiDoc — corpus for the Pica agent (syntax-seed)
+name: AsciiDoc
+slug: asciidoc
+first_appeared: 2002
+creators: Stuart Rackham, then the Asciidoctor revival
+origin: New Zealand / open source
+era: 2000s
+status: active
+paradigms:
+- declarative lightweight markup
+- richer than Markdown (includes, admonitions, tables)
+typing: n/a
+execution: none — rendered by AsciiDoc/Asciidoctor processors
+non_executable: true
+family: lightweight markup family
+influenced_by:
+- DocBook (its heavy backend target)
+- plain-text conventions
+influenced:
+- O'Reilly/tech-book workflows
+- GitLab documentation
+underlying: asciidoc/Asciidoctor (Ruby) processors to HTML/DocBook/PDF
+domains:
+- books
+- technical documentation
+- man pages
+hello_world: |-
+  = Document Title
+
+  Hello, World!
+tag: Markdown's face on DocBook's skeleton
+summary: 'Rackham''s ''write books in plain text'' language: Markdown''s casual surface with DocBook''s structural
+  power underneath. O''Reilly authors and GitLab pipelines write it daily.'

@@ -1,0 +1,28 @@
+# it-langs fiche — Plankalkül — corpus for the Pica agent (syntax-seed)
+name: Plankalkül
+slug: plankalkul
+first_appeared: 1945
+year_note: designed 1942-1946; described in the 1948 manuscript; first working implementation in 2000
+creators: Konrad Zuse
+origin: Germany (in isolation from Allied computer science)
+era: pre-1950
+status: historical
+paradigms:
+- imperative
+- procedural
+typing: static, strong
+execution: designed for Zuse's Z-series machines; never executed on period hardware
+non_executable: false
+family: independent root (first high-level language design)
+influenced_by:
+- none (independent invention)
+influenced:
+- conceptual precursor of later high-level languages
+underlying: paper design; a working interpreter was written at the Free University of Berlin in 2000
+domains:
+- theoretical work
+- engineering calculations
+tag: the very first high-level language design (1945)
+summary: The first high-level programming language ever designed. Zuse wrote it between 1942 and 1946 for his Z-series
+  computers and described it in a 1948 manuscript that the wider world only absorbed decades later. A faithful interpreter
+  was finally built in 2000.

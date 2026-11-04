@@ -1,0 +1,30 @@
+# it-langs fiche — Emacs Lisp — corpus for the Pica agent (syntax-seed)
+name: Emacs Lisp
+slug: emacs-lisp
+first_appeared: 1985
+creators: Richard Stallman (GNU Project)
+origin: MIT / Free Software Foundation (USA)
+era: 1980s
+status: active
+paradigms:
+- Lisp dialect
+- imperative-plus-functional
+- editor-embedded
+typing: dynamic, strong
+execution: interpreted (with bytecode compilation) inside Emacs
+non_executable: false
+family: Lisp family — Maclisp branch adapted to an editor
+influenced_by:
+- Maclisp (and the Lisp Machine culture of programmable editors)
+influenced:
+- the entire Emacs package ecosystem (org-mode, magit, ...)
+underlying: 'the Emacs runtime: buffers, windows, processes as Lisp objects'
+domains:
+- editor automation
+- org-mode's note-taking civilization
+- developer tooling
+hello_world: (message "Hello, World!")
+docs: https://www.gnu.org/software/emacs/manual/elisp.html
+tag: the Lisp that lives inside millions of editors
+summary: 'The most-used Lisp in history by hours of execution: every Emacs session runs thousands of Elisp functions.
+  Org-mode alone built a note-taking civilization inside it.'

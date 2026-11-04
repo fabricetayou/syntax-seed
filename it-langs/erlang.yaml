@@ -1,0 +1,37 @@
+# it-langs fiche — Erlang — corpus for the Pica agent (syntax-seed)
+name: Erlang
+slug: erlang
+first_appeared: 1986
+year_note: designed 1985-86 at Ericsson CSL; open-sourced 1998
+creators: Joe Armstrong, Robert Virding and Mike Williams (Ericsson Computer Science Laboratory)
+origin: Ericsson (Sweden)
+era: 1980s
+status: active
+paradigms:
+- functional
+- concurrent (actor-style processes)
+- fault-tolerant ('let it crash')
+typing: dynamic, strong
+execution: compiled to BEAM bytecode
+non_executable: false
+family: Prolog-syntax functional family; concurrency culture of its own
+influenced_by:
+- Prolog (syntax surface)
+- telecom fault-tolerance requirements
+influenced:
+- Elixir
+- Gleam
+- LFE
+- the actor-model wave (Akka's popularity owes partly to Erlang)
+underlying: the BEAM VM with preemption and supervision trees (OTP)
+domains:
+- telecom switches
+- messaging back-ends (WhatsApp, Discord)
+- queues (RabbitMQ)
+- high-availability systems
+hello_world: io:format("Hello, World!~n").
+install: escript/erl, rebar3, or Elixir's mix; try on erlang.org
+docs: https://www.erlang.org/docs
+tag: nine-nines concurrency from the telecom world (BEAM, 1986)
+summary: 'Ericsson''s answer to nine-nines telephony: millions of tiny processes, message passing, supervision trees,
+  and crashes treated as data. The BEAM remains the most battle-tested concurrency runtime in production software.'

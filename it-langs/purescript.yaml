@@ -1,0 +1,34 @@
+# it-langs fiche — PureScript — corpus for the Pica agent (syntax-seed)
+name: PureScript
+slug: purescript
+first_appeared: 2013
+creators: Phil Freeman and community
+origin: open source (UK)
+era: 2010s
+status: maintained
+paradigms:
+- pure functional
+- Haskell-flavored
+- strict evaluation
+typing: static, strong, type classes, rows
+execution: compiled to JavaScript
+non_executable: false
+family: Haskell family — the strict-JS branch
+influenced_by:
+- Haskell (the model)
+- Elm (the neighborhood)
+influenced:
+- typed-front-end culture's research wing
+underlying: compiles to readable JavaScript with FFI
+domains:
+- front-end applications with Haskell discipline
+hello_world: |-
+  module Main where
+
+  import Effect.Console (log)
+
+  main = log "Hello, World!"
+docs: https://www.purescript.org/
+tag: strict Haskell for the browser (2013)
+summary: 'Haskell''s strict little sibling targeting JavaScript: pure functions and type classes with dead-simple
+  FFI. Where Elm chooses safety-by-simplicity, PureScript chooses power-by-types.'

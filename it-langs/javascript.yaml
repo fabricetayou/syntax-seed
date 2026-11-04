@@ -1,0 +1,37 @@
+# it-langs fiche — JavaScript — corpus for the Pica agent (syntax-seed)
+name: JavaScript
+slug: javascript
+first_appeared: 1995
+year_note: famously prototyped in ten days at Netscape; standardized as ECMAScript since 1997; ES6/ES2015 revolution
+creators: Brendan Eich (Netscape)
+origin: Netscape Communications (USA)
+era: 1990s
+status: active
+paradigms:
+- 'multi-paradigm: prototype-based object orientation'
+- functional (closures, first-class functions)
+- event-driven
+typing: dynamic, weak coercions (the famous '==' table), structural
+execution: interpreted and JIT-compiled by engines (V8, SpiderMonkey, JavaScriptCore)
+non_executable: false
+family: Scheme + Self soul in a Java-named, C-shaped body
+influenced_by:
+- Self (prototypes)
+- Scheme (closures, first-class functions)
+- Java (surface syntax, marketing name)
+influenced:
+- TypeScript
+- CoffeeScript
+- and the entire web platform
+underlying: 'JS engines (V8) — and beyond the browser: Node.js servers, Deno, edge runtimes'
+domains:
+- the web client (all of it)
+- servers (Node)
+- tooling (Electron apps)
+- scripting everywhere
+hello_world: console.log("Hello, World!");
+install: any browser console; Node.js / Deno for servers
+docs: https://developer.mozilla.org/docs/Web/JavaScript
+tag: ten days of design, thirty years of world domination
+summary: 'The accidental universal language: built in ten days for web pages, driven by the browser monopoly into
+  every device on Earth. Underneath its coercion quirks lives Scheme''s closure model wearing Self''s prototypes.'

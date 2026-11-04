@@ -1,0 +1,28 @@
+# it-langs fiche — Oberon — corpus for the Pica agent (syntax-seed)
+name: Oberon
+slug: oberon
+first_appeared: 1987
+creators: Niklaus Wirth with Jurg Gutknecht (ETH Zurich)
+origin: ETH Zurich (Switzerland)
+era: 1980s
+status: dormant
+paradigms:
+- imperative
+- procedural
+- minimal module system plus type extension (a restrained OOP)
+typing: static, strong
+execution: compiled; famously paired with the Oberon operating system
+non_executable: false
+family: 'Wirth line: Pascal → Modula-2 → Oberon'
+influenced_by:
+- Modula-2
+- the quest for completeness with minimal machinery
+influenced:
+- Project Oberon as a teaching artifact (2013 revision)
+- proof that a full OS+language fits a textbook
+underlying: RISC-era workstations; modern emulators (Project Oberon 2013)
+domains:
+- teaching operating systems and language design
+tag: the language that ships with its own operating system
+summary: 'Wirth''s endgame: a language and an operating system small enough to understand completely, built together
+  at ETH. Its type-extension OOP showed how little object orientation actually needs.'

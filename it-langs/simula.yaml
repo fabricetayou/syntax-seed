@@ -1,0 +1,33 @@
+# it-langs fiche — Simula — corpus for the Pica agent (syntax-seed)
+name: Simula
+slug: simula
+first_appeared: 1962
+year_note: Simula I 1962-1965; Simula 67 introduced classes and inheritance
+creators: Ole-Johan Dahl and Kristen Nygaard (Norwegian Computing Center)
+origin: Oslo, Norway
+era: 1960s
+status: historical
+paradigms:
+- ALGOL-based simulation
+- introduced classes
+- objects
+- inheritance
+- virtual procedures (Simula 67)
+typing: static, strong (ALGOL-style, extended with class types)
+execution: compiled
+non_executable: false
+family: Algol family branch — the taproot of object orientation
+influenced_by:
+- ALGOL 60
+influenced:
+- Smalltalk (class concept)
+- C++ (Stroustrup cites Simula directly)
+- every class-based OO language
+underlying: Simula compilers for Univac, IBM and DEC machines; GNU Simula today
+domains:
+- simulation
+- and historically the birth certificate of object orientation
+tag: object orientation was born here (Simula 67)
+summary: A simulation extension of ALGOL 60 whose 1967 revision introduced classes, objects, inheritance and virtual
+  procedures — object orientation itself. Stroustrup built C++ explicitly on these concepts; Dahl and Nygaard received
+  the 2001 Turing Award for them.

@@ -1,0 +1,34 @@
+# it-langs fiche — Groovy — corpus for the Pica agent (syntax-seed)
+name: Groovy
+slug: groovy
+first_appeared: 2003
+year_note: started by James Strachan; 1.0 in 2007; Apache project
+creators: James Strachan, Guillaume Laforge and community
+origin: open source (UK/France core)
+era: 2000s
+status: active
+paradigms:
+- dynamic OO scripting on the JVM
+- with optional static typing added later
+typing: dynamic (optional static via @CompileStatic)
+execution: compiled to JVM bytecode
+non_executable: false
+family: JVM scripting family
+influenced_by:
+- Java
+- Ruby
+- Python
+- Smalltalk
+influenced:
+- Gradle's build DSL
+- Jenkins pipelines — two entire DevOps toolchains speak it
+underlying: the JVM with dynamic call-site invocation machinery
+domains:
+- build scripts (Gradle)
+- CI pipelines
+- glue automation
+hello_world: println "Hello, World!"
+docs: https://groovy-lang.org/documentation.html
+tag: the JVM scripting language that became DevOps' glue
+summary: 'The JVM''s friendly dynamic cousin — Java objects scripted Ruby-style. Its real legacy is infrastructural:
+  almost every Android app is built by Groovy (Gradle), and half the world''s CI pipelines are Groovy scripts.'

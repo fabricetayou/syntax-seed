@@ -1,0 +1,29 @@
+# it-langs fiche — Zsh — corpus for the Pica agent (syntax-seed)
+name: Zsh
+slug: zsh
+first_appeared: 1990
+creators: Paul Falstad (Princeton), extended by Zsh workers group
+origin: Princeton University (USA)
+era: 1990s
+status: active
+paradigms:
+- imperative command language (shell family)
+typing: dynamic, string-valued
+execution: interpreted
+non_executable: false
+family: Bourne shell family
+influenced_by:
+- bash
+- ksh
+- tcsh conveniences
+influenced:
+- modern interactive shell culture (Powerlevel10k, oh-my-zsh)
+underlying: Unix process machinery
+domains:
+- interactive daily driving (macOS default since 2019)
+- scripting
+hello_world: echo "Hello, World!"
+docs: https://zsh.sourceforge.io/Doc/
+tag: the power-user's shell — now macOS default
+summary: The shell that absorbed every good idea from bash, ksh and tcsh, then added programmable completion powerful
+  enough to build a subculture on. Apple made it macOS's default in 2019.

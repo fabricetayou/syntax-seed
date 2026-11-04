@@ -1,0 +1,33 @@
+# it-langs fiche — Logo — corpus for the Pica agent (syntax-seed)
+name: Logo
+slug: logo
+first_appeared: 1967
+creators: Wallace Feurzeig and Seymour Papert (BBN, then MIT)
+origin: BBN / MIT (USA)
+era: 1960s
+status: maintained
+paradigms:
+- procedural with functional flavor
+- turtle graphics
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: Lisp family (Logo descends from Lisp)
+influenced_by:
+- Lisp
+- Piaget's constructionism (Papert)
+influenced:
+- Scratch (direct ideological heir)
+- turtle graphics in every language
+underlying: Logo interpreters (UCBLogo and descendants)
+domains:
+- education
+- exploratory geometry
+- microworlds
+hello_world: |-
+  to hello
+    print [Hello, World!]
+  end
+tag: the turtle that taught the world's children
+summary: The turtle-drawing educational language born at BBN and MIT from Lisp and Papert's constructionism. 'Low
+  floor, high ceiling' was invented here, and Scratch is its direct ideological grandchild.

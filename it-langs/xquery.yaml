@@ -1,0 +1,33 @@
+# it-langs fiche — XQuery — corpus for the Pica agent (syntax-seed)
+name: XQuery
+slug: xquery
+first_appeared: 2004
+year_note: W3C working drafts from 2001; XQuery 1.0 recommendation January 2007
+creators: W3C XML Query working group
+origin: W3C
+era: 2000s
+status: maintained
+paradigms:
+- declarative
+- 'functional (FLWOR expressions: for-let-where-order-return)'
+typing: static-ish (sequence typing)
+execution: evaluated by XQuery engines over XML databases and documents
+non_executable: false
+family: XML query family (XPath's big sibling)
+influenced_by:
+- XPath
+- SQL's declarative spirit
+- Quilt proposal
+influenced:
+- XML database engines (eXist, MarkLogic — which powers large publishing stacks)
+underlying: XQuery processors; MarkLogic/eXist databases
+domains:
+- publishing pipelines
+- digital libraries
+- financial data processing
+hello_world: |-
+  for $h in doc('hello.xml')/hello
+  return $h/text()
+tag: SQL-shaped functional queries over XML trees
+summary: 'SQL for XML trees: FLWOR expressions querying nested documents functionally. It quietly runs massive legal-publishing
+  and pharma-document systems nobody hears about.'

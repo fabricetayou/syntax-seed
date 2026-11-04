@@ -1,0 +1,31 @@
+# it-langs fiche — Q# — corpus for the Pica agent (syntax-seed)
+name: Q#
+slug: q-sharp
+first_appeared: 2017
+creators: Microsoft Research (Krysta Svore's Quantum Architectures and Computation group)
+origin: Microsoft (USA)
+era: 2010s
+status: maintained
+paradigms:
+- quantum operations plus classical control flow (hybrid programs)
+typing: static, strong
+execution: executed by simulators today; targeted to quantum hardware via Azure Quantum
+non_executable: false
+family: quantum-programming family
+influenced_by:
+- C#/F# surface
+- quantum circuit models
+influenced:
+- quantum education and algorithm research
+underlying: the QDK simulators; Azure Quantum backends
+domains:
+- quantum algorithm courses
+- research prototypes
+hello_world: |-
+  operation Hello() : Unit {
+      Message("Hello, World!");
+  }
+docs: https://learn.microsoft.com/azure/quantum/user-guide/
+tag: programming qubits with C#-flavored control (2017)
+summary: 'Microsoft''s quantum dialect: functions are operations on qubits, classical code orchestrates around them.
+  Mostly run on simulators — the language of a computation that doesn''t quite exist yet.'

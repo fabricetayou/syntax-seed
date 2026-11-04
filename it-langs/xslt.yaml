@@ -1,0 +1,34 @@
+# it-langs fiche — XSLT — corpus for the Pica agent (syntax-seed)
+name: XSLT
+slug: xslt
+first_appeared: 1999
+year_note: XSLT 1.0 (1999); XSLT 3.0 (2017)
+creators: W3C XSL working group (James Clark shepherded 1.0)
+origin: W3C
+era: 1990s
+status: active
+paradigms:
+- declarative
+- functional (template rules, recursion — no mutable variables in 1.0)
+typing: dynamic, node-typed
+execution: executed by XSLT processors (libxslt, Saxon) transforming XML trees
+non_executable: false
+family: XML transformation family
+influenced_by:
+- DSSSL (the SGML stylesheet language)
+- functional pattern-matching
+influenced:
+- publishing pipelines (DOCX/EPUB generation)
+- early web service response shaping
+underlying: Saxon (JVM), libxslt (C) processors
+domains:
+- document generation pipelines
+- publishing
+- XML-era middleware
+hello_world: |-
+  <xsl:template match="/">
+    <hello>Hello, World!</hello>
+  </xsl:template>
+tag: functional programming smuggled in as stylesheets
+summary: 'The XML transformation language that made functional programming mainstream without anyone noticing: stylesheets
+  are recursive template rules over trees. It still generates most of the world''s DOCX and EPUB files.'

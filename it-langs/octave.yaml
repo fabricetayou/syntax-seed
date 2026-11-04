@@ -1,0 +1,29 @@
+# it-langs fiche — Octave — corpus for the Pica agent (syntax-seed)
+name: Octave
+slug: octave
+first_appeared: 1993
+year_note: begun 1988 at the University of Wisconsin; first public releases early 1990s
+creators: John W. Eaton (University of Wisconsin-Madison)
+origin: University of Wisconsin-Madison (USA)
+era: 1990s
+status: active
+paradigms:
+- array-oriented numerical scripting (MATLAB-compatible dialect)
+typing: dynamic, matrix-first
+execution: interpreted (with JIT for loops in modern versions)
+non_executable: false
+family: MATLAB-compatible open line (GNU Project)
+influenced_by:
+- MATLAB (the language it clones)
+- chemical reactor teaching needs
+influenced:
+- countless university labs that needed MATLAB without the license
+underlying: GNU Octave interpreter with BLAS/LAPACK
+domains:
+- numerical teaching
+- academic simulation on zero budget
+hello_world: disp('Hello, World!')
+docs: https://docs.octave.org/latest/
+tag: the free MATLAB — GNU's numerical dialect
+summary: 'The GNU answer to MATLAB: same matrix dialect, free license, born to teach reactor engineering in Wisconsin.
+  It carried a generation of students through numerical courses before Python''s science stack existed.'

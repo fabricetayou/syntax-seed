@@ -1,0 +1,31 @@
+# it-langs fiche — PlantUML — corpus for the Pica agent (syntax-seed)
+name: PlantUML
+slug: plantuml
+first_appeared: 2009
+creators: Arnaud Roques and contributors
+origin: open source (France)
+era: 2000s
+status: active
+paradigms:
+- 'declarative diagram DSL (UML and beyond: sequence, class, Gantt, mind maps)'
+typing: n/a (line-oriented keywords)
+execution: rendered by the PlantUML engine (Graphviz/Elastic lay out) into images
+non_executable: true
+family: diagram-as-code family
+influenced_by:
+- UML's vocabulary
+- dot's graph description ideas
+influenced:
+- docs-as-code toolchains
+- IDE plugins
+- Confluence integrations
+underlying: PlantUML's Java renderer (Graphviz underneath)
+domains:
+- software architecture diagrams kept in version control
+hello_world: |-
+  @startuml
+  Bob -> Alice : Hello, World!
+  @enduml
+tag: diagrams as text — UML in version control
+summary: 'UML you can type and diff: one line per arrow, diagrams that live in git next to the code they describe.
+  Architecture documentation finally got version control.'

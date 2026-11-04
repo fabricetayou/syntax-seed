@@ -1,0 +1,27 @@
+# it-langs fiche — Short Code — corpus for the Pica agent (syntax-seed)
+name: Short Code
+slug: short-code
+first_appeared: 1949
+year_note: proposed 1949; running on UNIVAC hardware by 1950
+creators: John Mauchly and collaborators (Eckert-Mauchly / Remington Rand)
+origin: Eckert-Mauchly Computer Corporation, then Remington Rand (USA)
+era: pre-1950
+status: historical
+paradigms:
+- imperative
+- expression-oriented
+typing: dynamic (untyped numeric variables)
+execution: interpreted (expressions recoded into numeric pseudo-code)
+non_executable: false
+family: early algebraic line (pre-ALGOL)
+influenced_by:
+- none (contemporary of the first assembly work)
+influenced:
+- established the algebraic-expression style that FORTRAN normalized
+underlying: UNIVAC floating-point interpreter
+domains:
+- engineering calculations on commercial hardware
+tag: first algebraic language to run on commercial machines (1949)
+summary: One of the first high-level languages to run on commercial hardware. Algebraic statements were rewritten
+  into numeric pseudo-code and interpreted on the UNIVAC, reportedly around fifty times slower than machine code
+  — the founding trade-off of high-level languages.

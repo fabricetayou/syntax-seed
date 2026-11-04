@@ -1,0 +1,30 @@
+# it-langs fiche — Refal — corpus for the Pica agent (syntax-seed)
+name: Refal
+slug: refal
+first_appeared: 1966
+creators: Valentin F. Turchin (USSR)
+origin: Moscow, USSR
+era: 1960s
+status: dormant
+paradigms:
+- functional
+- term-rewriting (pattern-driven)
+typing: dynamic
+execution: interpreted, with compiled implementations later
+non_executable: false
+family: rewriting family (parallel branch to Western functional languages)
+influenced_by:
+- Markov algorithms (Soviet school)
+- lambda calculus
+influenced:
+- Refal-5 community
+- supercompilation research (Turchin's specialty)
+underlying: Refal-5 implementation
+domains:
+- symbolic transformation
+- AI research
+- metacomputation
+tag: Soviet functional term-rewriting (1966)
+summary: Valentin Turchin's pattern-rewriting functional language, contemporary of early Lisp culture but rooted
+  in the Soviet school of Markov algorithms. Its match-and-replace engine and Turchin's supercompilation ideas keep
+  it a cult classic.

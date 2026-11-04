@@ -1,0 +1,38 @@
+# it-langs fiche — CUDA C/C++ — corpus for the Pica agent (syntax-seed)
+name: CUDA C/C++
+slug: cuda
+first_appeared: 2007
+year_note: grew from Ian Buck's Brook language research at Stanford
+creators: NVIDIA (Ian Buck's team)
+origin: NVIDIA (USA)
+era: 2000s
+status: active
+paradigms:
+- data-parallel kernel extensions to C/C++ (threads, blocks, grids)
+typing: static (C++ plus qualifiers and vector types)
+execution: compiled by nvcc to GPU machine code (PTX/SASS) plus host code
+non_executable: false
+family: GPGPU family (with OpenCL as the portable rival)
+influenced_by:
+- C++
+- Brook (Stanford GPU shading research)
+influenced:
+- the whole AI compute stack — PyTorch/TensorFlow kernels sit on it
+- Triton compiles toward its targets
+underlying: NVIDIA GPUs; driver runtime and cuBLAS/cuDNN libraries
+domains:
+- deep learning training
+- HPC accelerators
+- scientific simulation
+hello_world: |-
+  __global__ void hello() {
+    printf("Hello, World!\n");
+  }
+  int main() {
+    hello<<<1,1>>>();
+    return 0;
+  }
+docs: https://developer.nvidia.com/cuda-zone
+tag: the GPU dialect that carries deep learning (2007)
+summary: 'The C++ dialect that turned GPUs into general computers: kernels launched by the host, executed by thousands
+  of threads. Deep learning''s entire rise happened on its back — hardware and language co-evolving.'

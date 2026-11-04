@@ -1,0 +1,28 @@
+# it-langs fiche — Clarity — corpus for the Pica agent (syntax-seed)
+name: Clarity
+slug: clarity
+first_appeared: 2019
+creators: Blockstack/Stacks team (Muneeb Ali's group)
+origin: Blockstack PBC (USA)
+era: 2010s
+status: active
+paradigms:
+- interpreted
+- decidability-first contract language (no Turing-completeness by design)
+typing: static, strong
+execution: interpreted on the Stacks chain — source is what's published
+non_executable: false
+family: smart-contract family — the interpreted-decidable branch
+influenced_by:
+- Lisp (surface)
+- Bitcoin Script's minimalism
+- Solidity's lessons
+influenced:
+- the decidability camp of smart contracts
+underlying: the Stacks blockchain anchored to Bitcoin
+domains:
+- Bitcoin-anchored smart contracts
+hello_world: (print "Hello, World!")
+tag: decidable, interpreted, Lisp-shaped contracts on Bitcoin
+summary: 'The Lisp-shaped contract language that publishes its source and refuses Turing completeness: every contract''s
+  cost is decidable by reading it. Antidote to the DAO-disaster era''s anxieties.'

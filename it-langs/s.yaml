@@ -1,0 +1,27 @@
+# it-langs fiche — S — corpus for the Pica agent (syntax-seed)
+name: S
+slug: s
+first_appeared: 1976
+creators: John Chambers (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: historical
+paradigms:
+- interactive statistical computing
+- functional-flavored (everything returns data)
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: statistical line leading to R
+influenced_by:
+- APL's interactive arrays
+- Fortran-based analysis routines
+influenced:
+- R (direct descendant — 'GNU S')
+underlying: S interpreter, Fortran numerics underneath
+domains:
+- interactive statistics
+- exploratory data analysis (Tukey's school)
+tag: the Bell Labs statistical language that became R
+summary: Bell Labs' interactive language for statistics, where 'the data is the object'. Its GNU reincarnation as
+  R made it the ancestor of the modern data-science lingua franca.

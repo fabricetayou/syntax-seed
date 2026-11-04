@@ -1,0 +1,37 @@
+# it-langs fiche — R — corpus for the Pica agent (syntax-seed)
+name: R
+slug: r
+first_appeared: 1993
+year_note: Ihaka & Gentleman 1993; R 1.0.0 2000; the tidyverse era from 2016
+creators: Ross Ihaka and Robert Gentleman (University of Auckland)
+origin: University of Auckland (New Zealand)
+era: 1990s
+status: active
+paradigms:
+- functional-flavored
+- vectorized
+- statistical
+- deeply interactive
+typing: dynamic, strong-ish with coercion rules
+execution: interpreted, with compiled C/Fortran numerics underneath
+non_executable: false
+family: S lineage (it is 'GNU S') with Scheme-inspired scoping
+influenced_by:
+- S (Bell Labs)
+- Scheme (lexical scope choice)
+influenced:
+- Julia (explicitly positioned as its faster successor)
+- the entire data-science statistics stack
+underlying: the R interpreter with BLAS/LAPACK and CRAN's 20,000 packages
+domains:
+- statistics
+- bioinformatics
+- academia
+- data journalism (ggplot2)
+hello_world: cat("Hello, World!\n")
+install: r-project.org, RStudio/Posit; CRAN for packages
+docs: https://cran.r-project.org/manuals.html
+tag: the language statisticians think in (New Zealand, 1993)
+summary: 'The statisticians'' laboratory: vectors and data frames as native values, formulas as a mini-language,
+  and a package universe that made reproducible analysis a profession. Born in Auckland as open ''GNU S'', it taught
+  the world ggplot.'

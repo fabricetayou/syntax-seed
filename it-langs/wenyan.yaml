@@ -1,0 +1,28 @@
+# it-langs fiche — wenyan (文言) — corpus for the Pica agent (syntax-seed)
+name: wenyan (文言)
+slug: wenyan
+first_appeared: 2019
+creators: Lingdong Huang
+origin: CMU student project (USA/China)
+era: 2010s
+status: active
+paradigms:
+- esoteric-ish — Classical Chinese as programming syntax (fully functional, Turing-complete)
+typing: dynamic
+execution: transpiled to JavaScript/Python or compiled to LLVM IR
+non_executable: false
+family: esoteric family — the scholarly branch
+influenced_by:
+- Classical Chinese's grammar itself
+- 于/之/其 particles as syntax
+influenced:
+- the international viral wave of 'ancient language' programming
+underlying: the wenyan-lang compiler
+domains:
+- art
+- education
+- viral delight
+hello_world: 吾有一言。曰「「Hello, World!」」。書之。
+tag: Classical Chinese as a real programming language (2019)
+summary: 'Programming in the language of Confucian scholars: variables are nouns, control flow flows like prose.
+  It compiles seriously while being the most beautiful joke in the esolang corpus.'

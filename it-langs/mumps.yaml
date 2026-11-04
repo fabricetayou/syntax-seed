@@ -1,0 +1,29 @@
+# it-langs fiche — MUMPS / M — corpus for the Pica agent (syntax-seed)
+name: MUMPS / M
+slug: mumps
+first_appeared: 1966
+creators: Neil Pappalardo and Octo Barnett's laboratory (Massachusetts General Hospital)
+origin: Massachusetts General Hospital, Boston (USA)
+era: 1960s
+status: active
+paradigms:
+- imperative
+- procedural
+- database-embedded
+typing: dynamic
+execution: interpreted database-language runtime
+non_executable: false
+family: medical/database line (unique branch)
+influenced_by:
+- BASIC-era interpreters plus hierarchical data-storage needs
+influenced:
+- InterSystems Caché/IRIS ecosystem
+- hospital and banking back-ends worldwide
+underlying: own engine whose sparse hierarchical arrays are the native storage
+domains:
+- electronic medical records
+- banking
+- logistics back-ends
+tag: the hospital language with a built-in database
+summary: 'Massachusetts General Hospital''s M language: strings, sparse global arrays and an integrated database
+  in one interpreter. Invisible to the public, it runs hospital record systems and bank cores on several continents.'

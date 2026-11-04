@@ -1,0 +1,33 @@
+# it-langs fiche — F# — corpus for the Pica agent (syntax-seed)
+name: F#
+slug: f-sharp
+first_appeared: 2005
+creators: Don Syme and colleagues (Microsoft Research, Cambridge UK)
+origin: Microsoft Research Cambridge (UK)
+era: 2000s
+status: active
+paradigms:
+- functional-first with OO and imperative
+- units of measure
+- async workflows
+typing: static, strong, inferred (Hindley-Milner heritage)
+execution: compiled to CIL on .NET (with Fable transpilation to JavaScript)
+non_executable: false
+family: ML family — the .NET branch (OCaml's sibling)
+influenced_by:
+- OCaml
+- Haskell (FP culture)
+- .NET's object model
+influenced:
+- C#'s async/await and pattern matching (async came from F# research)
+underlying: the .NET runtime; Fable to JS; datasets-friendly tooling
+domains:
+- finance modeling
+- domain modeling
+- scripting in .NET shops
+- data science
+hello_world: printfn "Hello, World!"
+docs: https://fsharp.org/learn/
+tag: functional-first .NET — the donor of async/await
+summary: 'OCaml''s spirit on the .NET platform: pipelines, discriminated unions and units of measure inside the
+  enterprise ecosystem. Its research group then donated async/await and pattern matching back to C#.'

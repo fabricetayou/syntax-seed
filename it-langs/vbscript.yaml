@@ -1,0 +1,28 @@
+# it-langs fiche — VBScript — corpus for the Pica agent (syntax-seed)
+name: VBScript
+slug: vbscript
+first_appeared: 1996
+creators: Microsoft
+origin: Microsoft (USA)
+era: 1990s
+status: discontinued
+paradigms:
+- imperative scripting (a lighter Visual Basic dialect)
+typing: dynamic, weak (variants)
+execution: interpreted by the Windows Script Host
+non_executable: false
+family: BASIC family — the scripting branch
+influenced_by:
+- Visual Basic
+influenced:
+- ASP classic server pages
+- two decades of Windows admin macros
+underlying: Windows Script Host, classic ASP, Office macros alongside VBA
+domains:
+- Windows automation
+- classic ASP
+- enterprise scripts (and far too many worms)
+hello_world: WScript.Echo "Hello, World!"
+tag: the Windows scripting Basic — beloved by admins, loved by worms
+summary: Microsoft's lighter Basic for scripting Windows and classic ASP pages. It automated a generation of offices,
+  then became infamous as the vector language of email worms.

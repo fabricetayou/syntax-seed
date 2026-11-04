@@ -1,0 +1,29 @@
+# it-langs fiche — Bend — corpus for the Pica agent (syntax-seed)
+name: Bend
+slug: bend
+first_appeared: 2023
+creators: HigherOrderCO (research startup founded around optimal-reduction research)
+origin: HigherOrderCO (Brazil/remote)
+era: 2020s
+status: active
+paradigms:
+- high-level functional whose compiler auto-parallelizes everything (HVM's optimal reduction)
+typing: dynamic-ish, functional
+execution: compiled to the HVM (Hypergraph Virtual Machine) exploiting interaction nets
+non_executable: false
+family: functional-research frontier (lambda calculus as parallel machine)
+influenced_by:
+- interaction nets and optimal lambda reduction research
+influenced:
+- the 'parallelism without thinking' research direction
+underlying: the HVM runtime; GPU execution of functional programs
+domains:
+- massively parallel workloads written as plain functional code
+hello_world: |-
+  def main():
+    return "Hello, World!"
+docs: https://github.com/HigherOrderCO/Bend
+tag: auto-parallel functional code via interaction nets (2023)
+summary: 'The research bet that garbage collection and parallel scheduling are compiler problems: plain functions,
+  automatically run on thousands of cores via interaction nets. Half mysticism, all benchmark theater — and genuinely
+  new.'

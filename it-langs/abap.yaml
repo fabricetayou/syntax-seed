@@ -1,0 +1,32 @@
+# it-langs fiche — ABAP — corpus for the Pica agent (syntax-seed)
+name: ABAP
+slug: abap
+first_appeared: 1983
+year_note: ABAP/4 through the R/3 era; ABAP Objects 1999+
+creators: SAP SE (Germany)
+origin: SAP, Walldorf (Germany)
+era: 1980s
+status: active
+paradigms:
+- imperative
+- procedural
+- event-driven (report/screen language)
+- object-oriented since 1999
+typing: static, dictionary (DDIC) driven
+execution: interpreted and partially compiled inside the SAP NetWeaver/ABAP platform
+non_executable: false
+family: business 4GL line (COBOL-era business needs, database-embedded)
+influenced_by:
+- COBOL-era reporting
+- Pascal-style control flow
+- SQL embedding
+influenced:
+- an entire SAP ecosystem profession
+underlying: the SAP application server runtime (with its own database interface)
+domains:
+- 'ERP: finance'
+- logistics
+- HR inside SAP installations worldwide
+tag: the ERP language inside every SAP system
+summary: 'The language living inside SAP systems: report events, screens, and database access woven into the application
+  server. Tens of thousands of consultants speak it daily; almost nobody outside the SAP world ever sees it.'

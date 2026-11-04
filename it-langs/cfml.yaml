@@ -1,0 +1,27 @@
+# it-langs fiche — CFML (ColdFusion Markup Language) — corpus for the Pica agent (syntax-seed)
+name: CFML (ColdFusion Markup Language)
+slug: cfml
+first_appeared: 1995
+creators: Jeremy and JJ Allaire (Allaire Corporation)
+origin: Allaire / Cambridge (USA)
+era: 1990s
+status: maintained
+paradigms:
+- tag-based web templating plus scripting (cfscript)
+typing: dynamic
+execution: interpreted on ColdFusion/Lucee application servers
+non_executable: false
+family: server-side web template family
+influenced_by:
+- HTML's tag idiom
+- early web database needs
+influenced:
+- JSP/ASP tag conventions partly
+- the surviving Lucee community
+underlying: ColdFusion (Adobe) or Lucee engines on the JVM
+domains:
+- enterprise web apps of the late 90s
+- government portals still running
+tag: web programming in HTML-shaped tags (1995)
+summary: 'The Allaire brothers'' HTML-flavored web language: SQL queries and logic inside tags, readable at a glance
+  by page designers. It powered the first dot-com wave and survives quietly in government and enterprise.'

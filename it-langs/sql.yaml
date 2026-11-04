@@ -1,0 +1,41 @@
+# it-langs fiche — SQL — corpus for the Pica agent (syntax-seed)
+name: SQL
+slug: sql
+first_appeared: 1974
+year_note: SEQUEL paper 1974; IBM System R prototype 1974-77; ANSI/ISO standard since 1986
+creators: Donald Chamberlin and Raymond Boyce (IBM San Jose) — from their SQUARE notation
+origin: IBM Research, San Jose (USA)
+era: 1970s
+status: active
+paradigms:
+- declarative
+- relational
+- set-oriented
+typing: static, schema-driven
+execution: declarative — engines compile queries into optimized execution plans
+non_executable: false
+family: relational query family (single root)
+influenced_by:
+- Codd's relational model (1970)
+- SQUARE
+influenced:
+- PL/SQL
+- T-SQL
+- PL/pgSQL (procedural wrappers)
+- SPARQL (query idioms)
+- MDX
+- every ORM's underlying mental model
+underlying: query engines of RDBMSs (Oracle, PostgreSQL, SQL Server, SQLite, MySQL), data warehouses, engines like
+  DuckDB
+domains:
+- 'data management everywhere: OLTP'
+- analytics
+- BI
+- reporting
+hello_world: SELECT 'Hello, World!';
+install: SQLite (zero setup), PostgreSQL, DuckDB for analytics
+docs: https://www.postgresql.org/docs/current/sql.html
+tag: the declarative query language that runs the world's data
+summary: 'The most economically important declarative language ever: describe the result you want, and the planner
+  finds a way. Born from Codd''s relational model at IBM, it survived every paradigm shift and now queries everything
+  from phones to warehouses.'

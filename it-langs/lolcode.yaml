@@ -1,0 +1,30 @@
+# it-langs fiche — LOLCODE — corpus for the Pica agent (syntax-seed)
+name: LOLCODE
+slug: lolcode
+first_appeared: 2007
+creators: Adam Lindsay (from the lolcats meme grammar)
+origin: internet culture (UK)
+era: 2000s
+status: esoteric
+paradigms:
+- esoteric scripting in lolcat dialect (HAI, KTHXBYE, VISIBLE)
+typing: dynamic
+execution: interpreted (several implementations)
+non_executable: false
+family: esoteric family — the meme branch
+influenced_by:
+- the lolcats internet meme (c. 2006-2007)
+influenced:
+- an entire genre of joke-language variants (e.g., TrumpScript, Rockstar's humor lineage)
+underlying: lci and other interpreters
+domains:
+- joy
+- conference talks
+- teaching engagement
+hello_world: |-
+  HAI 1.2
+  VISIBLE "HELLO WORLD!"
+  KTHXBYE
+tag: the meme that became a grammar (2007)
+summary: 'A programming grammar extracted from a cat meme: ''HAI'' opens, ''KTHXBYE'' closes, ''VISIBLE'' prints.
+  Proof that a language''s design space includes jokes — and that jokes can be Turing-complete.'

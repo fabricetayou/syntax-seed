@@ -1,0 +1,29 @@
+# it-langs fiche — TOML — corpus for the Pica agent (syntax-seed)
+name: TOML
+slug: toml
+first_appeared: 2013
+creators: Tom Preston-Werner (GitHub co-founder)
+origin: open source (USA)
+era: 2010s
+status: active
+paradigms:
+- declarative configuration (tables, arrays, typed scalars)
+typing: n/a (explicit scalar types — dates, ints, strings)
+execution: none — parsed by TOML libraries
+non_executable: true
+family: configuration-format family (YAML's 'no surprises' rival)
+influenced_by:
+- YAML and INI pain points
+- the configparser tradition
+influenced:
+- Rust's Cargo
+- Python's pyproject.toml — two ecosystems standardized on it
+underlying: toml parsers in every language
+domains:
+- package manifests
+- project configuration
+hello_world: greeting = "Hello, World!"
+docs: https://toml.io/
+tag: the 'boring by design' config format of Rust and Python
+summary: 'Preston-Werner''s answer to YAML''s surprises: explicitly typed, unambiguous, one obvious way. Cargo and
+  pyproject.toml made it the configuration language of two giant ecosystems.'

@@ -1,0 +1,29 @@
+# it-langs fiche — Dylan — corpus for the Pica agent (syntax-seed)
+name: Dylan
+slug: dylan
+first_appeared: 1992
+creators: Apple Advanced Technology Group
+origin: Apple ATG (USA)
+era: 1990s
+status: dormant
+paradigms:
+- dynamic object-oriented
+- functional-flavored (Lisp without parentheses)
+typing: dynamic, strong
+execution: compiled (originally to native, with gradual typing ideas)
+non_executable: false
+family: Lisp family — the infix redesign
+influenced_by:
+- Scheme
+- Common Lisp
+- CLOS
+influenced:
+- Open Dylan's community
+- gradual-typed language design discussions
+underlying: Open Dylan compilers
+domains:
+- research
+- the Newton platform's early plans
+tag: Lisp with algebraic clothes — Apple's ATG experiment
+summary: 'Apple''s attempt to give Lisp algebraic syntax: Dylan (''dynamic language'') kept CLOS''s object power
+  while wearing Pascal''s clothes. The company pivoted, but the idea of a redesignable Lisp persisted.'

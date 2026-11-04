@@ -1,0 +1,51 @@
+# it-langs fiche — C++ — corpus for the Pica agent (syntax-seed)
+name: C++
+slug: cpp
+first_appeared: 1985
+year_note: '''C with Classes'' from 1979; named C++ in 1983; standardized C++98 through C++23'
+creators: Bjarne Stroustrup (Bell Labs)
+origin: Bell Labs / AT&T (USA)
+era: 1980s
+status: active
+paradigms:
+- 'multi-paradigm: object-oriented'
+- generic (templates)
+- procedural
+- functional features
+- heavy metaprogramming
+typing: static, strong, with low-level escape hatches
+execution: compiled to native machine code
+non_executable: false
+family: C lineage + Simula's classes (Stroustrup's explicit recipe)
+influenced_by:
+- C (base)
+- Simula 67 (classes, inheritance)
+influenced:
+- Java
+- C#
+- D
+- and the performance culture of game engines
+- browsers
+- databases
+- trading systems
+underlying: native code; Itanium/x86/ARM ABIs; template metaprogramming as a compile-time language of its own
+domains:
+- game engines
+- browsers (Chromium)
+- office suites
+- databases
+- ML infra (PyTorch/TensorFlow cores)
+- finance
+hello_world: |-
+  #include <iostream>
+
+  int main()
+  {
+      std::cout << "Hello, World!" << '\n';
+  }
+install: g++ / clang++, MSVC; CMake as the common build layer
+docs: https://en.cppreference.com/w/cpp
+tag: C with Simula's classes — the giant of performance software
+summary: Stroustrup's bet that C could absorb Simula's classes without losing speed or systems reach. It became
+  the default language of large performance software, and its template system quietly grew into a compile-time functional
+  language nobody planned.

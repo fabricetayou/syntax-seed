@@ -1,0 +1,28 @@
+# it-langs fiche — Self — corpus for the Pica agent (syntax-seed)
+name: Self
+slug: self
+first_appeared: 1987
+creators: David Ungar and Randall Smith (Stanford, then Sun Microsystems Labs)
+origin: Stanford / Sun Labs (USA)
+era: 1980s
+status: dormant
+paradigms:
+- prototype-based object orientation (no classes — objects clone objects)
+- live environment
+typing: dynamic, strong
+execution: interpreted with pioneering JIT (polymorphic inline caches)
+non_executable: false
+family: Smalltalk branch — radical simplification
+influenced_by:
+- Smalltalk
+influenced:
+- JavaScript's prototype model (direct)
+- the HotSpot JVM (its JIT team's next act)
+- the debugging-in-a-live-world ideal
+underlying: the Self VM with morphic UI
+domains:
+- language research
+- JIT invention
+tag: no classes, world-class JIT — JavaScript's other parent (1987)
+summary: 'The language that deleted classes: objects inherit from objects by delegation. Its research VM invented
+  the JIT techniques that power Java''s HotSpot, and its object model became JavaScript''s backbone.'

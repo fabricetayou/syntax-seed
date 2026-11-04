@@ -1,0 +1,39 @@
+# it-langs fiche — Kotlin — corpus for the Pica agent (syntax-seed)
+name: Kotlin
+slug: kotlin
+first_appeared: 2011
+year_note: JetBrains project; 1.0 in 2016; Google-endorsed for Android in 2017
+creators: JetBrains (Andrey Breslav's team)
+origin: JetBrains, Prague-based company (Czech Republic)
+era: 2010s
+status: active
+paradigms:
+- 'pragmatic multi-paradigm on the JVM: OO plus functional'
+- coroutines
+typing: static, inferred, null-safety in the type system
+execution: compiled to JVM bytecode (Kotlin/Native via LLVM, Kotlin/JS)
+non_executable: false
+family: JVM family — the pragmatic branch
+influenced_by:
+- Java (platform)
+- Scala (FP lessons)
+- C# (features)
+- Groovy (concise culture)
+influenced:
+- Android development's default
+- server-side frameworks (Ktor)
+- multiplatform mobile
+underlying: the JVM; kotlinx coroutines; Gradle Kotlin DSL
+domains:
+- Android apps
+- server back-ends
+- multiplatform shared code
+hello_world: |-
+  fun main() {
+      println("Hello, World!")
+  }
+install: IntelliJ IDEA bundles it; kotlin compiler or Gradle
+docs: https://kotlinlang.org/docs/home.html
+tag: Java's pragmatic successor on Android (2011)
+summary: 'JetBrains'' ''better Java'': nullability in types, coroutines for async, and full Java interop. Google''s
+  endorsement made it the language of the world''s largest application platform almost overnight.'

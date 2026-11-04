@@ -1,0 +1,31 @@
+# it-langs fiche — Vyper — corpus for the Pica agent (syntax-seed)
+name: Vyper
+slug: vyper
+first_appeared: 2017
+creators: Ethereum community (Vitalik Buterin involved early)
+origin: Ethereum ecosystem
+era: 2010s
+status: active
+paradigms:
+- pythonic
+- deliberately minimal contract language (no classes, no overloading — auditability first)
+typing: static, strong
+execution: compiled to EVM bytecode
+non_executable: false
+family: smart-contract family — the minimalist branch
+influenced_by:
+- Python (surface)
+- Solidity's lessons
+influenced:
+- high-value DeFi contracts that prioritize audit clarity
+underlying: the EVM
+domains:
+- contracts whose entire logic must fit in an auditor's head
+hello_world: |-
+  @external
+  def greet() -> String[16]:
+      return "Hello, World!"
+docs: https://docs.vyperlang.org/
+tag: the auditability-first contract language (2017)
+summary: 'Solidity''s ascetic rival: strip every feature that hides what the bytecode will do, keep Python''s readability.
+  For contracts where one reading error costs millions, less language is more safety.'

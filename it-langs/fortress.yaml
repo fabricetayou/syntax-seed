@@ -1,0 +1,27 @@
+# it-langs fiche — Fortress — corpus for the Pica agent (syntax-seed)
+name: Fortress
+slug: fortress
+first_appeared: 2006
+year_note: Sun's DARPA HPCS project; wound down after Oracle's acquisition (~2012-2017)
+creators: Guy Steele's Sun Microsystems team (Eric Allen, ...)
+origin: Sun Microsystems (USA)
+era: 2000s
+status: discontinued
+paradigms:
+- parallel-by-default
+- mathematical-notation programming
+typing: static, strong, with units and dimensions
+execution: compiled to the JVM with parallel scheduling
+non_executable: false
+family: HPC research family (with Chapel and X10 as DARPA siblings)
+influenced_by:
+- Fortran's ambition
+- mathematical typesetting (its ASCII syntax could typeset itself)
+influenced:
+- research on implicit parallelism and notation design
+underlying: JVM with its Fortress interpreter
+domains:
+- research
+tag: Guy Steele's mathematical HPC moonshot
+summary: 'Guy Steele''s moonshot: programs that look like real mathematics and parallelize themselves. Killed by
+  Sun''s collapse, remembered by every language designer who reads its papers.'

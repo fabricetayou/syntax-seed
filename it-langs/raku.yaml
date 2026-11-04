@@ -1,0 +1,35 @@
+# it-langs fiche — Raku — corpus for the Pica agent (syntax-seed)
+name: Raku
+slug: raku
+first_appeared: 2015
+year_note: began as 'Perl 6' in 2000; renamed Raku at Christmas 2019 — the long-gestated sibling of Perl 5
+creators: the Perl 6/Raku design team (Larry Wall blessing the process)
+origin: Perl community (international)
+era: 2010s
+status: maintained
+paradigms:
+- 'multi-paradigm everything: OO'
+- functional
+- grammars
+- lazy lists
+- junctions
+typing: dynamic, gradual typing available
+execution: compiled to bytecode on MoarVM/JVM (with spesh JIT)
+non_executable: false
+family: Perl family — the rethought sibling
+influenced_by:
+- Perl 5 (its heritage)
+- Haskell/Ruby borrowings
+- Wall's linguistic philosophy
+influenced:
+- grammar-based parsing tooling
+- language-design lore
+underlying: MoarVM runtime
+domains:
+- text wrangling
+- parser authorship (its grammars are first-class)
+hello_world: say "Hello, World!";
+docs: https://docs.raku.org/
+tag: Perl's long-gestated sibling (2015)
+summary: 'The fifteen-year redesign of Perl: grammars as objects, junctions as values, multiple paradigms as dialects.
+  Late, over-ambitious, and quietly brilliant — Wall''s linguistics applied one more time.'

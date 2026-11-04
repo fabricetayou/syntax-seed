@@ -1,0 +1,40 @@
+# it-langs fiche — XML — corpus for the Pica agent (syntax-seed)
+name: XML
+slug: xml
+first_appeared: 1998
+year_note: W3C recommendation February 1998; XML 1.0 Fifth Edition 2008
+creators: W3C working group (Tim Bray, Jean Paoli, C. M. Sperberg-McQueen, Eve Maler, ...)
+origin: W3C
+era: 1990s
+status: active
+paradigms:
+- declarative markup (element trees, attributes, namespaces)
+typing: validated by DTD, XSD or Relax NG schemas
+execution: none — parsed into trees by every XML processor (XSLT/XPath then transform it)
+non_executable: true
+family: SGML family (simplified subset)
+influenced_by:
+- SGML (its strict parent)
+- HTML's success
+influenced:
+- SOAP
+- SVG
+- DOCX/XLSX
+- RSS
+- Atom
+- Android layouts
+- config formats
+- MathML
+underlying: every platform's XML parser; the angle-bracket plumbing of enterprise software
+domains:
+- data interchange (2000s)
+- document formats
+- configuration
+- messaging envelopes
+hello_world: |-
+  <?xml version="1.0"?>
+  <hello>Hello, World!</hello>
+docs: https://www.w3.org/XML/
+tag: the angle-bracket envelope of enterprise data (1998)
+summary: 'The universal angle-bracket envelope: SGML boiled down for the web age. It became the default data-exchange
+  format of enterprise computing — and the punchline of format-bloat jokes (see JSON).'

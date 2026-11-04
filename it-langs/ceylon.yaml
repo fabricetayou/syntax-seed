@@ -1,0 +1,30 @@
+# it-langs fiche — Ceylon — corpus for the Pica agent (syntax-seed)
+name: Ceylon
+slug: ceylon
+first_appeared: 2011
+year_note: Gavin King's Red Hat project; 1.0 2013; donated to the Eclipse Foundation and retired ~2017
+creators: Gavin King (Red Hat) and team
+origin: Red Hat (USA/Brazil)
+era: 2010s
+status: discontinued
+paradigms:
+- statically-typed OO with serious functional features and a famous module system
+typing: static, strong, with union/intersection types
+execution: compiled to JVM bytecode (and JavaScript transpilation)
+non_executable: false
+family: JVM family — the elegant branch
+influenced_by:
+- Java (its critique)
+- Scala's power without its complexity
+influenced:
+- type-system ideas absorbed into later JVM languages
+underlying: the JVM
+domains:
+- enterprise application experiments
+hello_world: |-
+  shared void run() {
+      print("Hello, World!");
+  }
+tag: Java re-imagined with elegance — and retired too soon
+summary: 'Gavin King''s ''what Java should have been'': union types done right, real modules, readable generics.
+  Loved by everyone who tried it, used by almost no one — the classic second-system fate.'

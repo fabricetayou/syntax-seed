@@ -1,0 +1,27 @@
+# it-langs fiche — LabVIEW G — corpus for the Pica agent (syntax-seed)
+name: LabVIEW G
+slug: labview-g
+first_appeared: 1986
+creators: Jeff Kodosky and National Instruments
+origin: National Instruments, Austin (USA)
+era: 1980s
+status: active
+paradigms:
+- visual dataflow programming (wires carry data between nodes)
+typing: static per wire (color-coded types)
+execution: compiled by the LabVIEW runtime (parallel dataflow execution)
+non_executable: false
+family: visual dataflow family (measurement branch)
+influenced_by:
+- instrument control workflows on Apple Macintosh
+influenced:
+- the measurement/automation profession's whole practice
+underlying: LabVIEW runtime with hardware drivers underneath
+domains:
+- test benches
+- industrial automation
+- instrumentation
+- lab control
+tag: wires, not text — the dataflow language of laboratories
+summary: National Instruments' graphical language where data literally flows along wires — and parallelism is the
+  default. Entire test labs worldwide are programmed by engineers who never wrote a line of text code.

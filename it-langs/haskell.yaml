@@ -1,0 +1,41 @@
+# it-langs fiche — Haskell — corpus for the Pica agent (syntax-seed)
+name: Haskell
+slug: haskell
+first_appeared: 1990
+year_note: Haskell 1.0 1990; Haskell 2010 report; GHC-led modern era
+creators: an academic committee formed to build an open standard for lazy functional programming
+origin: international academic committee (FPCA '87 meeting sparked it)
+era: 1990s
+status: active
+paradigms:
+- pure
+- lazy
+- functional with type classes and monads
+typing: static, strong, inferred, with Higher-Kinded types
+execution: compiled to native code (GHC's native and LLVM backends)
+non_executable: false
+family: 'lazy functional family: SASL/KRC → Miranda → Haskell'
+influenced_by:
+- Miranda
+- ML
+- Gofer (type classes)
+- category theory's vocabulary
+influenced:
+- the type systems of Scala
+- Rust
+- Swift
+- TypeScript (generics/traits fingerprints)
+- PureScript
+- Elm
+underlying: GHC runtime with STM, green threads and soft real-time GC
+domains:
+- fintech correctness work
+- blockchain smart contracts
+- compilers
+- research
+hello_world: main = putStrLn "Hello, World!"
+install: GHCup installer; cabal or stack; try haskell.org
+docs: https://www.haskell.org/documentation/
+tag: purity, laziness and monads — the type-system trendsetter
+summary: 'The committee-built pure functional language: no side effects anywhere, laziness by default, and monads
+  to structure effects. Long a research torch, it now quietly dictates the type-system fashions of mainstream languages.'

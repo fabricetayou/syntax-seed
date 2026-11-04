@@ -1,0 +1,27 @@
+# it-langs fiche — SETL — corpus for the Pica agent (syntax-seed)
+name: SETL
+slug: setl
+first_appeared: 1969
+creators: Jacob T. Schwartz (Courant Institute, NYU)
+origin: New York University (USA)
+era: 1960s
+status: dormant
+paradigms:
+- set-theoretic
+- very-high-level imperative
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: set-oriented very-high-level line
+influenced_by:
+- mathematical set theory
+influenced:
+- ABC's set operations (indirect)
+- the comprehension mindset later popularized by Python
+underlying: Lisp-based interpreters historically
+domains:
+- prototyping algorithms at specification level
+- compiler research (the first Ada compiler was prototyped in SETL)
+tag: sets as first-class citizens, twenty years before Python
+summary: 'Schwartz''s ''programming in the language of mathematics'': finite sets and tuples as native values. Famous
+  for hosting the first Ada compiler prototype, and as a spiritual ancestor of set-comprehension style in Python.'

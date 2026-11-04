@@ -1,0 +1,32 @@
+# it-langs fiche — CoffeeScript — corpus for the Pica agent (syntax-seed)
+name: CoffeeScript
+slug: coffeescript
+first_appeared: 2009
+creators: Jeremy Ashkenas
+origin: open source (USA)
+era: 2000s
+status: dormant
+paradigms:
+- transpiled JavaScript with significant indentation
+- comprehensions
+- operators
+typing: dynamic (JavaScript's)
+execution: transpiled 1-to-1 to JavaScript
+non_executable: false
+family: compile-to-JS family (its founding member)
+influenced_by:
+- Ruby
+- Python
+- Haskell's list comprehensions
+influenced:
+- ECMAScript 6 itself — arrow functions
+- destructuring
+- classes and spread arrived in JavaScript wearing CoffeeScript's fingerprints
+underlying: the CoffeeScript compiler (written in CoffeeScript) to JS
+domains:
+- front-end code before ES6
+- Rails asset pipelines
+hello_world: console.log "Hello, World!"
+tag: the cleanup that became JavaScript — ES6's ghostwriter
+summary: '''It is just JavaScript'' — with the warts polished off and Ruby''s elegance added. Its greatest success
+  was disappearing: the features it proved shipped into JavaScript itself, and the transpiler retired.'

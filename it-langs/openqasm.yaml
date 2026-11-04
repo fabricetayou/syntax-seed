@@ -1,0 +1,31 @@
+# it-langs fiche — OpenQASM — corpus for the Pica agent (syntax-seed)
+name: OpenQASM
+slug: openqasm
+first_appeared: 2017
+creators: IBM Quantum (Andrew Cross and colleagues)
+origin: IBM (USA)
+era: 2010s
+status: active
+paradigms:
+- assembly-style quantum circuit language (gates as instructions, registers of qubits)
+typing: static, typed (versions 2 and 3)
+execution: executed by quantum hardware or simulators (OpenQASM 3 adds classical control)
+non_executable: false
+family: quantum family — the assembly branch
+influenced_by:
+- classical assembly line-by-line thinking applied to circuits
+influenced:
+- Qiskit compiles down to it
+- most quantum stacks exchange it
+underlying: IBM Quantum and other backends
+domains:
+- portable circuit exchange
+- low-level quantum programming
+hello_world: |-
+  OPENQASM 3;
+  qubit[2] q;
+  h q[0];
+  measure q -> c;
+tag: the assembly of quantum circuits (IBM, 2017)
+summary: 'The assembly language of the quantum world: lines of gate instructions exchanged between circuit designers
+  and machines that barely work. It makes ''hello'' a superposition.'

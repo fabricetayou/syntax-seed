@@ -1,0 +1,30 @@
+# it-langs fiche — Io — corpus for the Pica agent (syntax-seed)
+name: Io
+slug: io
+first_appeared: 2002
+creators: Steve Dekorte
+origin: open source (USA/Canada)
+era: 2000s
+status: dormant
+paradigms:
+- prototype-based
+- message-passing
+- homoiconic-ish minimalism
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: Self/Smalltalk branch — ultra-minimal
+influenced_by:
+- Smalltalk
+- Self
+- NewtonScript
+influenced:
+- language-geek culture
+- '''Io'' as a teaching specimen of radical simplicity'
+underlying: the Io VM
+domains:
+- research
+- scripting experiments
+tag: Smalltalk distilled to messages only (2002)
+summary: 'Dekorte''s grammar-in-five-lines language: everything is a message send to a receiver, even control flow.
+  A distillation of Smalltalk so pure it fits in your head — briefly a darling of the language blogosphere.'

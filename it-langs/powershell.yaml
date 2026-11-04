@@ -1,0 +1,32 @@
+# it-langs fiche — PowerShell — corpus for the Pica agent (syntax-seed)
+name: PowerShell
+slug: powershell
+first_appeared: 2006
+year_note: '''Monad Manifesto'' 2002; shipped with Windows; open source and cross-platform since 2016'
+creators: Jeffrey Snover and team (Microsoft)
+origin: Microsoft (USA)
+era: 2000s
+status: active
+paradigms:
+- imperative command/script language with pipelines of OBJECTS (not text)
+typing: dynamic, .NET-typed
+execution: interpreted on the .NET CLR
+non_executable: false
+family: shell family — the object-pipeline branch
+influenced_by:
+- Unix shells' pipeline idea
+- .NET's object model
+- ksh/perl convenience
+influenced:
+- the entire Windows-and-Azure automation universe (DSC, Azure cmdlets)
+underlying: .NET runtime; cmdlets as small .NET classes
+domains:
+- Windows administration
+- Azure automation
+- CI on Microsoft stacks
+hello_world: '''Hello, World!'''
+install: preinstalled on Windows; pwsh on Linux/macOS
+docs: https://learn.microsoft.com/powershell/
+tag: the shell where the pipeline carries objects, not text
+summary: Snover's decade-long argument that the pipeline should carry objects, not strings. It finally gave Windows
+  a real shell — and then, open-sourced, crossed to Linux.

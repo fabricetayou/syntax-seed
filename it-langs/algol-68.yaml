@@ -1,0 +1,32 @@
+# it-langs fiche — ALGOL 68 — corpus for the Pica agent (syntax-seed)
+name: ALGOL 68
+slug: algol-68
+first_appeared: 1968
+creators: IFIP working group (A. van Wijngaarden's design leadership)
+origin: IFIP (Europe-led)
+era: 1960s
+status: historical
+paradigms:
+- imperative
+- procedural
+- expression-oriented
+typing: static, strong, famously strict and orthogonal
+execution: compiled
+non_executable: false
+family: Algol family (radical branch)
+influenced_by:
+- ALGOL 60 (revision mandate)
+influenced:
+- C (declaration style, unions, pointer flavor)
+- Ada
+- and as a counter-catalyst
+- Pascal and the structured-programming reaction
+underlying: ALGOL 68RS/R compilers on research and industrial machines
+domains:
+- research
+- teaching of rigorous typing
+- industrial use in some European and Soviet-bloc installations
+tag: the beautiful monster that scared everyone into Pascal
+summary: The committee-designed maximalist revision of ALGOL 60 — orthogonal, strictly typed, with unions, structs
+  and references, specified in a two-level grammar. Too heavy for its era's compilers, it still smuggled key concepts
+  into C and Ada, and provoked Wirth into creating Pascal.

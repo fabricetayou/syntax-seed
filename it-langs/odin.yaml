@@ -1,0 +1,38 @@
+# it-langs fiche — Odin — corpus for the Pica agent (syntax-seed)
+name: Odin
+slug: odin
+first_appeared: 2016
+year_note: designed from 2016 by Ginger Bill (Bill Hall)
+creators: Ginger Bill (indie, UK)
+origin: independent (UK)
+era: 2010s
+status: maintained
+paradigms:
+- imperative systems
+- data-oriented design
+typing: static, strong, explicit
+execution: compiled to native code (LLVM backend)
+non_executable: false
+family: C-successor branch (Zig's sibling in spirit)
+influenced_by:
+- C
+- Pascal/Jai-adjacent philosophy (data-oriented design)
+influenced:
+- game-engine tooling crowd
+underlying: LLVM backend; manual memory, custom allocators first-class
+domains:
+- game tooling
+- performance software
+- data-oriented systems
+hello_world: |-
+  package main
+
+  import "core:fmt"
+
+  main :: proc() {
+      fmt.println("Hello, World!")
+  }
+docs: https://odin-lang.org/docs/overview/
+tag: data-oriented simplicity for the post-C generation
+summary: 'Bill''s data-oriented C successor: ''simplicity is the goal'' — explicit allocators, arrays as first-class
+  values, no hidden anything. A cult favorite among game-tools engineers.'

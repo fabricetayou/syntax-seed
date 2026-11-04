@@ -1,0 +1,34 @@
+# it-langs fiche — Clojure — corpus for the Pica agent (syntax-seed)
+name: Clojure
+slug: clojure
+first_appeared: 2007
+creators: Rich Hickey
+origin: independent (USA)
+era: 2000s
+status: active
+paradigms:
+- functional Lisp with immutable persistent data structures
+typing: dynamic, strong, with optional type hints and specs
+execution: compiled to JVM bytecode (ClojureScript to JS, ClojureCLR to .NET)
+non_executable: false
+family: Lisp family — the immutable-data branch
+influenced_by:
+- Lisp
+- ML's persistent structures research
+- Haskell's purity culture
+influenced:
+- ClojureScript
+- Babashka (fast native scripting)
+- the Clojure community's library patterns
+underlying: the JVM with persistent-vector machinery; atom/STM for state
+domains:
+- data-heavy back-ends
+- streaming pipelines
+- fintech
+- config DSLs
+hello_world: (println "Hello, World!")
+install: clojure CLI tools, or Babashka for instant scripting; try at tryclojure.org
+docs: https://clojure.org/guides/getting_started
+tag: the Lisp that abolished mutable state (2007)
+summary: 'Hickey''s modern Lisp bet: parentheses kept, mutation dropped. Persistent data structures and a language
+  where state is explicit kicked off the functional renaissance of the 2010s mainstream.'

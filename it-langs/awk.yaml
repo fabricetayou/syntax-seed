@@ -1,0 +1,32 @@
+# it-langs fiche — AWK — corpus for the Pica agent (syntax-seed)
+name: AWK
+slug: awk
+first_appeared: 1977
+creators: Alfred Aho, Peter Weinberger and Brian Kernighan (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: active
+paradigms:
+- pattern-action text processing
+typing: dynamic (untyped scalars coerced by context)
+execution: interpreted
+non_executable: false
+family: Unix text-tool family
+influenced_by:
+- SNOBOL's pattern spirit
+- sed's stream model
+- C syntax surface
+influenced:
+- Perl (direct successor in spirit)
+- JavaScript (loose typing flavor partly)
+- one-liner culture
+underlying: interpreters in every Unix (gawk, mawk, busybox awk)
+domains:
+- report extraction
+- log slicing
+- CSV surgery
+- data munging
+hello_world: BEGIN { print "Hello, World!" }
+tag: pattern-action one-liners that still run the world's pipelines
+summary: 'The original data-wrangling one-liner language: a program is a set of pattern-action pairs run over lines.
+  Named after its three Bell Labs authors, it still fixes production pipelines in single lines of code.'

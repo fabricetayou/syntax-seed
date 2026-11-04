@@ -1,0 +1,32 @@
+# it-langs fiche — YAML — corpus for the Pica agent (syntax-seed)
+name: YAML
+slug: yaml
+first_appeared: 2001
+creators: Oren Ben-Kiki, Clark Evans and Brian Ingerson
+origin: independent designers / YAML.org community
+era: 2000s
+status: active
+paradigms:
+- declarative
+- human-readable configuration/data serialization (mappings, sequences, scalars, anchors)
+typing: n/a (typed by implicit/explicit tags; the 'Norway problem' is famous)
+execution: none — parsed by YAML libraries (and Docker/Ansible/Kubernetes give it careers)
+non_executable: true
+family: data-serialization family (ML/Perl heritage in its sigils)
+influenced_by:
+- XML's data role
+- Perl data culture
+- plain-text email conventions
+influenced:
+- Ansible playbooks
+- Kubernetes manifests
+- CI pipelines
+- OpenAPI specs
+underlying: text parsed by libyaml-family parsers into native structures
+domains:
+- configuration for nearly all modern infrastructure
+hello_world: 'greeting: Hello, World!'
+docs: https://yaml.org/
+tag: the configuration language of cloud infrastructure
+summary: '''YAML Ain''t Markup Language'': configuration that reads like an outline and powers Kubernetes. Its whitespace
+  sensitivity and implicit typing make it loved by humans and feared by parsers in equal measure.'

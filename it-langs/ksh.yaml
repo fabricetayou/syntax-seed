@@ -1,0 +1,30 @@
+# it-langs fiche — Korn Shell (ksh) — corpus for the Pica agent (syntax-seed)
+name: Korn Shell (ksh)
+slug: ksh
+first_appeared: 1983
+year_note: ksh93 is the influential rewrite; open-sourced in the 2000s
+creators: David Korn (Bell Labs)
+origin: Bell Labs (USA)
+era: 1980s
+status: active
+paradigms:
+- imperative command language with shell pipelines and associative arrays (unusual for shells)
+typing: dynamic, string-valued
+execution: interpreted
+non_executable: false
+family: Bourne shell family
+influenced_by:
+- Bourne shell
+- csh conveniences
+- ALGOL-ish expression syntax interests
+influenced:
+- POSIX shell standardization (ksh is essentially its base)
+- bash and zsh borrowed heavily
+underlying: Unix process machinery
+domains:
+- enterprise Unix scripting (Solaris/AIX heritage)
+- interactive power use
+hello_world: echo "Hello, World!"
+tag: the shell that POSIX canonized
+summary: David Korn's synthesis of Bourne's shell with csh's comfort and real programming features. POSIX sh is
+  essentially standardized ksh — every portable script you write speaks its dialect.

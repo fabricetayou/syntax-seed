@@ -1,0 +1,30 @@
+# it-langs fiche — Eiffel — corpus for the Pica agent (syntax-seed)
+name: Eiffel
+slug: eiffel
+first_appeared: 1986
+creators: Bertrand Meyer (Interactive Software Engineering, France)
+origin: France / Santa Barbara (Meyer's ISE)
+era: 1980s
+status: active
+paradigms:
+- object-oriented
+- contract-driven (design by contract)
+typing: static, strong
+execution: compiled to native code (EiffelStudio can emit C)
+non_executable: false
+family: Simula/Ada-flavored OO research line
+influenced_by:
+- Simula (classes)
+- Ada (rigor)
+- Z specifications (contract ideas)
+influenced:
+- Ada 2012 contracts
+- Racket's contracts
+- Clojure spec (spirit)
+underlying: EiffelStudio compiler to C/native
+domains:
+- reliable OO teaching
+- finance and transport systems where contracts pay
+tag: design by contract, made executable (Meyer, 1986)
+summary: Bertrand Meyer's language where every method ships with requires/ensures clauses — executable specifications.
+  Design by contract entered the industry's vocabulary here, long before assertions were fashionable.

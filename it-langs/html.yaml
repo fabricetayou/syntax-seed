@@ -1,0 +1,36 @@
+# it-langs fiche — HTML — corpus for the Pica agent (syntax-seed)
+name: HTML
+slug: html
+first_appeared: 1993
+year_note: Berners-Lee's tags 1991; IETF HTML 2.0 1995; HTML5 (WHATWG) 2014+ living standard
+creators: Tim Berners-Lee (CERN), then IETF/W3C/WHATWG
+origin: CERN (Switzerland)
+era: 1990s
+status: active
+paradigms:
+- declarative document markup (semantic elements, forms, embedded media)
+typing: n/a (loose historically; constrained by validators)
+execution: none — rendered by browsers into the DOM (scripted separately by JavaScript)
+non_executable: true
+family: SGML-family markup for hypertext
+influenced_by:
+- SGML
+- Berners-Lee's ENQUIRE
+influenced:
+- XML (its stricter sibling)
+- Markdown (its casual rival)
+- the entire web
+underlying: browser engines parse it into the DOM — the tree JavaScript manipulates
+domains:
+- every document and application shell on the web
+hello_world: |-
+  <!DOCTYPE html>
+  <html>
+    <head><title>Hello</title></head>
+    <body>Hello, World!</body>
+  </html>
+docs: https://developer.mozilla.org/docs/Web/HTML
+tag: the document language that became the world's app shell
+summary: 'The document language that became the world''s application shell: a handful of tags describing structure,
+  given behavior by JavaScript and looks by CSS. It is the most-read language in history, by machines and humans
+  alike.'

@@ -1,0 +1,31 @@
+# it-langs fiche — PostScript — corpus for the Pica agent (syntax-seed)
+name: PostScript
+slug: postscript
+first_appeared: 1982
+creators: John Warnock and Chuck Geschke (Adobe), evolving Warnock's earlier JaM work
+origin: Adobe (USA)
+era: 1980s
+status: dormant
+paradigms:
+- stack-based
+- concatenative
+- page-description (Forth-flavored)
+typing: untyped objects on operand stacks
+execution: interpreted by printer and RIP engines
+non_executable: false
+family: stack family (Forth branch); page-description line
+influenced_by:
+- Forth's stack discipline
+- the Evans & Sutherland design heritage
+influenced:
+- PDF (its document-model descendant)
+- Portable Document culture
+- fonts (Type 1)
+underlying: PostScript interpreters in printers and Ghostscript
+domains:
+- printing
+- prepress
+- early desktop publishing's engine room
+tag: the stack language that ran inside every laser printer
+summary: 'The language printers actually ran: pages described as Forth-style stack programs drawing with Bezier
+  curves. It made device-independent printing real, then retired into PDF''s quieter shadow.'

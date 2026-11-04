@@ -1,0 +1,28 @@
+# it-langs fiche — occam — corpus for the Pica agent (syntax-seed)
+name: occam
+slug: occam
+first_appeared: 1983
+creators: David May (INMOS), with Tony Hoare's CSP as the theoretical basis
+origin: INMOS (UK)
+era: 1980s
+status: dormant
+paradigms:
+- imperative
+- concurrent (processes and channels, CSP-style)
+typing: static, strong
+execution: compiled for the transputer (and later hosts)
+non_executable: false
+family: CSP concurrency family (with Newsqueak, Alef, Limbo — Go's ancestors)
+influenced_by:
+- Hoare's Communicating Sequential Processes
+influenced:
+- occam-pi (continuation)
+- the channel-thinking that resurfaced in Go
+underlying: transputer machine code; modern KRoC/occam-pi toolchains
+domains:
+- parallel computing on transputer arrays
+- robotics
+- teaching concurrency
+tag: CSP made executable — Go's philosophical grandparent
+summary: 'INMOS''s language for the transputer: processes meet on channels, in CSP discipline made runnable. The
+  hardware lost, but its idea of channels between processes won — quietly resurfacing in Go three decades later.'

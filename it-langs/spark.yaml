@@ -1,0 +1,35 @@
+# it-langs fiche — SPARK — corpus for the Pica agent (syntax-seed)
+name: SPARK
+slug: spark
+first_appeared: 1988
+year_note: Praxis/Altran line; SPARK 2014 era rides GNAT tooling
+creators: Praxis Systems / Altran (UK), evolving with the Ada community
+origin: Praxis / Altran (UK)
+era: 1980s
+status: active
+paradigms:
+- verifiable subset-and-profile of Ada (contracts, flow analysis, Ravenscar tasks)
+typing: static, strong — strong enough to prove absence of runtime errors
+execution: compiled with GNAT to native code after proof obligations discharge
+non_executable: false
+family: Ada family — the provable branch
+influenced_by:
+- Ada
+- Hoare-logic verification culture
+influenced:
+- certified avionics and rail codebases (DO-178C at the highest levels)
+underlying: GNAT/GNATprove toolchain with SMT solvers underneath
+domains:
+- safety-critical avionics
+- rail signaling
+- crypto implementations
+hello_world: |-
+  with Ada.Text_IO;
+  procedure Hello with SPARK_Mode is
+  begin
+     Ada.Text_IO.Put_Line ("Hello, World!");
+  end Hello;
+docs: https://learn.adacore.com/spark/
+tag: Ada subset strong enough to prove — avionics' certified tongue
+summary: 'The Ada you can prove: contracts and restrictions that let solvers verify absence of entire bug classes
+  before the program flies. Where regulators demand DAL A, SPARK is the argument that passes audit.'

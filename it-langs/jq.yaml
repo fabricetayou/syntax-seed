@@ -1,0 +1,29 @@
+# it-langs fiche — jq — corpus for the Pica agent (syntax-seed)
+name: jq
+slug: jq
+first_appeared: 2012
+creators: Stephen Dolan
+origin: University of Cambridge (UK)
+era: 2010s
+status: active
+paradigms:
+- functional stream language over JSON (filters composed by pipes)
+typing: dynamic, JSON-typed
+execution: interpreted by the jq binary
+non_executable: false
+family: text-processing family — the JSON branch
+influenced_by:
+- sed/awk pipeline culture
+- functional combinators
+influenced:
+- API wrangling one-liners
+- gojq/yeq siblings
+- Nushell's structured spirit
+underlying: the jq interpreter (and its clones) in every ops toolbox
+domains:
+- JSON surgery on the command line
+hello_world: echo '{"greeting":"Hello, World!"}' | jq .greeting
+docs: https://jqlang.github.io/jq/manual/
+tag: the sed of JSON — functional filters in a pipe (2012)
+summary: 'sed for JSON: a tiny functional language where filters stream, select and reshape documents. The unglamorous
+  hero of every CI log-mining and API-debugging session.'

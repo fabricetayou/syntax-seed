@@ -1,0 +1,26 @@
+# it-langs fiche — Icon — corpus for the Pica agent (syntax-seed)
+name: Icon
+slug: icon
+first_appeared: 1977
+creators: Ralph Griswold (University of Arizona)
+origin: University of Arizona (USA)
+era: 1970s
+status: dormant
+paradigms:
+- imperative with generators and goal-directed evaluation
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: SNOBOL string-processing lineage
+influenced_by:
+- SNOBOL4
+influenced:
+- Unicon (its own continuation)
+- the generators later reborn in Python/Ruby/JavaScript
+underlying: Icon interpreters
+domains:
+- text processing
+- humanities computing
+tag: goal-directed string processing, generators before they were cool
+summary: 'Griswold''s refinement of SNOBOL: generators that can yield many values, so expressions automatically
+  backtrack until goals succeed. The idea seemed exotic in 1977; every yield statement today is its grandchild.'

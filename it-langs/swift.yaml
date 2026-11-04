@@ -1,0 +1,37 @@
+# it-langs fiche — Swift — corpus for the Pica agent (syntax-seed)
+name: Swift
+slug: swift
+first_appeared: 2014
+year_note: WWDC 2014 reveal; open-sourced 2015; Swift 5 ABI stability 2019; Swift 6 strict concurrency 2024
+creators: Chris Lattner and Apple team
+origin: Apple (USA)
+era: 2010s
+status: active
+paradigms:
+- 'multi-paradigm: protocol-oriented OO'
+- functional features
+- actor concurrency
+typing: static, strong, inferred, null-safety (optionals)
+execution: compiled via LLVM to native code
+non_executable: false
+family: Objective-C's successor — CLANG/LLVM family
+influenced_by:
+- Objective-C (platform)
+- Rust (optionals flavor)
+- Haskell/C# (protocol/generics taste)
+- Python (surface feel partly)
+influenced:
+- Apple's whole application ecosystem
+- SwiftUI's declarative culture
+- server-side Swift
+underlying: LLVM; ARC memory management; Objective-C runtime interop
+domains:
+- iOS/macOS apps
+- system tools
+- server frameworks (Vapor)
+hello_world: print("Hello, World!")
+install: Xcode; swift.org toolchains for Linux/Windows
+docs: https://www.swift.org/documentation/
+tag: Objective-C's modern successor — protocols over classes (2014)
+summary: 'Lattner''s post-LLVM gift to Apple: protocols and extensions over classes, optionals over nulls, and modern
+  expressiveness over Objective-C''s brackets. The default language of the App Store.'

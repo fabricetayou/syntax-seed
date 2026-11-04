@@ -1,0 +1,32 @@
+# it-langs fiche — Delphi / Object Pascal — corpus for the Pica agent (syntax-seed)
+name: Delphi / Object Pascal
+slug: delphi
+first_appeared: 1995
+creators: Borland (Anders Hejlsberg led Turbo Pascal and early Delphi design)
+origin: Borland, Scotts Valley (USA/Denmark roots)
+era: 1990s
+status: active
+paradigms:
+- object-oriented Pascal with RAD (visual form designer, two-way tools)
+typing: static, strong
+execution: compiled to native machine code
+non_executable: false
+family: Pascal family — the commercial OO branch
+influenced_by:
+- Turbo Pascal
+- object Pascal drafts
+influenced:
+- C# (Hejlsberg carried the RAD and language taste to Microsoft)
+- Oxygene and the Pascal ecosystem
+underlying: Embarcadero Delphi compilers targeting Windows, Linux, macOS, iOS, Android
+domains:
+- Windows desktop and industrial apps with long lifetimes (point-of-sale, factories, medical)
+hello_world: |-
+  program Hello;
+  begin
+    Writeln('Hello, World!');
+  end.
+docs: https://docwiki.embarcadero.com/
+tag: native-code RAD — Turbo Pascal grows up (1995)
+summary: Borland's bet that native-compiled Pascal plus drag-and-drop forms could beat Visual Basic on power and
+  match it on speed. It spawned Hejlsberg's later career — and thousands of still-running industrial applications.

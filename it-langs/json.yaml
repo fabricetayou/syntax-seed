@@ -1,0 +1,34 @@
+# it-langs fiche — JSON — corpus for the Pica agent (syntax-seed)
+name: JSON
+slug: json
+first_appeared: 2001
+year_note: publicized by Douglas Crockford 2001-2002; ECMA-404 and ISO/IEC 21778:2017
+creators: Douglas Crockford (discovered and named it, specified it)
+origin: State Software / USA
+era: 2000s
+status: active
+paradigms:
+- declarative data serialization (objects, arrays, scalars — a subset of JavaScript literals)
+typing: n/a (data; schema optional via JSON Schema)
+execution: none — parsed by every language's JSON library
+non_executable: true
+family: JavaScript-literal branch of data languages
+influenced_by:
+- JavaScript object literal syntax
+- Lisp/S-expression data culture
+influenced:
+- JSON Schema
+- JSON5
+- JSON Lines
+- GeoJSON
+- the entire web API economy
+underlying: text parsed into native objects by every runtime
+domains:
+- web APIs
+- configuration
+- data interchange — the default envelope of software
+hello_world: '{ "greeting": "Hello, World!" }'
+docs: https://www.json.org/json-en.html
+tag: the data dialect of every API (2001)
+summary: 'Crockford''s ''fat-free alternative to XML'': a subset of JavaScript literals that every language could
+  parse with a page of code. It won the data-format wars so completely that ''API'' now implies JSON.'

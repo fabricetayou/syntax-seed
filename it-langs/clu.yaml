@@ -1,0 +1,33 @@
+# it-langs fiche — CLU — corpus for the Pica agent (syntax-seed)
+name: CLU
+slug: clu
+first_appeared: 1974
+creators: Barbara Liskov and her MIT students
+origin: MIT (USA)
+era: 1970s
+status: historical
+paradigms:
+- imperative
+- procedural
+- abstract-data-type centered
+typing: static, strong
+execution: compiled (research compilers)
+non_executable: false
+family: Algol-family research branch (MIT)
+influenced_by:
+- ALGOL 60
+- SIMULA 67's class ideas
+influenced:
+- iterators and generics in Java
+- C++
+- C#
+- exception handling conventions
+- the abstraction-first mindset
+underlying: research compilers on DEC and IBM machines
+domains:
+- language research
+- the ideas shipped later everywhere
+tag: abstract data types, iterators and generics invented here (MIT, 1974)
+summary: 'Barbara Liskov''s laboratory for abstraction: clusters (ADTs), iterators before anyone else, parametric
+  polymorphism and disciplined exceptions. Commercially invisible, conceptually omnipresent — modern languages quietly
+  run on CLU''s inventions.'

@@ -1,0 +1,32 @@
+# it-langs fiche — PromQL — corpus for the Pica agent (syntax-seed)
+name: PromQL
+slug: promql
+first_appeared: 2015
+year_note: Prometheus open-sourced 2012 (SoundCloud); PromQL stabilized through the CNCF era
+creators: SoundCloud / Prometheus team (community)
+origin: SoundCloud, then CNCF (Germany/USA)
+era: 2010s
+status: active
+paradigms:
+- declarative
+- vector-oriented time-series queries (instant vectors, range vectors)
+typing: dynamic (label-typed series)
+execution: evaluated by Prometheus servers over time-series stores
+non_executable: false
+family: observability query family
+influenced_by:
+- monitoring practice
+- Go's implementation
+- Borgmon's ideas at Google
+influenced:
+- the SRE alerting and dashboarding lingua franca (Grafana)
+underlying: Prometheus servers' TSDB
+domains:
+- infrastructure monitoring
+- alerting rules
+- capacity dashboards
+hello_world: sum(rate(http_requests_total[5m])) by (job)
+docs: https://prometheus.io/docs/prometheus/latest/querying/basics/
+tag: the vector algebra of monitoring and alerts
+summary: 'The language of ''is the service healthy'': label-matched vector algebra over rolling windows. An entire
+  SRE civilization writes alert rules in it daily.'

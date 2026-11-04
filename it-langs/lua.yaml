@@ -1,0 +1,33 @@
+# it-langs fiche — Lua — corpus for the Pica agent (syntax-seed)
+name: Lua
+slug: lua
+first_appeared: 1993
+year_note: designed at PUC-Rio 1993; Lua 5.x is the long-lived modern line
+creators: Roberto Ierusalimschy, Luiz Henrique de Figueiredo and Waldemar Celes (PUC-Rio)
+origin: Pontifical Catholic University of Rio de Janeiro (Brazil)
+era: 1990s
+status: active
+paradigms:
+- procedural scripting with metatable-based extensibility (prototypes, OOP by convention)
+typing: dynamic, strong; values carry types not variables
+execution: interpreted (LuaJIT gives near-native speed)
+non_executable: false
+family: embedding scripting line (Tcl's rival, Portuguese school)
+influenced_by:
+- Tecgraf's SOL predecessor
+- C embedding culture
+influenced:
+- the game modding and config world (World of Warcraft, Roblox dialect Luau)
+- Redis scripting
+- Nginx/OpenResty
+- Neovim
+underlying: tiny embeddable interpreter (~200 KB), register-based VM
+domains:
+- game scripting
+- embedded configuration
+- extension layers of C systems
+hello_world: print("Hello, World!")
+docs: https://www.lua.org/manual/5.4/
+tag: the tiny language hidden inside games and databases (Brazil, 1993)
+summary: 'The Brazilian embeddable language: a whole clean scripting system in a couple hundred kilobytes, designed
+  to hide inside C programs. Games, databases and editors use it as the soft tissue between hard components.'

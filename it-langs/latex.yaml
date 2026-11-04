@@ -1,0 +1,35 @@
+# it-langs fiche — LaTeX — corpus for the Pica agent (syntax-seed)
+name: LaTeX
+slug: latex
+first_appeared: 1984
+year_note: LaTeX 2.09 1984; LaTeX2e 1994; LaTeX3 development ongoing
+creators: Leslie Lamport, on top of Donald Knuth's TeX
+origin: SRI International / Digital Equipment (USA)
+era: 1980s
+status: active
+paradigms:
+- document markup and macro language (declarative style, programmable classes)
+typing: untyped macro expansion (TeX underneath)
+execution: macro-expanded by the TeX engine into typeset output
+non_executable: false
+family: TeX typesetting family
+influenced_by:
+- TeX
+- Scribe's document markup ideas
+influenced:
+- arXiv and the entire scientific paper workflow
+- BibTeX culture
+underlying: the TeX engine plus LaTeX macro packages
+domains:
+- academic papers
+- theses
+- books — the formatting substrate of science
+hello_world: |-
+  \documentclass{article}
+  \begin{document}
+  Hello, World!
+  \end{document}
+docs: https://www.latex-project.org/help/
+tag: the language scientific papers are written in
+summary: 'Lamport''s friendly face on Knuth''s TeX: document classes so authors write structure, not typesetting.
+  It became the mandatory language of scientific publishing — you ''compile'' your paper.'

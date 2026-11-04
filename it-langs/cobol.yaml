@@ -1,0 +1,42 @@
+# it-langs fiche — COBOL — corpus for the Pica agent (syntax-seed)
+name: COBOL
+slug: cobol
+first_appeared: 1959
+year_note: CODASYL design 1959; first COBOL compilers 1960; current standard COBOL 2023
+creators: CODASYL committee, building on Grace Hopper's FLOW-MATIC lineage; Jean E. Sammet a central figure
+origin: CODASYL / US Department of Defense (USA)
+era: 1950s
+status: active
+paradigms:
+- imperative
+- procedural
+- record-oriented
+- object-oriented since COBOL 2002
+typing: static, strong, very granular data typing (PICTURE clauses)
+execution: compiled
+non_executable: false
+family: business-data line (FLOW-MATIC to COBOL)
+influenced_by:
+- FLOW-MATIC
+influenced:
+- PL/I (record concepts)
+- RPG (business report lineage)
+underlying: mainframe machine code (IBM Z); JVM since COBOL 2002; GnuCOBOL compiles through C
+domains:
+- banking cores
+- insurance
+- government systems
+- payroll
+- mainframe batch
+hello_world: |-
+  IDENTIFICATION DIVISION.
+  PROGRAM-ID. HELLO.
+  PROCEDURE DIVISION.
+      DISPLAY "Hello, World!".
+      STOP RUN.
+install: GnuCOBOL (cobc), IBM Enterprise COBOL, Micro Focus Visual COBOL
+docs: https://www.ibm.com/docs/en/cobol-zos/current
+tag: the business mainframe backbone since 1959
+summary: Common Business-Oriented Language, standardized from 1959 to make programs readable across machines and
+  administrations. Enormous codebases still run the world's banks, insurers and tax systems — the archetypal 'legacy'
+  that refuses to retire.

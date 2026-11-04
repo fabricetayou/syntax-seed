@@ -1,0 +1,30 @@
+# it-langs fiche — ArnoldC — corpus for the Pica agent (syntax-seed)
+name: ArnoldC
+slug: arnoldc
+first_appeared: 2013
+creators: Lauri Hartikka
+origin: Finland
+era: 2010s
+status: esoteric
+paradigms:
+- esoteric — keywords are Arnold Schwarzenegger one-liners
+typing: dynamic-ish (int-typed variables)
+execution: transpiled to C then compiled
+non_executable: false
+family: esoteric family — the movie-quote branch
+influenced_by:
+- the Terminator franchise
+- LOLCODE's genre
+influenced:
+- the meme-language genre it fed
+underlying: arnoldc compiler
+domains:
+- joy
+- stress-relief builds
+hello_world: |-
+  IT'S SHOWTIME
+  TALK TO THE HAND "Hello, World!"
+  YOU HAVE BEEN TERMINATED
+tag: one-liners as keywords — get to the compiler (2013)
+summary: '''GET TO THE CHOPPER'' assigns; ''YOU''RE FIRED'' returns. Every program ends in termination — the most
+  quotable compiler ever written.'

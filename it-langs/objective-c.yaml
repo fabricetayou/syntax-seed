@@ -1,0 +1,38 @@
+# it-langs fiche — Objective-C — corpus for the Pica agent (syntax-seed)
+name: Objective-C
+slug: objective-c
+first_appeared: 1984
+year_note: Cox & Love's Stepstone; adopted by NeXT 1988; Apple's main language 1996-2014
+creators: Brad Cox and Tom Love (Stepstone)
+origin: Productivity Products International / Stepstone (USA)
+era: 1980s
+status: dormant
+paradigms:
+- object-oriented (Smalltalk-style messaging) layered on C
+typing: static plus dynamic runtime (message sending, reflection)
+execution: compiled to native code with a dynamic objc runtime
+non_executable: false
+family: C + Smalltalk hybrid branch
+influenced_by:
+- C
+- Smalltalk (message syntax)
+influenced:
+- Swift's runtime model and property naming culture
+- Apple's entire 2000s app ecosystem
+underlying: clang/LLVM; the objc_msgSend runtime
+domains:
+- macOS
+- iOS
+- NeXTSTEP apps
+- the bridge era of mobile computing
+hello_world: |-
+  #import <Foundation/Foundation.h>
+
+  int main(void)
+  {
+      NSLog(@"Hello, World!");
+      return 0;
+  }
+tag: Smalltalk messages on a C skeleton — the language of early iPhone apps
+summary: 'Smalltalk messages grafted onto C: square-bracket selector calls over a C substrate. NeXT chose it, Apple
+  inherited it, and two decades of iconic software were written in it before Swift — its direct heir — took over.'

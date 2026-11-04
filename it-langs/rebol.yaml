@@ -1,0 +1,27 @@
+# it-langs fiche — Rebol — corpus for the Pica agent (syntax-seed)
+name: Rebol
+slug: rebol
+first_appeared: 1997
+creators: Carl Sassenrath (Amiga's exec kernel architect)
+origin: Rebol Technologies (USA)
+era: 1990s
+status: dormant
+paradigms:
+- functional-flavored expression language over typed values (dialecting as a core idea)
+typing: dynamic, with ~45 built-in value types
+execution: interpreted
+non_executable: false
+family: messaging/expression line — Amiga spirit, unique branch
+influenced_by:
+- Amiga Exec's message culture
+- Lisp-flavored evaluation
+influenced:
+- Red (its open descendant)
+underlying: the Rebol interpreter with built-in internet protocols
+domains:
+- distributed tooling
+- GUI experiments
+- lightweight internet scripting
+tag: the Amiga architect's dialect-based language
+summary: 'Sassenrath''s ''dialects everywhere'' language: small typed values (URLs, emails, tags as data) and sub-languages
+  built per task. Its free descendant Red continues the mission.'

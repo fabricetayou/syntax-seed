@@ -1,0 +1,29 @@
+# it-langs fiche — Befunge — corpus for the Pica agent (syntax-seed)
+name: Befunge
+slug: befunge
+first_appeared: 1993
+creators: Chris Pressey
+origin: esolang community (UK)
+era: 1990s
+status: esoteric
+paradigms:
+- two-dimensional esoteric stack language (instructions on a grid, execution flows in 2D)
+typing: untyped stack values
+execution: interpreted
+non_executable: false
+family: esoteric family — the 2D branch
+influenced_by:
+- Brainfuck's minimalism
+- Forth's stack
+influenced:
+- Befunge-98's cousins (Unefunge..., fish/<><)
+- the 2D esolang genre
+underlying: esolang interpreters
+domains:
+- puzzles
+- art
+- compiler-theory play
+hello_world: 64+"!dlroW ,olleH">:#,_@
+tag: code laid out on a grid — the 2D esolang (1993)
+summary: 'The program is a grid and the instruction pointer can turn: Befunge made code literally two-dimensional.
+  Self-modifying and spatially clever, it opened the 2D esolang genre.'

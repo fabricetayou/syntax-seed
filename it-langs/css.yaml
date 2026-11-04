@@ -1,0 +1,40 @@
+# it-langs fiche — CSS — corpus for the Pica agent (syntax-seed)
+name: CSS
+slug: css
+first_appeared: 1996
+year_note: Lie's proposal 1994; CSS1 December 1996; CSS3 modular era
+creators: Hakon Wium Lie with Bert Bos (W3C)
+origin: CERN/W3C (Lie was Berners-Lee's colleague)
+era: 1990s
+status: active
+paradigms:
+- 'declarative styling: selectors'
+- cascade
+- inheritance
+- custom properties
+typing: n/a (property/value pairs, validated by property specs)
+execution: none — applied by browser engines (layout and paint)
+non_executable: true
+family: styling family (Sass and Less compile to it)
+influenced_by:
+- DSSSL-lite ideas
+- desktop publishing stylesheets
+influenced:
+- Sass/SCSS
+- Less (its preprocessors)
+- the entire discipline of web design
+underlying: browser engines' style resolution and layout machinery
+domains:
+- presentation of every web page
+- print styles
+- UI theming
+hello_world: |-
+  body {
+    color: crimson;
+    font-family: Georgia, serif;
+  }
+docs: https://developer.mozilla.org/docs/Web/CSS
+tag: declarative styling — the skin of the web (1996)
+summary: 'The language of the web''s appearance: declarative rules cascade and inherit so a thousand pages share
+  one skin. Its cascade — the rule for deciding which rule wins — is a conflict-resolution formalism mistaken for
+  a chore.'

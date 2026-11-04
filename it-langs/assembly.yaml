@@ -1,0 +1,35 @@
+# it-langs fiche — Assembly Language (generic) — corpus for the Pica agent (syntax-seed)
+name: Assembly Language (generic)
+slug: assembly
+first_appeared: 1949
+year_note: symbolic assemblers appear with the first stored-program computers (EDSAC 'initial orders' 1949; SOAP
+  1955)
+creators: emergent practice; early assemblers by David Wheeler (EDSAC), Stan Poley (SOAP) and others
+origin: worldwide (Cambridge UK, IBM USA, ...)
+era: pre-1950
+status: active
+paradigms:
+- imperative
+- register-level
+- unstructured
+typing: none (raw words and registers; semantics defined per ISA)
+execution: assembled (each mnemonic maps essentially one-to-one to a machine instruction)
+non_executable: false
+family: one dialect family per CPU architecture (x86-64, ARM64, RISC-V, ...)
+influenced_by:
+- raw machine code
+influenced:
+- macro assemblers
+- the output target of early compilers
+underlying: machine code of a specific instruction-set architecture
+domains:
+- operating-system kernels
+- bootloaders
+- interrupt handlers
+- embedded firmware
+- reverse engineering
+- size/speed-critical hot paths
+tag: the machine's own tongue, one dialect per CPU
+summary: 'The symbolic, human-readable form of a machine''s instruction set: each mnemonic stands for essentially
+  one hardware instruction, and every architecture has its own dialect. It remains indispensable wherever exact
+  control of instructions matters — kernels, boot code, security research.'

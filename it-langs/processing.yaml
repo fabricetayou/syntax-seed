@@ -1,0 +1,35 @@
+# it-langs fiche — Processing — corpus for the Pica agent (syntax-seed)
+name: Processing
+slug: processing
+first_appeared: 2001
+creators: Casey Reas and Ben Fry (MIT Media Lab, in John Maeda's group)
+origin: MIT Media Lab (USA)
+era: 2000s
+status: active
+paradigms:
+- Java-dialect sketching (setup/draw loop, immediate graphics calls)
+typing: static (Java's)
+execution: transpiled to Java and run on the JVM
+non_executable: false
+family: Java dialect for artists
+influenced_by:
+- Java
+- Maeda's Design By Numbers
+influenced:
+- Arduino's Wiring language (its embedded child)
+- p5.js (its JavaScript rebirth)
+- creative-coding education worldwide
+underlying: Processing IDE → Java applets/applications
+domains:
+- generative art
+- design education
+- data visualization sketches
+- installations
+hello_world: |-
+  void setup() {
+    println("Hello, World!");
+  }
+docs: https://processing.org/
+tag: Java turned into an artist's sketchbook
+summary: 'A sketchbook language for artists: a Java reduced to draw(), fill() and mouse. It taught a generation
+  of designers to code — and its embedded descendant, Arduino''s Wiring, taught the other generation to solder.'

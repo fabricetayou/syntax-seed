@@ -1,0 +1,31 @@
+# it-langs fiche — Lean — corpus for the Pica agent (syntax-seed)
+name: Lean
+slug: lean
+first_appeared: 2013
+year_note: Lean 3 (2017); Lean 4 (2021) rewrote itself in Lean; Mathlib explosion since 2020
+creators: Leonardo de Moura (Microsoft Research, now Amazon)
+origin: Microsoft Research (USA)
+era: 2010s
+status: active
+paradigms:
+- dependently-typed functional with imperative escape and metaprogramming-in-itself
+typing: static, strong, dependent; proof terms elaborated incrementally
+execution: compiled by its own native compiler; the kernel typechecks proofs
+non_executable: false
+family: proof-assistant family — the fast newcomer
+influenced_by:
+- Coq
+- Agda (traditions)
+- de Moura's SMT-tool pragmatism (Z3)
+influenced:
+- Mathlib's million-line mathematics library
+- the digitization drives of modern research math
+underlying: self-hosted toolchain (Lean 4 compiles Lean); WASM editor tooling
+domains:
+- large-scale mathematics formalization
+- verified programming
+hello_world: 'def hello : String := "Hello, World!"'
+docs: https://lean-lang.org/documentation/
+tag: the fast proof assistant where modern math digitizes (2013)
+summary: 'The proof assistant that made formalizing mathematics fast enough to be addictive: Mathlib grows like
+  an open-source project, and Terence Tao''s generation experiments in it. Lean 4 compiles itself.'

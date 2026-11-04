@@ -1,0 +1,28 @@
+# it-langs fiche — Caml — corpus for the Pica agent (syntax-seed)
+name: Caml
+slug: caml
+first_appeared: 1985
+year_note: Caml Light 1990; the line leads to OCaml 1996
+creators: INRIA (Gerard Huet and Guy Cousineau's Formel group; Caml Light by Xavier Leroy)
+origin: INRIA (France)
+era: 1980s
+status: historical
+paradigms:
+- functional-first ML with imperative features
+typing: static, strong, inferred
+execution: interpreted, then bytecode/native with Caml Light
+non_executable: false
+family: ML family — French branch
+influenced_by:
+- ML (Edinburgh)
+- the French school's implementation pragmatism
+influenced:
+- OCaml (direct descendant)
+- F# (via OCaml)
+underlying: INRIA interpreters and compilers
+domains:
+- proof assistant work (early Coq was Caml)
+- French research
+tag: the French ML that became OCaml
+summary: 'INRIA''s French ML: pragmatic, fast-compiling, and eventually the seed of OCaml. Proof assistants (Coq)
+  grew inside this lineage — one of France''s most consequential software exports.'

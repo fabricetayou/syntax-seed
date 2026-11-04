@@ -1,0 +1,39 @@
+# it-langs fiche — C# — corpus for the Pica agent (syntax-seed)
+name: C#
+slug: c-sharp
+first_appeared: 2000
+year_note: spec 2000; shipped with .NET Framework 1.0 in 2002; C# 12 era
+creators: Anders Hejlsberg's team (Microsoft)
+origin: Microsoft (USA)
+era: 2000s
+status: active
+paradigms:
+- object-oriented
+- imperative
+- with strong functional LINQ features
+typing: static, strong, nominal, with var/type inference
+execution: compiled to CIL bytecode; JIT on the CLR
+non_executable: false
+family: C-syntax family on a managed VM
+influenced_by:
+- C++
+- Java (rival blueprint)
+- Delphi (Hejlsberg's prior language)
+influenced:
+- Java (fierce mutual feature exchange ever since)
+- Kotlin
+- Swift (surface taste partly)
+underlying: the CLR/.NET runtime; Mono/Game platforms for games (Unity scripting)
+domains:
+- enterprise software
+- web APIs
+- games (Unity)
+- desktop apps
+- cross-platform .NET services
+hello_world: Console.WriteLine("Hello, World!");
+install: .NET SDK (dotnet); Visual Studio or VS Code/Rider
+docs: https://learn.microsoft.com/dotnet/csharp/
+tag: Delphi's heir on the .NET VM — Java's great rival
+summary: 'Hejlsberg''s Java answer, built on Delphi''s designer instincts: properties, delegates and events from
+  birth, then LINQ which smuggled functional programming into the enterprise mainstream. Unity made it a major game
+  language too.'

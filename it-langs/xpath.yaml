@@ -1,0 +1,31 @@
+# it-langs fiche — XPath — corpus for the Pica agent (syntax-seed)
+name: XPath
+slug: xpath
+first_appeared: 1999
+year_note: XPath 1.0 (1999); XPath 3.1 (2017)
+creators: W3C
+origin: W3C
+era: 1990s
+status: active
+paradigms:
+- declarative path expressions over XML/JSON trees
+typing: dynamic, node/sequence typed
+execution: evaluated by XPath engines inside XSLT, databases and libraries
+non_executable: false
+family: XML query family
+influenced_by:
+- filesystem path intuition applied to trees
+influenced:
+- every XML library's query API
+- XSLT
+- XQuery
+- browsers' document.evaluate
+underlying: XML/JSON tree engines
+domains:
+- selecting nodes in documents
+- config queries
+- scraping
+hello_world: /hello/world/text()
+tag: the address language of XML trees
+summary: 'The little address language for trees: slash-separated path steps with predicates, borrowed from filesystem
+  intuition. It hides inside XSLT, XQuery and every XML library you have ever used.'

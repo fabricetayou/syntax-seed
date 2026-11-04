@@ -1,0 +1,30 @@
+# it-langs fiche — Starlark — corpus for the Pica agent (syntax-seed)
+name: Starlark
+slug: starlark
+first_appeared: 2015
+year_note: extracted from Google's Blaze/Bazel build system (which dates to ~2007)
+creators: Google (Bazel team; Laurent Le Brun and Jon Brandvein prominent)
+origin: Google (France/USA)
+era: 2010s
+status: active
+paradigms:
+- dialect of Python
+- deterministic and hermetic for builds
+typing: dynamic (frozen values after definition)
+execution: interpreted, side-effect-restricted for reproducibility
+non_executable: false
+family: build-DSL family
+influenced_by:
+- Python (its surface)
+- Bazel's build language needs
+influenced:
+- Bazel's BUILD files across Google and the world
+- rules ecosystems
+underlying: the Bazel/build-system interpreter
+domains:
+- build configuration and rules
+hello_world: greeting = "Hello, World!"
+docs: https://bazel.build/rules/language
+tag: the deterministic Python dialect of Bazel builds
+summary: 'Python''s face with a build system''s discipline: deterministic, hermetic, no I/O — the same inputs must
+  give the same build, forever. The language of planetary-scale monorepos.'

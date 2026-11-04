@@ -1,0 +1,31 @@
+# it-langs fiche — dBASE — corpus for the Pica agent (syntax-seed)
+name: dBASE
+slug: dbase
+first_appeared: 1978
+year_note: Ratliff's Vulcan (1978-79) became dBASE II at Ashton-Tate (1980)
+creators: Wayne Ratliff (as 'Vulcan'), then Ashton-Tate
+origin: USA (Jet Propulsion Laboratory engineer's side project)
+era: 1970s
+status: maintained
+paradigms:
+- imperative
+- procedural
+- record-oriented (interactive DB + language)
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: xBase family (Clipper, FoxPro, Visual FoxPro lineage)
+influenced_by:
+- his JPL work
+- the file+index model of early microcomputer data
+influenced:
+- Clipper
+- FoxBASE/FoxPro/Visual FoxPro
+- the xBase ecosystem
+underlying: DBF file engine plus interpreter
+domains:
+- microcomputer business data apps through the 1980s-90s
+- long-tail legacy systems
+tag: the microcomputer database language that became the xBase world
+summary: 'The language that put databases inside microcomputers: type a command, get the record. Its DBF files and
+  dialects powered small-business software for decades, and Visual FoxPro kept the flame until 2007.'

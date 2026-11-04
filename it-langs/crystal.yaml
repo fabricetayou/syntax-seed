@@ -1,0 +1,31 @@
+# it-langs fiche — Crystal — corpus for the Pica agent (syntax-seed)
+name: Crystal
+slug: crystal
+first_appeared: 2014
+year_note: from Manas's project (1.0 in 2021)
+creators: Ary Borenszweig and Juan Wajner (Manas tech)
+origin: Argentina / Manas (Buenos Aires)
+era: 2010s
+status: maintained
+paradigms:
+- Ruby-shaped
+- statically-typed
+- with macros and fibers
+typing: static, strong, inferred globally
+execution: compiled to native code via LLVM
+non_executable: false
+family: compile-to-native Ruby-flavored line
+influenced_by:
+- Ruby (syntax)
+- C (performance aims)
+- Go (concurrency ergonomics)
+influenced:
+- the 'fast Ruby' dream lineage
+underlying: LLVM backend; Boehm-Demers-Weiser conservative GC
+domains:
+- web services where Ruby taste meets native speed
+hello_world: puts "Hello, World!"
+docs: https://crystal-lang.org/reference/
+tag: Ruby's syntax at native speed (Argentina, 2014)
+summary: 'The twenty-year dream made real: ''a language with Ruby''s syntax and C''s speed''. Global type inference
+  over Ruby-shaped code — the compilers'' favorite party trick.'

@@ -1,0 +1,29 @@
+# it-langs fiche — Clean — corpus for the Pica agent (syntax-seed)
+name: Clean
+slug: clean
+first_appeared: 1987
+creators: Rinus Plasmeijer, Marko van Eekelen and the Nijmegen group
+origin: Radboud University Nijmegen (Netherlands)
+era: 1980s
+status: maintained
+paradigms:
+- pure
+- lazy
+- functional
+typing: static, inferred, with uniqueness types for in-place updates
+execution: compiled to native code
+non_executable: false
+family: lazy functional family (Haskell's Dutch cousin)
+influenced_by:
+- Miranda and the lazy FP wave
+influenced:
+- uniqueness typing fed linear-type research (Rust-adjacent ideas, Idris 2's quantitative types)
+underlying: the Clean compiler to native code
+domains:
+- research
+- GUI experiments (Object I/O)
+- teaching functional purity
+tag: pure functional plus uniqueness types (Nijmegen, 1987)
+summary: Nijmegen's lazy functional language, Haskell's contemporary sibling. Its uniqueness types — tracking single
+  ownership to permit safe mutation inside purity — anticipated ideas mainstream languages adopted three decades
+  later.

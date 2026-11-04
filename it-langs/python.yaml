@@ -1,0 +1,43 @@
+# it-langs fiche — Python — corpus for the Pica agent (syntax-seed)
+name: Python
+slug: python
+first_appeared: 1991
+year_note: 0.9.0 February 1991; Python 2 (2000); Python 3 (2008)
+creators: Guido van Rossum (CWI, Netherlands)
+origin: CWI Amsterdam (Netherlands)
+era: 1990s
+status: active
+paradigms:
+- 'multi-paradigm: imperative'
+- object-oriented
+- functional features
+typing: dynamic, strong, gradual (type hints since 3.5)
+execution: interpreted — CPython compiles to bytecode then runs on its VM
+non_executable: false
+family: ABC lineage with C-era tooling
+influenced_by:
+- ABC (his teaching-language project)
+- Modula-3
+- C
+- Icon (slicing)
+- SETL's comprehension spirit
+influenced:
+- Ruby (mutual exchange)
+- Groovy
+- Boo
+- Cobra
+- the scripting culture of science and ML
+underlying: CPython (C implementation); Jython/IronPython/PyPy alternatives; C extension layer for hot loops
+domains:
+- data science and ML
+- web back-ends
+- automation
+- education
+- scripting — the current lingua franca
+hello_world: print("Hello, World!")
+install: python.org installer, pyenv, conda/mamba for science
+docs: https://docs.python.org/3/
+tag: the readability-first language that became AI's mother tongue
+summary: 'Van Rossum''s holiday project to bridge shell scripting and teaching languages: readable indentation,
+  batteries included, one obvious way. Its ecosystem made it the default language of data science, machine learning
+  and AI — the position Fortran held in science fifty years earlier.'

@@ -1,0 +1,35 @@
+# it-langs fiche — Markdown — corpus for the Pica agent (syntax-seed)
+name: Markdown
+slug: markdown
+first_appeared: 2004
+creators: John Gruber (with Aaron Swartz's help on syntax ideas)
+origin: Daring Fireball (USA)
+era: 2000s
+status: active
+paradigms:
+- declarative lightweight markup (headings, emphasis, lists, links)
+typing: n/a
+execution: none — rendered by Markdown processors to HTML
+non_executable: true
+family: lightweight markup family (with reST, AsciiDoc)
+influenced_by:
+- plain-text email conventions
+- Setext
+- reStructuredText ideas
+influenced:
+- CommonMark/MDX
+- GitHub-flavored Markdown
+- Discord/Slack message formatting
+- static-site generators
+underlying: rendered by parsers (cmark, remark) into HTML
+domains:
+- READMEs
+- documentation
+- notes
+- forums
+- books
+hello_world: '**Hello, World!**'
+docs: https://commonmark.org/help/
+tag: the markup everyone writes without knowing it's a language
+summary: Gruber's plain-text-to-HTML shorthand, designed to be readable as-is. Its dialects conquered documentation,
+  chat and notes — the most widely written markup in history, in constant dialect wars (CommonMark, GFM, MDX).

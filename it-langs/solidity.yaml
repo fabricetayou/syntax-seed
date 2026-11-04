@@ -1,0 +1,40 @@
+# it-langs fiche — Solidity — corpus for the Pica agent (syntax-seed)
+name: Solidity
+slug: solidity
+first_appeared: 2014
+year_note: Gavin Wood's proposal; developed by Ethereum's Christian Reitwiessner and team
+creators: Gavin Wood (proposal) and the Ethereum Solidity team
+origin: Ethereum Foundation (Switzerland/Germany)
+era: 2010s
+status: active
+paradigms:
+- contract-oriented OO
+- static
+- with the EVM's gas economics as a first-class concern
+typing: static, strong-ish (safety is famously the programmer's burden)
+execution: compiled to EVM bytecode; executed by every Ethereum node
+non_executable: false
+family: smart-contract family — the incumbent branch
+influenced_by:
+- JavaScript-flavored syntax over EVM semantics
+influenced:
+- Vyper (as the minimalist rival)
+- the whole DeFi contract corpus
+underlying: the Ethereum Virtual Machine; gas metering on every operation
+domains:
+- DeFi protocols
+- NFT contracts
+- DAOs
+hello_world: |-
+  // SPDX-License-Identifier: MIT
+  pragma solidity ^0.8;
+
+  contract Hello {
+      function greet() public pure returns (string memory) {
+          return "Hello, World!";
+      }
+  }
+docs: https://docs.soliditylang.org/
+tag: Ethereum's contract language — billions moved, lessons learned (2014)
+summary: 'The language that taught the world ''code is law'' — and its price: contracts holding billions compile
+  to EVM bytecode where a bug is forever. Its history is the history of learned security humility.'

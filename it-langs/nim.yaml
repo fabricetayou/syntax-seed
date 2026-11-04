@@ -1,0 +1,36 @@
+# it-langs fiche — Nim — corpus for the Pica agent (syntax-seed)
+name: Nim
+slug: nim
+first_appeared: 2008
+year_note: as 'Nimrod', renamed to Nim in 2014; 1.0 in 2019
+creators: Andreas Rumpf
+origin: independent (Switzerland/Germany scene)
+era: 2000s
+status: active
+paradigms:
+- 'multi-paradigm: imperative'
+- OO
+- functional
+- heavy metaprogramming (macros)
+typing: static, strong, inferred
+execution: compiled via C (and C++/JS) backends — rides the C toolchains
+non_executable: false
+family: compile-to-C family
+influenced_by:
+- Python (syntax feel)
+- Object Pascal
+- Lisp (macros)
+- Ada (style ideas)
+influenced:
+- the compile-to-C niche it shares with Vala and friends
+underlying: C compiler as backend; GC with selectable strategies (ARC/ORC)
+domains:
+- systems tooling
+- embedded
+- CLI tools
+- game engines (NimGL)
+hello_world: echo "Hello, World!"
+docs: https://nim-lang.org/documentation.html
+tag: Python syntax, Lisp macros, C output (2008)
+summary: 'Python''s face on a Lisp''s soul compiling through C: indentation syntax, macro-powered metaprogramming,
+  and binaries with no runtime dependency. The underground favorite of tool builders.'

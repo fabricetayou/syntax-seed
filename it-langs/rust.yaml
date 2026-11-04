@@ -1,0 +1,46 @@
+# it-langs fiche — Rust — corpus for the Pica agent (syntax-seed)
+name: Rust
+slug: rust
+first_appeared: 2010
+year_note: announced by Graydon Hoare at Mozilla 2010; 1.0 in May 2015
+creators: Graydon Hoare and Mozilla's Rust team
+origin: Mozilla (USA)
+era: 2010s
+status: active
+paradigms:
+- 'multi-paradigm systems: imperative'
+- functional flavor
+- trait-based generics
+- fearless concurrency
+typing: static, strong, affine (ownership and borrow checking) — memory safety without GC
+execution: compiled via LLVM to native code
+non_executable: false
+family: C lineage meets ML type discipline
+influenced_by:
+- C++ (target domain)
+- OCaml (its first compiler was written in it)
+- ML/Cyclone (type ideas)
+- Erlang (concurrency culture partly)
+influenced:
+- the safety-conscious systems wave
+- browsers' next engines (Servo lessons, components)
+- Linux kernel modules
+- Windows kernel pieces
+underlying: LLVM backend; cargo build system; no runtime, no GC
+domains:
+- systems software
+- CLI tools
+- WebAssembly
+- embedded
+- crypto
+- OS components
+hello_world: |-
+  fn main() {
+      println!("Hello, World!");
+  }
+install: rustup.rs installer; cargo new; play.rust-lang.org
+docs: https://www.rust-lang.org/learn
+tag: memory safety without GC — the ownership revolution (2015)
+summary: 'The ownership revolution: affine types make memory safety a compile-time proof instead of a garbage collector.
+  It ended the C/C++ fatalism of the systems world — the most decorated language in developers'' surveys for years
+  running.'

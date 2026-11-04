@@ -1,0 +1,30 @@
+# it-langs fiche — JOVIAL — corpus for the Pica agent (syntax-seed)
+name: JOVIAL
+slug: jovial
+first_appeared: 1959
+year_note: used in avionics and command systems into the 2000s
+creators: Jules Schwartz (System Development Corporation)
+origin: SDC, US Air Force ecosystem (USA)
+era: 1950s
+status: historical
+paradigms:
+- imperative
+- procedural
+- systems programming
+typing: static, strong
+execution: compiled
+non_executable: false
+family: Algol-era systems line
+influenced_by:
+- ALGOL 58-era algebraic style
+influenced:
+- avionics software practice of its era
+underlying: native code for embedded military computers
+domains:
+- avionics
+- radar
+- air-defense command-and-control
+tag: the US Air Force's Algol that flew in radars for decades
+summary: Jules Schwartz's 'Jules' Own Version of the International Algebraic Language', built for US Air Force command-and-control
+  and embedded systems. It flew inside radars and command networks for decades — proof that an obscure language
+  can be mission-critical for half a century.

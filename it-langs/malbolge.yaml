@@ -1,0 +1,25 @@
+# it-langs fiche — Malbolge — corpus for the Pica agent (syntax-seed)
+name: Malbolge
+slug: malbolge
+first_appeared: 1998
+creators: Ben Olmstead
+origin: esolang community (USA)
+era: 1990s
+status: esoteric
+paradigms:
+- esoteric — designed to be maximally hostile (self-encrypting, trinary)
+typing: trinary words
+execution: interpreted on a virtual machine that mutates its own memory
+non_executable: false
+family: esoteric family — the adversarial branch
+influenced_by:
+- Dante's Inferno (naming)
+- spite
+influenced:
+- the culture of 'first Malbolge program written by a beam search' lore
+underlying: Malbolge interpreters
+domains:
+- proof of concept that difficulty is designable
+tag: the language from the eighth circle — programs found by machine search
+summary: 'Named for the eighth circle of Hell: a trinary VM that encrypts itself as it runs. Its first working programs
+  were found by search algorithms, not humans — the deliberate anti-language.'

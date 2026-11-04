@@ -1,0 +1,34 @@
+# it-langs fiche — Gleam — corpus for the Pica agent (syntax-seed)
+name: Gleam
+slug: gleam
+first_appeared: 2019
+year_note: 1.0 in March 2024
+creators: Louis Pilfold and community
+origin: open source (UK)
+era: 2010s
+status: active
+paradigms:
+- statically-typed functional on the BEAM
+typing: static, strong, inferred
+execution: compiled to BEAM bytecode (Erlang's VM); transpiles to JS too
+non_executable: false
+family: BEAM family — the typed branch
+influenced_by:
+- Erlang/Elixir (platform)
+- Elm/Rust (type taste)
+influenced:
+- the typed-BEAM hope
+underlying: the BEAM VM with OTP interop
+domains:
+- concurrent
+- fault-tolerant web services with static types
+hello_world: |-
+  import gleam/io
+
+  pub fn main() {
+    io.println("Hello, World!")
+  }
+docs: https://gleam.run/
+tag: static types on Erlang's legendary VM (1.0 in 2024)
+summary: 'The missing link of the BEAM world: Erlang''s nine-nines runtime with a modern static type system. Reaching
+  1.0 in 2024 made the ''typed actor language'' dream real.'

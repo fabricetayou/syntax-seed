@@ -1,0 +1,39 @@
+# it-langs fiche — Regular Expressions — corpus for the Pica agent (syntax-seed)
+name: Regular Expressions
+slug: regex
+first_appeared: 1968
+year_note: Kleene's regular sets 1951; Thompson's QED implementation 1968; spread via ed/grep/awk
+creators: Stephen Kleene (theory); Ken Thompson (first practical implementation)
+origin: Bell Labs lineage (theory from the mathematics community)
+era: 1960s
+status: active
+paradigms:
+- declarative pattern notation
+typing: n/a (pattern notation over text)
+execution: evaluated by regex engines (compiled to automata or backtracking interpreters)
+non_executable: false
+family: pattern-matching line (SNOBOL patterns are a cousin with different machinery)
+influenced_by:
+- Kleene algebra
+- early editor search commands
+influenced:
+- 'every text tool: ed'
+- sed
+- grep
+- awk
+- Perl
+- PCRE
+- JavaScript RegExp
+- Python re
+underlying: compiled inside host languages' regex engines
+domains:
+- text search and replacement
+- lexical analysis
+- log mining
+- validation
+hello_world: ^[Hh]ello,? [Ww]orld!?$
+docs: https://www.regular-expressions.info/
+tag: the sixty-year-old pattern mini-language inside every tool
+summary: A compact pattern notation born from Kleene's 1951 algebra of regular sets and made practical by Ken Thompson
+  in 1968. Regex engines are now built into virtually every language and editor, and the notation keeps growing
+  (lookarounds, named groups, possessive quantifiers).

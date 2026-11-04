@@ -1,0 +1,26 @@
+# it-langs fiche — Bitcoin Script — corpus for the Pica agent (syntax-seed)
+name: Bitcoin Script
+slug: bitcoin-script
+first_appeared: 2009
+creators: Satoshi Nakamoto (in the Bitcoin whitepaper and reference client)
+origin: Bitcoin (pseudonymous author)
+era: 2000s
+status: active
+paradigms:
+- stack-based
+- deliberately non-Turing-complete predicate language
+typing: untyped stack values (limited opcodes)
+execution: executed by Bitcoin's consensus VM when transactions validate
+non_executable: false
+family: smart-contract family — the minimalist ancestor
+influenced_by:
+- 'Forth''s stack model (deliberately restricted: no loops)'
+influenced:
+- Ethereum's EVM culture (as the counter-example that motivated it)
+underlying: Bitcoin nodes' consensus rules
+domains:
+- locking/unlocking conditions on bitcoin transactions (multisig, timelocks)
+hello_world: OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
+tag: stack predicates guarding a trillion-dollar ledger (2009)
+summary: 'The first widely-used ''smart contract'' language: a Forth-style stack with loops removed on purpose,
+  so validity stays decidable and consensus safe. Minimalism as monetary policy.'

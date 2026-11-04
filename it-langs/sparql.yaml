@@ -1,0 +1,32 @@
+# it-langs fiche — SPARQL — corpus for the Pica agent (syntax-seed)
+name: SPARQL
+slug: sparql
+first_appeared: 2008
+year_note: W3C recommendation January 2008; SPARQL 1.1 in 2013
+creators: W3C RDF Data Access Working Group
+origin: W3C
+era: 2000s
+status: active
+paradigms:
+- declarative graph query (triple patterns, optional joins, federated queries)
+typing: dynamic, RDF-typed
+execution: evaluated by SPARQL engines over RDF stores
+non_executable: false
+family: semantic-web family (SQL's graph cousin)
+influenced_by:
+- SQL
+- RDF's triple model
+- Datalog-ish recursion in property paths
+influenced:
+- knowledge graphs (Wikidata's query service is the flagship)
+- linked data infra
+underlying: RDF triplestores and SPARQL processors
+domains:
+- knowledge graphs
+- library science
+- bioinformatics ontologies
+hello_world: SELECT ?greeting WHERE { <https://example.org/hello> <https://example.org/says> ?greeting }
+docs: https://www.w3.org/TR/sparql11-query/
+tag: querying knowledge graphs in triple patterns (2008)
+summary: 'The query language of the semantic web: pattern-match triples across graphs, locally or federated. Wikidata''s
+  query endpoint — where journalists and scientists probe knowledge — speaks it.'

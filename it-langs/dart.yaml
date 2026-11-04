@@ -1,0 +1,37 @@
+# it-langs fiche — Dart — corpus for the Pica agent (syntax-seed)
+name: Dart
+slug: dart
+first_appeared: 2011
+year_note: announced GOTO 2011 (Lars Bak's team); Dart 2 with sound typing 2018
+creators: Lars Bak and Kasper Lund (Google)
+origin: Google (Denmark's Aarhus roots)
+era: 2010s
+status: active
+paradigms:
+- OO-first with async/await
+- sound null safety
+- compilation strategies galore
+typing: static, strong, sound
+execution: JIT for development hot-reload; AOT to native ARM/x64; or transpiled to JavaScript
+non_executable: false
+family: C-syntax family built for the web era
+influenced_by:
+- Java's surface
+- web runtime needs
+- Strongtalk VM heritage (Bak's line)
+influenced:
+- Flutter applications — one codebase on iOS/Android/web/desktop
+underlying: the Dart VM (JIT) and AOT snapshots; Flutter's rendering engine
+domains:
+- mobile and cross-platform apps (Flutter)
+- web targets
+- command-line tools
+hello_world: |-
+  void main() {
+    print('Hello, World!');
+  }
+install: dart.dev SDK; Flutter toolkit
+docs: https://dart.dev/guides
+tag: the V8 team's language that found its calling in Flutter
+summary: Built in Aarhus by the V8 veteran team for 'structured web programming', it survived the browser wars'
+  rejection by becoming Flutter's engine. Hot-reload development made its second act triumphant.

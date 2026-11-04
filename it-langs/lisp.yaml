@@ -1,0 +1,44 @@
+# it-langs fiche — Lisp — corpus for the Pica agent (syntax-seed)
+name: Lisp
+slug: lisp
+first_appeared: 1958
+year_note: McCCarthy's paper 1960; LISP I running 1959-60; the widely spread LISP 1.5 in 1962
+creators: John McCarthy with Steve Russell and others (MIT)
+origin: MIT (USA)
+era: 1950s
+status: active
+paradigms:
+- functional
+- symbolic
+- imperative (multi-paradigm from birth)
+typing: dynamic, strong
+execution: interpreted then compiled (LISP 1.5 mixed both); modern dialects compile to native or bytecode
+non_executable: false
+family: Lisp family (independent root)
+influenced_by:
+- IPL-V (Newell-Shaw-Simon) list processing
+- Church's lambda calculus
+influenced:
+- Scheme
+- Common Lisp
+- Emacs Lisp
+- Clojure
+- Racket
+- Dylan
+- JavaScript (closures and first-class functions)
+- R (Scheme-inspired scoping)
+- Julia (Lisp-style macros)
+underlying: originally IBM 704; today SBCL compiles to native, Clojure runs on JVM/CLR/JS
+domains:
+- AI research
+- symbolic computation
+- macros and metaprogramming
+- CAD (AutoLISP)
+- editor tooling
+hello_world: (print "Hello, World!")
+install: 'dialect-dependent: SBCL, Clojure, Racket, Guile, Emacs Lisp'
+docs: https://lisp-lang.org/learn/
+tag: the great laboratory of language ideas since 1958
+summary: The second-oldest high-level language still in use, born for AI research around the lambda calculus and
+  list processing. Its S-expression syntax, garbage collection, REPL and macros made it the laboratory where many
+  core language ideas — dynamic typing, first-class functions, object systems — were first worked out.

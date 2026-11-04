@@ -1,0 +1,30 @@
+# it-langs fiche — Standard ML — corpus for the Pica agent (syntax-seed)
+name: Standard ML
+slug: standard-ml
+first_appeared: 1990
+year_note: the Definition of Standard ML 1990; revised SML '97
+creators: Robin Milner, Mads Tofte, Robert Harper, David MacQueen (definition)
+origin: Edinburgh / CMU / Bell Labs axis
+era: 1990s
+status: maintained
+paradigms:
+- functional with references and exceptions (impurity explicit and controlled)
+typing: static, strong, fully inferred
+execution: compiled to native code
+non_executable: false
+family: ML family — the standardized branch
+influenced_by:
+- Edinburgh ML (LCF)
+influenced:
+- OCaml (sibling evolution)
+- F#
+- typed proof assistants' metalanguages
+underlying: SML/NJ, MLton, Poly/ML compilers
+domains:
+- theorem provers (HOL, Isabelle's core)
+- teaching rigorous FP
+hello_world: val () = print "Hello, World!\n"
+docs: https://smlfamily.github.io/
+tag: the ML with a complete formal definition (1990)
+summary: 'The formally defined ML: a complete mathematical semantics — the language and its proof of soundness in
+  one book. Isabelle and HOL still run on it, making it the metalanguage of verified mathematics.'

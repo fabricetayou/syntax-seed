@@ -1,0 +1,31 @@
+# it-langs fiche — Hack — corpus for the Pica agent (syntax-seed)
+name: Hack
+slug: hack
+first_appeared: 2014
+creators: Facebook/Meta engineering (Julien Verlaguet, ...)
+origin: Facebook/Meta (USA)
+era: 2010s
+status: active
+paradigms:
+- 'gradually-typed PHP dialect: OO'
+- generics
+- async
+typing: static when annotated (the migration story is the point), strong-ish
+execution: compiled to HHVM bytecode
+non_executable: false
+family: PHP family — the typed industrial branch
+influenced_by:
+- PHP (its base)
+- Java/C# type discipline
+influenced:
+- the proof that giant PHP estates can be typed incrementally
+underlying: HHVM runtime
+domains:
+- Meta's own web estate
+hello_world: |-
+  <?hh
+
+  echo "Hello, World!\n";
+tag: PHP typed in flight — Meta's retrofit (2014)
+summary: 'The answer to ''how do you type one of the world''s largest PHP codebases without stopping'': gradual
+  typing on the existing runtime. One company''s internal rescue kit that became a real language.'

@@ -1,0 +1,28 @@
+# it-langs fiche — Max / MSP — corpus for the Pica agent (syntax-seed)
+name: Max / MSP
+slug: max-msp
+first_appeared: 1986
+year_note: Puckette's Patcher at IRCAM mid-1980s; commercial Max 1990; MSP audio 1997
+creators: Miller Puckette (IRCAM, Paris; later UCSD)
+origin: IRCAM, Paris (France)
+era: 1980s
+status: active
+paradigms:
+- visual dataflow programming (patches of objects and patch cords)
+typing: dynamic, message/data typed per connection
+execution: executed by the Max runtime (real-time scheduling for audio graphs)
+non_executable: false
+family: visual dataflow family (with Pure Data, its open sibling)
+influenced_by:
+- IRCAM's real-time music research needs
+influenced:
+- Pure Data (Puckette's own open version)
+- vvvv and the live-coding/VJ culture
+underlying: the Max engine atop C externals
+domains:
+- electronic music performance
+- installations
+- interactive media art
+tag: programming music by drawing it (IRCAM, 1986)
+summary: 'The patch-cord language of IRCAM''s real-time music studio: programs are drawn, not typed, and audio flows
+  through visible wires. An entire art form — laptop performance and interactive installation — grew inside it.'

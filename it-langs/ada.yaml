@@ -1,0 +1,44 @@
+# it-langs fiche — Ada — corpus for the Pica agent (syntax-seed)
+name: Ada
+slug: ada
+first_appeared: 1980
+year_note: named in 1979 after Ada Lovelace; MIL-STD-1815 1983; Ada 95 through Ada 2022
+creators: Jean Ichbiah's CII Honeywell Bull team for the US Department of Defense; later maintained by the Ada community
+origin: US DoD competition, European-led design (France)
+era: 1980s
+status: active
+paradigms:
+- imperative
+- procedural
+- object-oriented (Ada 95+)
+- concurrent (tasking built in)
+typing: static, strong, with design-by-contract flavor (subtypes, predicates)
+execution: compiled to native code
+non_executable: false
+family: Pascal/Algol W branch, industrialized
+influenced_by:
+- Pascal
+- the DoD's requirements for reliability and concurrency
+influenced:
+- safety-critical practice worldwide
+- SPARK (its verifiable subset)
+- some visibility-model echoes in Java
+underlying: GNAT (GCC) and commercial compilers; runs on bare metal, RTEMS, certified runtimes
+domains:
+- avionics
+- rail signaling
+- space systems (Ariane's software culture)
+- defense
+hello_world: |-
+  with Ada.Text_IO;
+
+  procedure Hello is
+  begin
+     Ada.Text_IO.Put_Line ("Hello, World!");
+  end Hello;
+install: GNAT/GCC (gnatmake, gprbuild), Alire package manager
+docs: https://learn.adacore.com/
+tag: the safety-critical language named after the first programmer
+summary: 'The language the Pentagon commissioned to stop the Babel of military avionics code: strong typing, built-in
+  concurrency, and a compiler that argues with you before the hardware does. Still the choice where failure is not
+  an option.'

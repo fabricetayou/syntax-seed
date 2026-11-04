@@ -1,0 +1,32 @@
+# it-langs fiche — Typst — corpus for the Pica agent (syntax-seed)
+name: Typst
+slug: typst
+first_appeared: 2023
+year_note: public beta 2023; 1.0 and open-source momentum after
+creators: Martin Haug and Laurenz Madje (Typst GmbH, Germany)
+origin: Germany
+era: 2020s
+status: active
+paradigms:
+- 'modern typesetting: markup plus a real scripting/macro language'
+- instant compile
+typing: dynamic scripting layer over declarative markup
+execution: compiled by the Typst engine to PDF with live incremental rendering
+non_executable: false
+family: TeX family's challenger line
+influenced_by:
+- LaTeX (the incumbent)
+- Markdown (the comfort zone)
+- Rust (implementation)
+influenced:
+- the 'papers without TeX pain' migration wave
+underlying: the Typst compiler (Rust), instant preview tooling
+domains:
+- academic papers
+- theses
+- reports
+hello_world: Hello, World!
+docs: https://typst.app/docs/
+tag: instant-compile typesetting for the LaTeX-weary (2023)
+summary: 'The LaTeX painkiller: millisecond compiles, sensible errors, and a scripting language that doesn''t require
+  memorizing the TeX book. The first serious typesetting challenger in thirty years.'

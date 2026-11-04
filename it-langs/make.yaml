@@ -1,0 +1,31 @@
+# it-langs fiche — Make — corpus for the Pica agent (syntax-seed)
+name: Make
+slug: make
+first_appeared: 1977
+year_note: written for Unix; shipped with PWB Unix and Version 7
+creators: Stuart Feldman (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: active
+paradigms:
+- declarative rule/dependency language
+typing: n/a (targets, prerequisites, recipes)
+execution: interpreted by the make engine (executes recipes via the shell)
+non_executable: false
+family: build-DSL family (ancestor of most build tools)
+influenced_by:
+- the .o/.c dependency problem of Unix development
+influenced:
+- 'every later build system: Ant''s name'
+- CMake generation
+- Ninja (as an accelerated backend)
+- just
+underlying: the make program dispatching shell commands
+domains:
+- build orchestration for C/C++ projects
+- LaTeX documents
+- sysadmin glue
+hello_world: "hello:\n\techo \"Hello, World!\""
+tag: the original build graph DSL (1977)
+summary: 'The granddaddy of build languages: files, prerequisites and recipes in a declarative graph, with incremental
+  rebuilds from timestamps. Fifty years of build tooling is an argument with make about its flaws.'

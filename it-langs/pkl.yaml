@@ -1,0 +1,28 @@
+# it-langs fiche — Pkl — corpus for the Pica agent (syntax-seed)
+name: Pkl
+slug: pkl
+first_appeared: 2024
+creators: Apple
+origin: Apple (USA)
+era: 2020s
+status: active
+paradigms:
+- declarative configuration with a real constraint language (classes, validation)
+typing: static-ish schema layer over dynamic values
+execution: evaluated by Pkl tooling; outputs JSON/YAML/properties for other systems
+non_executable: true
+family: configuration family (the typed branch)
+influenced_by:
+- the YAML/JSON chaos it polices
+- configuration-checking needs at Apple scale
+influenced:
+- config generation pipelines across its tooling
+underlying: Pkl evaluators (JVM/CLI) emitting standard config formats
+domains:
+- typed
+- validated configuration for large estates
+hello_world: 'greeting: String = "Hello, World!"'
+docs: https://pkl-lang.org/main/current/index.html
+tag: typed configuration from Apple (2024)
+summary: 'Apple''s open-source configuration language: schemas as classes, validation before deployment, generated
+  output for the formats you already run. Configuration finally gets types.'

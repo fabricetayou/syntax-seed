@@ -1,0 +1,43 @@
+# it-langs fiche — Java — corpus for the Pica agent (syntax-seed)
+name: Java
+slug: java
+first_appeared: 1995
+year_note: Oak project 1991; Java 1.0 1995; current LTS cadence since 2018
+creators: James Gosling and team (Sun Microsystems)
+origin: Sun Microsystems (USA)
+era: 1990s
+status: active
+paradigms:
+- class-based object-oriented
+- imperative
+- with growing functional features
+typing: static, strong, nominal
+execution: compiled to JVM bytecode; JIT-compiled at runtime
+non_executable: false
+family: C-syntax family with Smalltalk's object semantics and a VM
+influenced_by:
+- C/C++ (syntax)
+- Smalltalk (object model)
+- Mesa/Modula-3 (module ideas)
+influenced:
+- C# (direct rival)
+- Kotlin
+- Scala
+- Groovy — and the JVM as a language platform
+underlying: 'the JVM: class files, JIT, garbage collection, a universe of tooling'
+domains:
+- enterprise back-ends
+- Android (pre-Kotlin)
+- big data (Hadoop, Kafka, Elasticsearch)
+- banking
+hello_world: |-
+  public class Hello {
+      public static void main(String[] args) {
+          System.out.println("Hello, World!");
+      }
+  }
+install: a JDK (Temurin, Corretto); Maven/Gradle build
+docs: https://dev.java/learn/
+tag: the JVM bet that won enterprise computing (1995)
+summary: 'The write-once-run-anywhere bet: C-shaped syntax, memory-safe objects, and a virtual machine that JIT-compiles
+  bytecode. It inherited the enterprise world from C++ and built the infrastructure layer of the internet age.'

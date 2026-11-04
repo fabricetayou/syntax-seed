@@ -1,0 +1,28 @@
+# it-langs fiche — Miranda — corpus for the Pica agent (syntax-seed)
+name: Miranda
+slug: miranda
+first_appeared: 1985
+creators: David Turner (Research Software Ltd)
+origin: UK
+era: 1980s
+status: historical
+paradigms:
+- pure
+- lazy
+- functional (guards, algebraic types, list comprehensions)
+typing: static, inferred (polymorphic)
+execution: interpreted (with lazy graph reduction)
+non_executable: false
+family: 'lazy functional line: SASL/KRC → Miranda → Haskell'
+influenced_by:
+- Turner's own SASL and KRC
+- Landin's ISWIM
+influenced:
+- Haskell (directly — the committee formed to build an open Miranda successor)
+underlying: Turner's interpreter
+domains:
+- research
+- teaching lazy functional programming
+tag: the proprietary lazy FP language that provoked Haskell
+summary: Turner's proprietary lazy functional language, which popularized guards and list comprehensions. When academics
+  wanted an open standard with those ideas, they convened a committee — and called the result Haskell.

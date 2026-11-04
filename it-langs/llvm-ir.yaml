@@ -1,0 +1,30 @@
+# it-langs fiche — LLVM IR — corpus for the Pica agent (syntax-seed)
+name: LLVM IR
+slug: llvm-ir
+first_appeared: 2003
+creators: Chris Lattner and Vikram Adve (University of Illinois)
+origin: University of Illinois Urbana-Champaign (USA)
+era: 2000s
+status: active
+paradigms:
+- typed Static Single Assignment (SSA) intermediate language
+typing: static, strong, explicit (registers are SSA values)
+execution: compiled to native code by LLVM backends, or executed by its JIT
+non_executable: false
+family: compiler infrastructure family — the machine language of compilers
+influenced_by:
+- GCC's RTL experience
+- SSA research of the 1990s
+influenced:
+- Rust
+- Swift
+- Julia
+- Zig
+- Crystal
+- Kotlin/Native — a generation of languages ride it as backend
+underlying: the LLVM compiler infrastructure (llvm-as/llvm-dis for textual form)
+domains:
+- the shared target of every modern compiled language
+tag: the SSA dialect every modern compiler speaks underneath
+summary: 'The language compilers speak to compilers: a clean SSA textual form that any front-end can emit. The single
+  most-used language almost nobody writes by hand — the ultimate ''underlying language'' of 2020s software.'

@@ -1,0 +1,1332 @@
+# it-langs — catalog index (fetch this first; then per-language fiches by slug)
+catalog: it-langs
+repo: fabricetayou/syntax-seed
+purpose: 'One YAML fiche per programming language, built for the Pica (Picandra Everwise) agent on Pollinations.
+  Coverage: the whole history of programming languages — pioneers to the AI era — including formats, queries, hardware
+  description, proof assistants and esoteric languages.'
+generated: '2026-11-04'
+count: 212
+schema:
+  name: display name of the language
+  slug: file slug (== filename without .yaml)
+  first_appeared: year of first public appearance (int)
+  year_note: precision/approximations about the year
+  creators: persons or teams credited with the design
+  origin: institution, company, country or community
+  era: computed decade bucket (pre-1950 ... 2020s)
+  status: active | maintained | dormant | historical | discontinued | esoteric
+  paradigms: programming paradigms
+  typing: type discipline in one line
+  execution: how programs run (compiled/interpreted/transpiled/evaluated/none)
+  non_executable: true for descriptive languages (markup, data, modeling, notation) with no computational execution
+    of their own
+  family: genealogical family / branch
+  influenced_by: ancestors and sources of inspiration
+  influenced: descendants and languages it shaped
+  underlying: what the language sits on / compiles to (VM, IR, C, hardware...)
+  domains: application domains
+  hello_world: canonical first program (major languages)
+  install: how to get a toolchain quickly
+  docs: official documentation link
+  tag: one-line memorable summary
+  summary: short historical essay
+stats:
+  eras:
+    pre-1950: 3
+    1950s: 6
+    1960s: 19
+    1970s: 21
+    1980s: 35
+    1990s: 36
+    2000s: 42
+    2010s: 42
+    2020s: 8
+  statuses:
+    historical: 14
+    active: 135
+    maintained: 31
+    dormant: 15
+    esoteric: 11
+    discontinued: 6
+  non_executable: 16
+  with_hello_world: 154
+roadmap:
+  next_batches:
+  - the long tail of named languages (thousands of minor and regional languages)
+  - more AI-era languages and prompt-era DSLs as they stabilize
+  - per-language quick-start detail (first concepts, pitfalls, ecosystem notes)
+  - deeper genealogy edges (exact influence links between all fiches)
+  dream: Cover EVERY named programming language since the beginning.
+languages:
+- slug: plankalkul
+  name: Plankalkül
+  first_appeared: 1945
+  era: pre-1950
+  status: historical
+  tag: the very first high-level language design (1945)
+- slug: assembly
+  name: Assembly Language (generic)
+  first_appeared: 1949
+  era: pre-1950
+  status: active
+  tag: the machine's own tongue, one dialect per CPU
+- slug: short-code
+  name: Short Code
+  first_appeared: 1949
+  era: pre-1950
+  status: historical
+  tag: first algebraic language to run on commercial machines (1949)
+- slug: fortran
+  name: Fortran
+  first_appeared: 1957
+  era: 1950s
+  status: active
+  tag: the first successful high-level language (1957), still the HPC workhorse
+- slug: flow-matic
+  name: FLOW-MATIC
+  first_appeared: 1958
+  era: 1950s
+  status: historical
+  tag: Grace Hopper's English-like forerunner of COBOL
+- slug: lisp
+  name: Lisp
+  first_appeared: 1958
+  era: 1950s
+  status: active
+  tag: the great laboratory of language ideas since 1958
+- slug: bnf
+  name: Backus-Naur Form (BNF)
+  first_appeared: 1959
+  era: 1950s
+  status: active
+  tag: the notation that defines all other languages
+- slug: cobol
+  name: COBOL
+  first_appeared: 1959
+  era: 1950s
+  status: active
+  tag: the business mainframe backbone since 1959
+- slug: jovial
+  name: JOVIAL
+  first_appeared: 1959
+  era: 1950s
+  status: historical
+  tag: the US Air Force's Algol that flew in radars for decades
+- slug: algol-60
+  name: ALGOL 60
+  first_appeared: 1960
+  era: 1960s
+  status: historical
+  tag: 'the common ancestor: block structure and lexical scope (1960)'
+- slug: gpss
+  name: GPSS
+  first_appeared: 1961
+  era: 1960s
+  status: maintained
+  tag: the original queuing-simulation block language
+- slug: simula
+  name: Simula
+  first_appeared: 1962
+  era: 1960s
+  status: historical
+  tag: object orientation was born here (Simula 67)
+- slug: snobol
+  name: SNOBOL
+  first_appeared: 1962
+  era: 1960s
+  status: dormant
+  tag: the pattern-matching power tool of the 60s
+- slug: cpl
+  name: CPL
+  first_appeared: 1963
+  era: 1960s
+  status: historical
+  tag: the over-ambitious Algol that shrank into the C lineage
+- slug: basic
+  name: BASIC
+  first_appeared: 1964
+  era: 1960s
+  status: active
+  tag: the first language of millions of home programmers
+- slug: pl-i
+  name: PL/I
+  first_appeared: 1964
+  era: 1960s
+  status: maintained
+  tag: the kitchen-sink language of the mainframe age
+- slug: rpg
+  name: RPG
+  first_appeared: 1964
+  era: 1960s
+  status: active
+  tag: still running inside thousands of AS/400 systems
+- slug: apl
+  name: APL
+  first_appeared: 1966
+  era: 1960s
+  status: active
+  tag: executable math with glyphs — ancestor of the array family
+- slug: mumps
+  name: MUMPS / M
+  first_appeared: 1966
+  era: 1960s
+  status: active
+  tag: the hospital language with a built-in database
+- slug: refal
+  name: Refal
+  first_appeared: 1966
+  era: 1960s
+  status: dormant
+  tag: Soviet functional term-rewriting (1966)
+- slug: bcpl
+  name: BCPL
+  first_appeared: 1967
+  era: 1960s
+  status: dormant
+  tag: typeless grandfather of C, with the first curly braces
+- slug: logo
+  name: Logo
+  first_appeared: 1967
+  era: 1960s
+  status: maintained
+  tag: the turtle that taught the world's children
+- slug: algol-68
+  name: ALGOL 68
+  first_appeared: 1968
+  era: 1960s
+  status: historical
+  tag: the beautiful monster that scared everyone into Pascal
+- slug: maxima
+  name: Macsyma / Maxima
+  first_appeared: 1968
+  era: 1960s
+  status: maintained
+  tag: the MIT computer-algebra classic, alive as Maxima
+- slug: regex
+  name: Regular Expressions
+  first_appeared: 1968
+  era: 1960s
+  status: active
+  tag: the sixty-year-old pattern mini-language inside every tool
+- slug: b
+  name: B
+  first_appeared: 1969
+  era: 1960s
+  status: historical
+  tag: the immediate parent of C (1969)
+- slug: dc
+  name: dc
+  first_appeared: 1969
+  era: 1960s
+  status: maintained
+  tag: the oldest Unix language still alive — RPN forever
+- slug: setl
+  name: SETL
+  first_appeared: 1969
+  era: 1960s
+  status: dormant
+  tag: sets as first-class citizens, twenty years before Python
+- slug: forth
+  name: Forth
+  first_appeared: 1970
+  era: 1970s
+  status: active
+  tag: the minimalist stack language that flew to space
+- slug: pascal
+  name: Pascal
+  first_appeared: 1970
+  era: 1970s
+  status: maintained
+  tag: the structured-programming teaching classic
+- slug: c
+  name: C
+  first_appeared: 1972
+  era: 1970s
+  status: active
+  tag: the lingua franca of systems programming since 1972
+- slug: intercal
+  name: INTERCAL
+  first_appeared: 1972
+  era: 1970s
+  status: esoteric
+  tag: the original parody language that founded esolang culture
+- slug: prolog
+  name: Prolog
+  first_appeared: 1972
+  era: 1970s
+  status: active
+  tag: programming in logic — the declarative counter-tradition (Marseille, 1972)
+- slug: smalltalk
+  name: Smalltalk
+  first_appeared: 1972
+  era: 1970s
+  status: active
+  tag: everything is an object, everything is live (PARC, 1972)
+- slug: ml
+  name: ML
+  first_appeared: 1973
+  era: 1970s
+  status: historical
+  tag: type inference was invented here (Edinburgh, 1973)
+- slug: clu
+  name: CLU
+  first_appeared: 1974
+  era: 1970s
+  status: historical
+  tag: abstract data types, iterators and generics invented here (MIT, 1974)
+- slug: sed
+  name: sed
+  first_appeared: 1974
+  era: 1970s
+  status: active
+  tag: the ed-derived stream editor language of Unix pipelines
+- slug: sql
+  name: SQL
+  first_appeared: 1974
+  era: 1970s
+  status: active
+  tag: the declarative query language that runs the world's data
+- slug: scheme
+  name: Scheme
+  first_appeared: 1975
+  era: 1970s
+  status: active
+  tag: the minimalist Lisp that cleaned up scope (MIT, 1975)
+- slug: s
+  name: S
+  first_appeared: 1976
+  era: 1970s
+  status: historical
+  tag: the Bell Labs statistical language that became R
+- slug: sas
+  name: SAS
+  first_appeared: 1976
+  era: 1970s
+  status: active
+  tag: the statistical language of clinical trials and regulators
+- slug: awk
+  name: AWK
+  first_appeared: 1977
+  era: 1970s
+  status: active
+  tag: pattern-action one-liners that still run the world's pipelines
+- slug: datalog
+  name: Datalog
+  first_appeared: 1977
+  era: 1970s
+  status: active
+  tag: logic queries that always terminate — the quiet renaissance
+- slug: icon
+  name: Icon
+  first_appeared: 1977
+  era: 1970s
+  status: dormant
+  tag: goal-directed string processing, generators before they were cool
+- slug: make
+  name: Make
+  first_appeared: 1977
+  era: 1970s
+  status: active
+  tag: the original build graph DSL (1977)
+- slug: sh
+  name: Bourne Shell (sh)
+  first_appeared: 1977
+  era: 1970s
+  status: active
+  tag: the Unix command language — composability as a culture
+- slug: dbase
+  name: dBASE
+  first_appeared: 1978
+  era: 1970s
+  status: maintained
+  tag: the microcomputer database language that became the xBase world
+- slug: modula-2
+  name: Modula-2
+  first_appeared: 1978
+  era: 1970s
+  status: maintained
+  tag: 'Pascal grows up: modules and clean separate compilation'
+- slug: tex
+  name: TeX
+  first_appeared: 1978
+  era: 1970s
+  status: active
+  tag: the typesetting language that fixed mathematics on paper
+- slug: ada
+  name: Ada
+  first_appeared: 1980
+  era: 1980s
+  status: active
+  tag: the safety-critical language named after the first programmer
+- slug: rexx
+  name: REXX
+  first_appeared: 1980
+  era: 1980s
+  status: maintained
+  tag: the mainframe's friendly scripting language
+- slug: maple
+  name: Maple
+  first_appeared: 1982
+  era: 1980s
+  status: active
+  tag: Waterloo's tiny-kernel CAS, teaching calculus worldwide
+- slug: postscript
+  name: PostScript
+  first_appeared: 1982
+  era: 1980s
+  status: dormant
+  tag: the stack language that ran inside every laser printer
+- slug: turing
+  name: Turing
+  first_appeared: 1982
+  era: 1980s
+  status: dormant
+  tag: Canada's teaching language, named for the founder
+- slug: abap
+  name: ABAP
+  first_appeared: 1983
+  era: 1980s
+  status: active
+  tag: the ERP language inside every SAP system
+- slug: ksh
+  name: Korn Shell (ksh)
+  first_appeared: 1983
+  era: 1980s
+  status: active
+  tag: the shell that POSIX canonized
+- slug: occam
+  name: occam
+  first_appeared: 1983
+  era: 1980s
+  status: dormant
+  tag: CSP made executable — Go's philosophical grandparent
+- slug: vhdl
+  name: VHDL
+  first_appeared: 1983
+  era: 1980s
+  status: active
+  tag: the strict Ada of hardware description
+- slug: common-lisp
+  name: Common Lisp
+  first_appeared: 1984
+  era: 1980s
+  status: active
+  tag: the ANSI-unified Lisp with CLOS and unmatched macros
+- slug: latex
+  name: LaTeX
+  first_appeared: 1984
+  era: 1980s
+  status: active
+  tag: the language scientific papers are written in
+- slug: matlab
+  name: MATLAB
+  first_appeared: 1984
+  era: 1980s
+  status: active
+  tag: the engineer's matrix laboratory — arrays as the mother tongue
+- slug: objective-c
+  name: Objective-C
+  first_appeared: 1984
+  era: 1980s
+  status: dormant
+  tag: Smalltalk messages on a C skeleton — the language of early iPhone apps
+- slug: verilog
+  name: Verilog
+  first_appeared: 1984
+  era: 1980s
+  status: active
+  tag: describing hardware in C-flavored syntax (1984)
+- slug: caml
+  name: Caml
+  first_appeared: 1985
+  era: 1980s
+  status: historical
+  tag: the French ML that became OCaml
+- slug: cpp
+  name: C++
+  first_appeared: 1985
+  era: 1980s
+  status: active
+  tag: C with Simula's classes — the giant of performance software
+- slug: emacs-lisp
+  name: Emacs Lisp
+  first_appeared: 1985
+  era: 1980s
+  status: active
+  tag: the Lisp that lives inside millions of editors
+- slug: miranda
+  name: Miranda
+  first_appeared: 1985
+  era: 1980s
+  status: historical
+  tag: the proprietary lazy FP language that provoked Haskell
+- slug: stata
+  name: Stata
+  first_appeared: 1985
+  era: 1980s
+  status: active
+  tag: the .do-file language of economics papers
+- slug: eiffel
+  name: Eiffel
+  first_appeared: 1986
+  era: 1980s
+  status: active
+  tag: design by contract, made executable (Meyer, 1986)
+- slug: erlang
+  name: Erlang
+  first_appeared: 1986
+  era: 1980s
+  status: active
+  tag: nine-nines concurrency from the telecom world (BEAM, 1986)
+- slug: isabelle
+  name: Isabelle
+  first_appeared: 1986
+  era: 1980s
+  status: active
+  tag: textbook-style proofs (Isar) and the verified seL4 kernel
+- slug: labview-g
+  name: LabVIEW G
+  first_appeared: 1986
+  era: 1980s
+  status: active
+  tag: wires, not text — the dataflow language of laboratories
+- slug: max-msp
+  name: Max / MSP
+  first_appeared: 1986
+  era: 1980s
+  status: active
+  tag: programming music by drawing it (IRCAM, 1986)
+- slug: clean
+  name: Clean
+  first_appeared: 1987
+  era: 1980s
+  status: maintained
+  tag: pure functional plus uniqueness types (Nijmegen, 1987)
+- slug: hypertalk
+  name: HyperTalk
+  first_appeared: 1987
+  era: 1980s
+  status: discontinued
+  tag: English-flavored scripting for everyone — the pre-web HyperCard
+- slug: oberon
+  name: Oberon
+  first_appeared: 1987
+  era: 1980s
+  status: dormant
+  tag: the language that ships with its own operating system
+- slug: perl
+  name: Perl
+  first_appeared: 1987
+  era: 1980s
+  status: active
+  tag: the duct tape of the early web — regex-native scripting
+- slug: self
+  name: Self
+  first_appeared: 1987
+  era: 1980s
+  status: dormant
+  tag: no classes, world-class JIT — JavaScript's other parent (1987)
+- slug: spark
+  name: SPARK
+  first_appeared: 1988
+  era: 1980s
+  status: active
+  tag: Ada subset strong enough to prove — avionics' certified tongue
+- slug: tcl
+  name: Tcl
+  first_appeared: 1988
+  era: 1980s
+  status: active
+  tag: the embeddable scripting language that wired EDA tools
+- slug: wolfram-language
+  name: Wolfram Language (Mathematica)
+  first_appeared: 1988
+  era: 1980s
+  status: active
+  tag: symbolic rewriting plus a built-in encyclopedia of everything
+- slug: bash
+  name: Bash
+  first_appeared: 1989
+  era: 1980s
+  status: active
+  tag: the shell that runs the world's servers (GNU, 1989)
+- slug: coq
+  name: Coq
+  first_appeared: 1989
+  era: 1980s
+  status: active
+  tag: proofs as programs — the French school of verified math (1989)
+- slug: t-sql
+  name: Transact-SQL (T-SQL)
+  first_appeared: 1989
+  era: 1980s
+  status: active
+  tag: the SQL Server dialect where business logic hides
+- slug: haskell
+  name: Haskell
+  first_appeared: 1990
+  era: 1990s
+  status: active
+  tag: purity, laziness and monads — the type-system trendsetter
+- slug: j
+  name: J
+  first_appeared: 1990
+  era: 1990s
+  status: maintained
+  tag: APL reborn in ASCII, with tacit programming (1990)
+- slug: standard-ml
+  name: Standard ML
+  first_appeared: 1990
+  era: 1990s
+  status: maintained
+  tag: the ML with a complete formal definition (1990)
+- slug: zsh
+  name: Zsh
+  first_appeared: 1990
+  era: 1990s
+  status: active
+  tag: the power-user's shell — now macOS default
+- slug: pl-sql
+  name: PL/SQL
+  first_appeared: 1991
+  era: 1990s
+  status: active
+  tag: Oracle's in-database procedural SQL
+- slug: python
+  name: Python
+  first_appeared: 1991
+  era: 1990s
+  status: active
+  tag: the readability-first language that became AI's mother tongue
+- slug: visual-basic
+  name: Visual Basic
+  first_appeared: 1991
+  era: 1990s
+  status: discontinued
+  tag: drag, drop, code — RAD for the masses (1991)
+- slug: dylan
+  name: Dylan
+  first_appeared: 1992
+  era: 1990s
+  status: dormant
+  tag: Lisp with algebraic clothes — Apple's ATG experiment
+- slug: applescript
+  name: AppleScript
+  first_appeared: 1993
+  era: 1990s
+  status: maintained
+  tag: scripting your Mac in near-English (1993)
+- slug: befunge
+  name: Befunge
+  first_appeared: 1993
+  era: 1990s
+  status: esoteric
+  tag: code laid out on a grid — the 2D esolang (1993)
+- slug: brainfuck
+  name: Brainfuck
+  first_appeared: 1993
+  era: 1990s
+  status: esoteric
+  tag: eight commands, one tape — the minimalism benchmark
+- slug: html
+  name: HTML
+  first_appeared: 1993
+  era: 1990s
+  status: active
+  tag: the document language that became the world's app shell
+- slug: lua
+  name: Lua
+  first_appeared: 1993
+  era: 1990s
+  status: active
+  tag: the tiny language hidden inside games and databases (Brazil, 1993)
+- slug: octave
+  name: Octave
+  first_appeared: 1993
+  era: 1990s
+  status: active
+  tag: the free MATLAB — GNU's numerical dialect
+- slug: r
+  name: R
+  first_appeared: 1993
+  era: 1990s
+  status: active
+  tag: the language statisticians think in (New Zealand, 1993)
+- slug: cfml
+  name: CFML (ColdFusion Markup Language)
+  first_appeared: 1995
+  era: 1990s
+  status: maintained
+  tag: web programming in HTML-shaped tags (1995)
+- slug: delphi
+  name: Delphi / Object Pascal
+  first_appeared: 1995
+  era: 1990s
+  status: active
+  tag: native-code RAD — Turbo Pascal grows up (1995)
+- slug: java
+  name: Java
+  first_appeared: 1995
+  era: 1990s
+  status: active
+  tag: the JVM bet that won enterprise computing (1995)
+- slug: javascript
+  name: JavaScript
+  first_appeared: 1995
+  era: 1990s
+  status: active
+  tag: ten days of design, thirty years of world domination
+- slug: php
+  name: PHP
+  first_appeared: 1995
+  era: 1990s
+  status: active
+  tag: the server-side language that quietly powers the web's long tail
+- slug: ruby
+  name: Ruby
+  first_appeared: 1995
+  era: 1990s
+  status: active
+  tag: programmer happiness as a design goal — then Rails happened
+- slug: agda
+  name: Agda
+  first_appeared: 1996
+  era: 1990s
+  status: maintained
+  tag: dependent types as everyday programming (Chalmers)
+- slug: css
+  name: CSS
+  first_appeared: 1996
+  era: 1990s
+  status: active
+  tag: declarative styling — the skin of the web (1996)
+- slug: ocaml
+  name: OCaml
+  first_appeared: 1996
+  era: 1990s
+  status: active
+  tag: the industrial-strength ML from France (1996)
+- slug: pure-data
+  name: Pure Data
+  first_appeared: 1996
+  era: 1990s
+  status: active
+  tag: the free patch-cord language of electronic music
+- slug: vbscript
+  name: VBScript
+  first_appeared: 1996
+  era: 1990s
+  status: discontinued
+  tag: the Windows scripting Basic — beloved by admins, loved by worms
+- slug: rebol
+  name: Rebol
+  first_appeared: 1997
+  era: 1990s
+  status: dormant
+  tag: the Amiga architect's dialect-based language
+- slug: uml
+  name: UML
+  first_appeared: 1997
+  era: 1990s
+  status: maintained
+  tag: the diagram language of software design (1997)
+- slug: actionscript
+  name: ActionScript
+  first_appeared: 1998
+  era: 1990s
+  status: discontinued
+  tag: the ECMAScript dialect of the Flash era
+- slug: malbolge
+  name: Malbolge
+  first_appeared: 1998
+  era: 1990s
+  status: esoteric
+  tag: the language from the eighth circle — programs found by machine search
+- slug: xml
+  name: XML
+  first_appeared: 1998
+  era: 1990s
+  status: active
+  tag: the angle-bracket envelope of enterprise data (1998)
+- slug: autoit
+  name: AutoIt
+  first_appeared: 1999
+  era: 1990s
+  status: active
+  tag: keystrokes and dialogs as language primitives (1999)
+- slug: gml
+  name: GameMaker Language (GML)
+  first_appeared: 1999
+  era: 1990s
+  status: active
+  tag: the on-ramp language of the indie game renaissance
+- slug: tla-plus
+  name: TLA+
+  first_appeared: 1999
+  era: 1990s
+  status: active
+  tag: Leslie Lamport's language for specifying before building (1999)
+- slug: xpath
+  name: XPath
+  first_appeared: 1999
+  era: 1990s
+  status: active
+  tag: the address language of XML trees
+- slug: xslt
+  name: XSLT
+  first_appeared: 1999
+  era: 1990s
+  status: active
+  tag: functional programming smuggled in as stylesheets
+- slug: c-sharp
+  name: C#
+  first_appeared: 2000
+  era: 2000s
+  status: active
+  tag: Delphi's heir on the .NET VM — Java's great rival
+- slug: piet
+  name: Piet
+  first_appeared: 2000
+  era: 2000s
+  status: esoteric
+  tag: programs as Mondrian paintings — code you hang on a wall
+- slug: d
+  name: D
+  first_appeared: 2001
+  era: 2000s
+  status: maintained
+  tag: C++ rethought from a blank page (2001)
+- slug: json
+  name: JSON
+  first_appeared: 2001
+  era: 2000s
+  status: active
+  tag: the data dialect of every API (2001)
+- slug: processing
+  name: Processing
+  first_appeared: 2001
+  era: 2000s
+  status: active
+  tag: Java turned into an artist's sketchbook
+- slug: shakespeare
+  name: Shakespeare Programming Language
+  first_appeared: 2001
+  era: 2000s
+  status: esoteric
+  tag: programs as Elizabethan drama (2001)
+- slug: yaml
+  name: YAML
+  first_appeared: 2001
+  era: 2000s
+  status: active
+  tag: the configuration language of cloud infrastructure
+- slug: asciidoc
+  name: AsciiDoc
+  first_appeared: 2002
+  era: 2000s
+  status: active
+  tag: Markdown's face on DocBook's skeleton
+- slug: chef
+  name: Chef
+  first_appeared: 2002
+  era: 2000s
+  status: esoteric
+  tag: programs that could be cooked (2002)
+- slug: io
+  name: Io
+  first_appeared: 2002
+  era: 2000s
+  status: dormant
+  tag: Smalltalk distilled to messages only (2002)
+- slug: restructured-text
+  name: reStructuredText (reST)
+  first_appeared: 2002
+  era: 2000s
+  status: active
+  tag: the documentation markup behind Python's docs (2002)
+- slug: autohotkey
+  name: AutoHotkey
+  first_appeared: 2003
+  era: 2000s
+  status: active
+  tag: Windows remade in hotkeys and scripts (2003)
+- slug: groovy
+  name: Groovy
+  first_appeared: 2003
+  era: 2000s
+  status: active
+  tag: the JVM scripting language that became DevOps' glue
+- slug: llvm-ir
+  name: LLVM IR
+  first_appeared: 2003
+  era: 2000s
+  status: active
+  tag: the SSA dialect every modern compiler speaks underneath
+- slug: scratch
+  name: Scratch
+  first_appeared: 2003
+  era: 2000s
+  status: active
+  tag: the first language of the world's children (MIT, 2003)
+- slug: systemverilog
+  name: SystemVerilog
+  first_appeared: 2003
+  era: 2000s
+  status: active
+  tag: the chip industry's design-and-verification monolith (2003)
+- slug: whitespace
+  name: Whitespace
+  first_appeared: 2003
+  era: 2000s
+  status: esoteric
+  tag: code you cannot see — only space, tab and newline (2003)
+- slug: glsl
+  name: GLSL
+  first_appeared: 2004
+  era: 2000s
+  status: active
+  tag: the vector-typed C that paints every game's pixels
+- slug: markdown
+  name: Markdown
+  first_appeared: 2004
+  era: 2000s
+  status: active
+  tag: the markup everyone writes without knowing it's a language
+- slug: nix
+  name: Nix (language)
+  first_appeared: 2004
+  era: 2000s
+  status: active
+  tag: the pure functional language that describes whole systems
+- slug: scala
+  name: Scala
+  first_appeared: 2004
+  era: 2000s
+  status: active
+  tag: OO and FP unified on the JVM — the language of Spark
+- slug: x10
+  name: X10
+  first_appeared: 2004
+  era: 2000s
+  status: maintained
+  tag: async/finish and places — IBM's PGAS algebra (2004)
+- slug: xquery
+  name: XQuery
+  first_appeared: 2004
+  era: 2000s
+  status: maintained
+  tag: SQL-shaped functional queries over XML trees
+- slug: f-sharp
+  name: F#
+  first_appeared: 2005
+  era: 2000s
+  status: active
+  tag: functional-first .NET — the donor of async/await
+- slug: fish
+  name: Fish (friendly interactive shell)
+  first_appeared: 2005
+  era: 2000s
+  status: active
+  tag: the shell that broke POSIX to be human (2005)
+- slug: haxe
+  name: Haxe
+  first_appeared: 2005
+  era: 2000s
+  status: active
+  tag: write once, transpile everywhere (Bordeaux, 2005)
+- slug: fortress
+  name: Fortress
+  first_appeared: 2006
+  era: 2000s
+  status: discontinued
+  tag: Guy Steele's mathematical HPC moonshot
+- slug: powershell
+  name: PowerShell
+  first_appeared: 2006
+  era: 2000s
+  status: active
+  tag: the shell where the pipeline carries objects, not text
+- slug: sass
+  name: Sass
+  first_appeared: 2006
+  era: 2000s
+  status: active
+  tag: the preprocessor that taught CSS variables (2006)
+- slug: vala
+  name: Vala
+  first_appeared: 2006
+  era: 2000s
+  status: maintained
+  tag: C# syntax in, fast GObject C out
+- slug: clojure
+  name: Clojure
+  first_appeared: 2007
+  era: 2000s
+  status: active
+  tag: the Lisp that abolished mutable state (2007)
+- slug: cuda
+  name: CUDA C/C++
+  first_appeared: 2007
+  era: 2000s
+  status: active
+  tag: the GPU dialect that carries deep learning (2007)
+- slug: idris
+  name: Idris
+  first_appeared: 2007
+  era: 2000s
+  status: maintained
+  tag: dependent types for everyday programs (2007)
+- slug: lolcode
+  name: LOLCODE
+  first_appeared: 2007
+  era: 2000s
+  status: esoteric
+  tag: the meme that became a grammar (2007)
+- slug: nim
+  name: Nim
+  first_appeared: 2008
+  era: 2000s
+  status: active
+  tag: Python syntax, Lisp macros, C output (2008)
+- slug: protobuf
+  name: Protocol Buffers
+  first_appeared: 2008
+  era: 2000s
+  status: active
+  tag: the IDL behind gRPC and Google's data (2008)
+- slug: sparql
+  name: SPARQL
+  first_appeared: 2008
+  era: 2000s
+  status: active
+  tag: querying knowledge graphs in triple patterns (2008)
+- slug: bitcoin-script
+  name: Bitcoin Script
+  first_appeared: 2009
+  era: 2000s
+  status: active
+  tag: stack predicates guarding a trillion-dollar ledger (2009)
+- slug: chapel
+  name: Chapel
+  first_appeared: 2009
+  era: 2000s
+  status: maintained
+  tag: parallelism as a first-class word in the language (Cray, 2009)
+- slug: coffeescript
+  name: CoffeeScript
+  first_appeared: 2009
+  era: 2000s
+  status: dormant
+  tag: the cleanup that became JavaScript — ES6's ghostwriter
+- slug: go
+  name: Go
+  first_appeared: 2009
+  era: 2000s
+  status: active
+  tag: Unix philosophy reborn for the cloud — goroutines and one static binary
+- slug: plantuml
+  name: PlantUML
+  first_appeared: 2009
+  era: 2000s
+  status: active
+  tag: diagrams as text — UML in version control
+- slug: cypher
+  name: Cypher
+  first_appeared: 2010
+  era: 2010s
+  status: active
+  tag: queries that look like the graph they seek (2010)
+- slug: racket
+  name: Racket
+  first_appeared: 2010
+  era: 2010s
+  status: active
+  tag: the language for making languages (2010)
+- slug: rust
+  name: Rust
+  first_appeared: 2010
+  era: 2010s
+  status: active
+  tag: memory safety without GC — the ownership revolution (2015)
+- slug: ceylon
+  name: Ceylon
+  first_appeared: 2011
+  era: 2010s
+  status: discontinued
+  tag: Java re-imagined with elegance — and retired too soon
+- slug: dart
+  name: Dart
+  first_appeared: 2011
+  era: 2010s
+  status: active
+  tag: the V8 team's language that found its calling in Flutter
+- slug: elixir
+  name: Elixir
+  first_appeared: 2011
+  era: 2010s
+  status: active
+  tag: Ruby's face on Erlang's body (Brazil, 2011)
+- slug: kotlin
+  name: Kotlin
+  first_appeared: 2011
+  era: 2010s
+  status: active
+  tag: Java's pragmatic successor on Android (2011)
+- slug: chisel
+  name: Chisel
+  first_appeared: 2012
+  era: 2010s
+  status: active
+  tag: chips as Scala generators — the RISC-V foundry language
+- slug: elm
+  name: Elm
+  first_appeared: 2012
+  era: 2010s
+  status: active
+  tag: pure functional web UI with no runtime exceptions (2012)
+- slug: jq
+  name: jq
+  first_appeared: 2012
+  era: 2010s
+  status: active
+  tag: the sed of JSON — functional filters in a pipe (2012)
+- slug: julia
+  name: Julia
+  first_appeared: 2012
+  era: 2010s
+  status: active
+  tag: walk like Python, run like Fortran (MIT, 2012)
+- slug: typescript
+  name: TypeScript
+  first_appeared: 2012
+  era: 2010s
+  status: active
+  tag: JavaScript wearing a type system — and conquering the web (2012)
+- slug: arnoldc
+  name: ArnoldC
+  first_appeared: 2013
+  era: 2010s
+  status: esoteric
+  tag: one-liners as keywords — get to the compiler (2013)
+- slug: dockerfile
+  name: Dockerfile
+  first_appeared: 2013
+  era: 2010s
+  status: active
+  tag: the recipe language of containers (2013)
+- slug: hy
+  name: Hy
+  first_appeared: 2013
+  era: 2010s
+  status: maintained
+  tag: Lisp on the Python runtime (2013)
+- slug: lean
+  name: Lean
+  first_appeared: 2013
+  era: 2010s
+  status: active
+  tag: the fast proof assistant where modern math digitizes (2013)
+- slug: purescript
+  name: PureScript
+  first_appeared: 2013
+  era: 2010s
+  status: maintained
+  tag: strict Haskell for the browser (2013)
+- slug: toml
+  name: TOML
+  first_appeared: 2013
+  era: 2010s
+  status: active
+  tag: the 'boring by design' config format of Rust and Python
+- slug: crystal
+  name: Crystal
+  first_appeared: 2014
+  era: 2010s
+  status: maintained
+  tag: Ruby's syntax at native speed (Argentina, 2014)
+- slug: gdscript
+  name: GDScript
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: Godot's built-in tongue — the indie exodus language
+- slug: hack
+  name: Hack
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: PHP typed in flight — Meta's retrofit (2014)
+- slug: hcl
+  name: HCL
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: infrastructure as declarative code — the Terraform tongue
+- slug: jsx
+  name: JSX
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: markup inside JavaScript — the UI notation wars' winner (2014)
+- slug: solidity
+  name: Solidity
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: Ethereum's contract language — billions moved, lessons learned (2014)
+- slug: swift
+  name: Swift
+  first_appeared: 2014
+  era: 2010s
+  status: active
+  tag: Objective-C's modern successor — protocols over classes (2014)
+- slug: graphql
+  name: GraphQL
+  first_appeared: 2015
+  era: 2010s
+  status: active
+  tag: queries shaped like the data you want (2015)
+- slug: promql
+  name: PromQL
+  first_appeared: 2015
+  era: 2010s
+  status: active
+  tag: the vector algebra of monitoring and alerts
+- slug: raku
+  name: Raku
+  first_appeared: 2015
+  era: 2010s
+  status: maintained
+  tag: Perl's long-gestated sibling (2015)
+- slug: starlark
+  name: Starlark
+  first_appeared: 2015
+  era: 2010s
+  status: active
+  tag: the deterministic Python dialect of Bazel builds
+- slug: odin
+  name: Odin
+  first_appeared: 2016
+  era: 2010s
+  status: maintained
+  tag: data-oriented simplicity for the post-C generation
+- slug: zig
+  name: Zig
+  first_appeared: 2016
+  era: 2010s
+  status: active
+  tag: 'C re-thought: explicit allocators, comptime, perfect cross-compilation'
+- slug: openqasm
+  name: OpenQASM
+  first_appeared: 2017
+  era: 2010s
+  status: active
+  tag: the assembly of quantum circuits (IBM, 2017)
+- slug: q-sharp
+  name: Q#
+  first_appeared: 2017
+  era: 2010s
+  status: maintained
+  tag: programming qubits with C#-flavored control (2017)
+- slug: vyper
+  name: Vyper
+  first_appeared: 2017
+  era: 2010s
+  status: active
+  tag: the auditability-first contract language (2017)
+- slug: webassembly
+  name: WebAssembly (WAT/WASM)
+  first_appeared: 2017
+  era: 2010s
+  status: active
+  tag: the universal sandboxed assembly (2017)
+- slug: rockstar
+  name: Rockstar
+  first_appeared: 2018
+  era: 2010s
+  status: esoteric
+  tag: programs as 80s power ballads (2018)
+- slug: clarity
+  name: Clarity
+  first_appeared: 2019
+  era: 2010s
+  status: active
+  tag: decidable, interpreted, Lisp-shaped contracts on Bitcoin
+- slug: gleam
+  name: Gleam
+  first_appeared: 2019
+  era: 2010s
+  status: active
+  tag: static types on Erlang's legendary VM (1.0 in 2024)
+- slug: move
+  name: Move
+  first_appeared: 2019
+  era: 2010s
+  status: active
+  tag: ownership types for digital assets (2019)
+- slug: triton
+  name: Triton
+  first_appeared: 2019
+  era: 2010s
+  status: active
+  tag: GPU kernels written in Python-flavored blocks (2019)
+- slug: v
+  name: V
+  first_appeared: 2019
+  era: 2010s
+  status: maintained
+  tag: the minimalist compile-to-C challenger (2019)
+- slug: wenyan
+  name: wenyan (文言)
+  first_appeared: 2019
+  era: 2010s
+  status: active
+  tag: Classical Chinese as a real programming language (2019)
+- slug: cairo
+  name: Cairo
+  first_appeared: 2020
+  era: 2020s
+  status: active
+  tag: programs that prove themselves (StarkWare, 2020)
+- slug: bqn
+  name: BQN
+  first_appeared: 2021
+  era: 2020s
+  status: active
+  tag: the array language re-engineered for the 2020s
+- slug: carbon
+  name: Carbon
+  first_appeared: 2022
+  era: 2020s
+  status: maintained
+  tag: the experimental C++ migration path (Google, 2022)
+- slug: hare
+  name: Hare
+  first_appeared: 2022
+  era: 2020s
+  status: maintained
+  tag: minimalism as a 50-year promise (2022)
+- slug: bend
+  name: Bend
+  first_appeared: 2023
+  era: 2020s
+  status: active
+  tag: auto-parallel functional code via interaction nets (2023)
+- slug: mojo
+  name: Mojo
+  first_appeared: 2023
+  era: 2020s
+  status: active
+  tag: Chris Lattner's bet on one language for all of AI (2023)
+- slug: typst
+  name: Typst
+  first_appeared: 2023
+  era: 2020s
+  status: active
+  tag: instant-compile typesetting for the LaTeX-weary (2023)
+- slug: pkl
+  name: Pkl
+  first_appeared: 2024
+  era: 2020s
+  status: active
+  tag: typed configuration from Apple (2024)

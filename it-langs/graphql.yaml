@@ -1,0 +1,32 @@
+# it-langs fiche — GraphQL — corpus for the Pica agent (syntax-seed)
+name: GraphQL
+slug: graphql
+first_appeared: 2015
+creators: Lee Byron, Nick Schrock and Facebook's product infrastructure group
+origin: Facebook/Meta (USA)
+era: 2010s
+status: active
+paradigms:
+- declarative query language over a typed schema (fields, arguments, fragments)
+- executable specifications
+typing: static via the schema's type system
+execution: parsed and resolved by GraphQL servers — resolvers form the execution model
+non_executable: false
+family: API query family (REST's structured challenger)
+influenced_by:
+- Facebook's internal queries
+- JSON shape
+- SQL's declarative spirit
+influenced:
+- 'the modern API stack: clients (Apollo)'
+- gateways
+- schema-first design culture
+underlying: GraphQL servers in every backend language; SDL schemas as contracts
+domains:
+- mobile/web API aggregation layers
+- CMS front-ends
+hello_world: query { greeting }
+docs: https://graphql.org/learn/
+tag: queries shaped like the data you want (2015)
+summary: 'Facebook''s answer to mobile under-fetching: clients ask for exactly the shape they need, servers expose
+  one typed graph instead of dozens of endpoints. It re-taught API design to name types first.'

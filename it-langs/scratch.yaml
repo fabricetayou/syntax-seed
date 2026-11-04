@@ -1,0 +1,31 @@
+# it-langs fiche — Scratch — corpus for the Pica agent (syntax-seed)
+name: Scratch
+slug: scratch
+first_appeared: 2003
+year_note: developed 2003-2006 at MIT; public launch 2007; Scratch 3.0 web era
+creators: MIT Media Lab Lifelong Kindergarten group (Mitchel Resnick, ...)
+origin: MIT Media Lab (USA)
+era: 2000s
+status: active
+paradigms:
+- 'visual block programming: snap events'
+- control
+- motion blocks
+typing: dynamic (untyped sprites and variables)
+execution: interpreted in the Scratch VM (browser since 3.0)
+non_executable: false
+family: Logo's constructionist lineage — visual branch
+influenced_by:
+- Logo
+- Etoys/Squeak
+influenced:
+- Snap!
+- Blockly
+- the CS-in-schools movement worldwide
+underlying: Scratch VM in browsers; sprites and a stage as the world model
+domains:
+- introductory computing for children (tens of millions of users)
+tag: the first language of the world's children (MIT, 2003)
+summary: 'The blocks language that became the planet''s first programming experience: syntax errors impossible,
+  ideas immediate. Logo''s turtle philosophy rebuilt with a camera, motion and sound — and a global community of
+  remixed projects.'

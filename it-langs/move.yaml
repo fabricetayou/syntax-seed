@@ -1,0 +1,31 @@
+# it-langs fiche — Move — corpus for the Pica agent (syntax-seed)
+name: Move
+slug: move
+first_appeared: 2019
+year_note: developed at Facebook/Meta for the Libra/Diem blockchain; public ecosystem since 2020
+creators: Meta's Novi team (Sam Blackshear led the language)
+origin: Facebook/Meta (USA)
+era: 2010s
+status: active
+paradigms:
+- 'resource-oriented: values with linear ownership (resources cannot be copied or dropped by accident)'
+typing: static, strong, with capability types
+execution: executed by Move VMs (Aptos, Sui blockchains)
+non_executable: false
+family: smart-contract family — the resource-typing branch
+influenced_by:
+- Rust (ownership ideas)
+- linear logic
+- Ethereum's Solidity problems
+influenced:
+- Aptos and Sui ecosystems
+underlying: Move VM runtimes on their chains
+domains:
+- 'blockchain assets: tokens whose type system forbids duplication or loss'
+hello_world: |-
+  module hello::greeting {
+      public fun greet(): u8 { 42 }
+  }
+tag: ownership types for digital assets (2019)
+summary: 'Assets as linear types: a coin cannot be copied or silently dropped because the type system refuses. Diem
+  died; its language lived on to type two major chains.'

@@ -1,0 +1,28 @@
+# it-langs fiche — AutoHotkey — corpus for the Pica agent (syntax-seed)
+name: AutoHotkey
+slug: autohotkey
+first_appeared: 2003
+creators: Chris Mallett (forked from AutoIt), then AHK community
+origin: open source (global)
+era: 2000s
+status: active
+paradigms:
+- imperative scripting built around hotkeys and remapping
+typing: dynamic (v1); v2 tightened semantics
+execution: interpreted
+non_executable: false
+family: Windows automation line (AutoIt's branch)
+influenced_by:
+- AutoIt (its fork source)
+influenced:
+- the power-user culture of scripted Windows
+underlying: the AutoHotkey interpreter
+domains:
+- hotkeys
+- macros
+- window management
+- accessibility tooling
+hello_world: MsgBox "Hello, World!"
+tag: Windows remade in hotkeys and scripts (2003)
+summary: 'The language where a script IS a keyboard: remap keys, chord commands, script entire applications. To
+  its community, Windows without AutoHotkey is an unbuilt instrument.'

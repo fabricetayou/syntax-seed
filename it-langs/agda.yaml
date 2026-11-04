@@ -1,0 +1,34 @@
+# it-langs fiche — Agda — corpus for the Pica agent (syntax-seed)
+name: Agda
+slug: agda
+first_appeared: 1996
+year_note: Agda 1 by Catarina Coquand 1996; the modern Agda 2 by Ulf Norell 2007
+creators: Catarina Coquand (Agda 1); Ulf Norell (Agda 2), Chalmers community
+origin: Chalmers University (Sweden)
+era: 1990s
+status: maintained
+paradigms:
+- dependently-typed
+- pure functional with mixfix operators (readable mathematics)
+typing: static, strong, dependent; interactive typechecking drives development
+execution: typechecked interactively in Emacs/VS Code; compiled via GHC extraction or its backends
+non_executable: false
+family: proof-assistant family — the programming-first branch
+influenced_by:
+- ML
+- Coq's ideas
+- constructive type theory
+influenced:
+- Idris (its programming-oriented descendant)
+- dependent-types teaching
+underlying: the Agda typechecker as the trusted kernel
+domains:
+- research in dependent types
+- verified programming pedagogy
+hello_world: |-
+  hello : String
+  hello = "Hello, World!"
+docs: https://agda.readthedocs.io/
+tag: dependent types as everyday programming (Chalmers)
+summary: 'The proof assistant that treats theorem-proving as programming with better types: Unicode mixfix operators
+  make its code look like the math it formalizes. Homotopy type theory found a home here.'

@@ -1,0 +1,38 @@
+# it-langs fiche — WebAssembly (WAT/WASM) — corpus for the Pica agent (syntax-seed)
+name: WebAssembly (WAT/WASM)
+slug: webassembly
+first_appeared: 2017
+year_note: MVP announced March 2017; W3C recommendation 2019; WasmGC 2023
+creators: browser consortium (Google, Mozilla, Microsoft, Apple engineers)
+origin: W3C WebAssembly Working Group
+era: 2010s
+status: active
+paradigms:
+- stack-machine bytecode with a textual format (WAT)
+typing: static, strong, linear memory + (since 2023) GC objects
+execution: compiled from C/C++/Rust/... then executed by engines (V8, SpiderMonkey, standalone runtimes)
+non_executable: false
+family: portable-IR family — the 'universal assembly' branch
+influenced_by:
+- asm.js (its JS precursor)
+- LLVM backends
+- PNaCl lessons
+influenced:
+- fast compute on the web
+- serverless edge runtimes (WASI)
+- plugin systems (Envoy, shop tools)
+underlying: browser engines and WASI runtimes (Wasmtime, WasmEdge)
+domains:
+- near-native web modules
+- edge/serverless
+- sandboxed plugins
+- smart-contract chains
+hello_world: |-
+  (module
+    (func (export "hello")
+      i32.const 72
+      drop))
+docs: https://webassembly.org/
+tag: the universal sandboxed assembly (2017)
+summary: 'The universal machine language of the sandbox age: bytecode any language can compile to, any browser or
+  runtime executes. From games in the browser to plugins at the edge — assembly reborn portable.'

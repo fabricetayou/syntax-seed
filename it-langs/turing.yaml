@@ -1,0 +1,29 @@
+# it-langs fiche — Turing — corpus for the Pica agent (syntax-seed)
+name: Turing
+slug: turing
+first_appeared: 1982
+creators: Ric Holt, Jim Cordy and colleagues (University of Toronto)
+origin: University of Toronto (Canada)
+era: 1980s
+status: dormant
+paradigms:
+- imperative
+- procedural
+- modular (concurrency in Turing Plus)
+typing: static, strong, with subranges and type safety Pascal-style
+execution: compiled
+non_executable: false
+family: Pascal/Wirth teaching branch
+influenced_by:
+- Pascal
+- Euclid (the verification-oriented predecessor from the same school)
+influenced:
+- Ontario's high-school computing culture for decades
+- Holt's later teaching languages
+underlying: Turing/HoltWorks compilers for DOS, OS/2, Windows
+domains:
+- education (a Canadian classic)
+- teaching concurrency with Turing Plus
+tag: Canada's teaching language, named for the founder
+summary: The University of Toronto's teaching Pascal-descendant, named for Alan Turing, that introduced generations
+  of Canadian students to programming before the Java era swept the curriculum.

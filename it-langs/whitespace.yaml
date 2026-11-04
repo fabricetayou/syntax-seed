@@ -1,0 +1,28 @@
+# it-langs fiche — Whitespace — corpus for the Pica agent (syntax-seed)
+name: Whitespace
+slug: whitespace
+first_appeared: 2003
+creators: Edwin Brady and Chris Morris (Durham University)
+origin: Durham University (UK)
+era: 2000s
+status: esoteric
+paradigms:
+- esoteric stack language where only spaces
+- tabs and newlines are syntax
+typing: untyped stack values
+execution: interpreted
+non_executable: false
+family: esoteric family — the invisible branch
+influenced_by:
+- Forth's stack
+- Brainfuck-era minimalism
+influenced:
+- steganography jokes
+- '''invisible code'' folklore'
+underlying: Whitespace interpreters
+domains:
+- pranks
+- hidden messages in other files
+tag: code you cannot see — only space, tab and newline (2003)
+summary: 'The language made entirely of whitespace: any visible character is a comment. Programs hide inside innocent-looking
+  texts — the only language whose hello world looks like an accident.'

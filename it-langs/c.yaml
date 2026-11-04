@@ -1,0 +1,51 @@
+# it-langs fiche — C — corpus for the Pica agent (syntax-seed)
+name: C
+slug: c
+first_appeared: 1972
+year_note: 1972-1973 on the PDP-11; K&R book 1978; ANSI C 1989; current standard C23
+creators: Dennis Ritchie (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: active
+paradigms:
+- imperative
+- procedural
+- structured
+- systems
+typing: static, weak (permissive conversions; undefined behavior at the edges)
+execution: compiled to native machine code
+non_executable: false
+family: BCPL-B-C lineage (Algol family branch)
+influenced_by:
+- B and BCPL
+- ALGOL 68 (declaration and operator ideas)
+influenced:
+- C++
+- Objective-C
+- 'and the whole C-syntax family: Java'
+- C#
+- JavaScript
+- PHP
+- Go (spirit)
+- Rust (surface syntax)
+underlying: native code; libc as universal substrate; the ABI that every other language binds to
+domains:
+- operating systems (Unix, Linux, Windows kernels)
+- embedded
+- databases
+- language runtimes
+- everything
+hello_world: |-
+  #include <stdio.h>
+
+  int main(void)
+  {
+      printf("Hello, World!\n");
+      return 0;
+  }
+install: gcc / clang toolchains; MSVC on Windows
+docs: https://en.cppreference.com/w/c
+tag: the lingua franca of systems programming since 1972
+summary: The portability layer of the computing world. Ritchie's PDP-11 rewrite of B gave Unix a language it could
+  be rewritten in, and fifty years later every platform still exposes C as its lowest common denominator. Its permissiveness
+  is both its power and its danger.

@@ -1,0 +1,28 @@
+# it-langs fiche — Hy — corpus for the Pica agent (syntax-seed)
+name: Hy
+slug: hy
+first_appeared: 2013
+creators: Paul Tagliamonte and community
+origin: open source (USA)
+era: 2010s
+status: maintained
+paradigms:
+- Lisp syntax over Python's semantics
+typing: dynamic (Python's)
+execution: compiled to Python AST — runs everywhere Python does
+non_executable: false
+family: Lisp family — the Python bridge
+influenced_by:
+- Common Lisp/Scheme (surface)
+- Python (body)
+influenced:
+- the Lisp-everywhere movement's Python entry
+underlying: compiles to Python bytecode/AST
+domains:
+- Python shops wanting Lisp flavor
+- quick macros
+hello_world: (print "Hello, World!")
+docs: https://hylang.org/
+tag: Lisp on the Python runtime (2013)
+summary: 'Lisp''s parentheses on Python''s ecosystem: macros over the world''s largest library universe. The practical
+  joke that became a practical tool.'

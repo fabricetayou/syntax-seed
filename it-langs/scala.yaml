@@ -1,0 +1,35 @@
+# it-langs fiche — Scala — corpus for the Pica agent (syntax-seed)
+name: Scala
+slug: scala
+first_appeared: 2004
+year_note: 3.0 (2021) rebuilt the surface syntax on the same semantics
+creators: Martin Odersky (EPFL)
+origin: EPFL (Switzerland)
+era: 2000s
+status: active
+paradigms:
+- 'hybrid: object-oriented plus functional (immutability encouraged; actors in the library ecosystem)'
+typing: static, strong, local type inference, implicits/givens
+execution: compiled to JVM bytecode (Scala.js and Scala Native as alternate targets)
+non_executable: false
+family: ML-on-JVM fusion line
+influenced_by:
+- Java
+- ML family
+- Pizza (Odersky's earlier Java extension)
+influenced:
+- Kotlin (its pragmatic rival)
+- Spark's API design
+- akka's actor culture
+- the FP-in-enterprise wave
+underlying: the JVM; Spark data engines at planetary scale
+domains:
+- big data (Apache Spark is written in it)
+- high-throughput back-ends
+- FP adoption paths
+hello_world: '@main def hello(): Unit = println("Hello, World!")'
+install: via Coursier/sbt; try Scala on the browser at scastie.scala-lang.org
+docs: https://docs.scala-lang.org/
+tag: OO and FP unified on the JVM — the language of Spark
+summary: 'Odersky''s fusion thesis: Java''s platform with ML''s type discipline and functional style. It became
+  the language of Apache Spark, which alone put it at the center of the big-data world.'

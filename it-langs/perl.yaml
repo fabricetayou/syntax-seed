@@ -1,0 +1,42 @@
+# it-langs fiche — Perl — corpus for the Pica agent (syntax-seed)
+name: Perl
+slug: perl
+first_appeared: 1987
+year_note: Perl 5 (1994) was the great leap; Raku split off as a sibling in 2015
+creators: Larry Wall
+origin: USA (NASA/JPL engineer's project)
+era: 1980s
+status: active
+paradigms:
+- 'multi-paradigm scripting: procedural with functional spices'
+- regex-native
+typing: dynamic, with contexts and sigils ($ @ %)
+execution: interpreted
+non_executable: false
+family: Unix text-tool lineage industrialized (awk/sed/sh synthesized)
+influenced_by:
+- C
+- sed
+- awk
+- shell
+- Lisp (partly)
+- the report-writing problem at hand
+influenced:
+- PHP
+- Ruby (partly)
+- JavaScript's Perl-style regexes
+- Python's rise partly as its rival
+- Raku (its own reinvention)
+underlying: the perl interpreter with CPAN — the first great module ecosystem
+domains:
+- CGI-era web
+- sysadmin automation
+- bioinformatics (early genomics pipelines)
+- text wrangling
+hello_world: print "Hello, World!\n";
+install: system perl or perlbrew; cpanm for modules
+docs: https://perldoc.perl.org/
+tag: the duct tape of the early web — regex-native scripting
+summary: Larry Wall's linguistic language — designed like a natural language, with idioms, context and sigils, plus
+  regexes at its heart. It wrote the early web (CGI) and proved that a community module archive (CPAN) mattered
+  more than syntax.

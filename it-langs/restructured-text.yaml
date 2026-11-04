@@ -1,0 +1,29 @@
+# it-langs fiche — reStructuredText (reST) — corpus for the Pica agent (syntax-seed)
+name: reStructuredText (reST)
+slug: restructured-text
+first_appeared: 2002
+creators: Docutils project (David Goodger and the Python community)
+origin: Python community
+era: 2000s
+status: active
+paradigms:
+- declarative lightweight markup with directive and role extension system
+typing: n/a
+execution: none — rendered by Docutils/Sphinx into HTML, PDF, man pages
+non_executable: true
+family: lightweight markup family
+influenced_by:
+- StructuredText (Zope's earlier format)
+- Setext
+influenced:
+- Sphinx documentation (the entire Python docs civilization)
+- docutils
+underlying: Sphinx/Docutils processors
+domains:
+- Python documentation
+- technical docs with cross-references
+hello_world: '**Hello, World!**'
+docs: https://docutils.sourceforge.io/rst.html
+tag: the documentation markup behind Python's docs (2002)
+summary: 'The Python community''s markup: stricter than Markdown, with directives and roles that make real documentation
+  machinery (indices, cross-references) possible. Sphinx built the modern docs experience on it.'

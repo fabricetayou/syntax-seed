@@ -1,0 +1,29 @@
+# it-langs fiche — ActionScript — corpus for the Pica agent (syntax-seed)
+name: ActionScript
+slug: actionscript
+first_appeared: 1998
+year_note: AS1 1998; AS2 2003; AS3 (AVM2) 2006 — a genuine ECMAScript dialect family
+creators: Macromedia (later Adobe), on the ECMAScript lineage
+origin: Macromedia / Adobe (USA)
+era: 1990s
+status: discontinued
+paradigms:
+- prototype-then-class-based scripting evolving with the Flash platform
+typing: dynamic (AS1/2) to static with type annotations (AS3)
+execution: interpreted/JIT on the AVM2 virtual machine
+non_executable: false
+family: ECMAScript family — the Flash branch
+influenced_by:
+- JavaScript/ECMAScript
+influenced:
+- a generation of web animators and game developers
+- Haxe (its escape route)
+underlying: the Flash Player runtime (retired 2020)
+domains:
+- rich web content
+- browser games
+- video players of the 2000s
+hello_world: trace("Hello, World!");
+tag: the ECMAScript dialect of the Flash era
+summary: 'Flash''s language: ECMAScript that grew classes, types and a fast VM right before the platform itself
+  was retired. A whole era of web creativity — animations, games, video — spoke it.'

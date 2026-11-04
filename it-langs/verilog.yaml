@@ -1,0 +1,34 @@
+# it-langs fiche — Verilog — corpus for the Pica agent (syntax-seed)
+name: Verilog
+slug: verilog
+first_appeared: 1984
+year_note: Gateway Design Automation; Cadence acquisition 1989; IEEE 1364-1995; subsumed by SystemVerilog
+creators: Phil Moorby (Gateway Design Automation)
+origin: Gateway Design Automation (USA)
+era: 1980s
+status: active
+paradigms:
+- 'hardware description: concurrent structural and behavioral (event-driven simulation semantics)'
+typing: static, 4-value logic (0, 1, X, Z), net and reg types
+execution: simulated (event-driven) or synthesized to hardware (gates/flip-flops)
+non_executable: false
+family: HDL family (with VHDL as the rival branch)
+influenced_by:
+- C-flavored syntax surface over event-driven simulation semantics
+influenced:
+- SystemVerilog (its industrialized extension)
+- Verilog-A/AMS branches
+underlying: synthesis tools (Yosys, vendor flows) targeting FPGA/ASIC hardware
+domains:
+- 'digital chip design: ASICs'
+- FPGAs
+- testbenches
+hello_world: |-
+  module hello;
+    initial $display("Hello, World!");
+  endmodule
+docs: https://www.chipverify.com/verilog/verilog-tutorial
+tag: describing hardware in C-flavored syntax (1984)
+summary: 'The C-looking language that describes silicon: modules of concurrent hardware, simulated by events and
+  synthesized into gates. Its ''programming'' is circuits — the only mainstream language whose programs become physical
+  hardware.'

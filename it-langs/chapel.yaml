@@ -1,0 +1,28 @@
+# it-langs fiche — Chapel — corpus for the Pica agent (syntax-seed)
+name: Chapel
+slug: chapel
+first_appeared: 2009
+year_note: Cray project from 2004; open-sourced 2009
+creators: Brad Chamberlain and Cray/HPE team
+origin: Cray (USA)
+era: 2000s
+status: maintained
+paradigms:
+- 'parallel-first imperative: task and data parallelism as core concepts'
+typing: static, strong, with domain types describing index sets
+execution: compiled to native code with its parallel runtime
+non_executable: false
+family: HPC language family (HPF's heirs)
+influenced_by:
+- High Performance Fortran and ZPL lessons
+influenced:
+- modern PGAS thinking (as DARPA HPCS sibling of Fortress and X10)
+underlying: its multi-locale runtime over MPI/comm layers
+domains:
+- supercomputer application porting
+- research HPC
+hello_world: writeln("Hello, World!");
+docs: https://chapel-lang.org/docs/
+tag: parallelism as a first-class word in the language (Cray, 2009)
+summary: 'Cray''s ''Cascade'' HPC language: locales, domains and ranges as first-class ideas so a single program
+  spans thousands of nodes. One of the few post-Fortran HPC languages actually deployed on big iron.'

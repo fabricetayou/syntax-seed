@@ -1,0 +1,28 @@
+# it-langs fiche — FLOW-MATIC — corpus for the Pica agent (syntax-seed)
+name: FLOW-MATIC
+slug: flow-matic
+first_appeared: 1958
+year_note: developed as B-0 from 1955
+creators: Grace Hopper and her Remington Rand team
+origin: Remington Rand UNIVAC division (USA)
+era: 1950s
+status: historical
+paradigms:
+- imperative
+- procedural
+- record-oriented
+typing: static, data-description oriented
+execution: compiled
+non_executable: false
+family: business-data line leading to COBOL
+influenced_by:
+- Hopper's A-0/A-2 compiler tooling
+- business data-processing practice
+influenced:
+- COBOL (English-like clauses, record and file divisions)
+underlying: UNIVAC machine code
+domains:
+- business data processing
+tag: Grace Hopper's English-like forerunner of COBOL
+summary: Grace Hopper's English-keyword business language for UNIVAC, evolved from her 1955 B-0. Its natural-language
+  clauses and its record/file model became the blueprint that COBOL adopted almost wholesale.

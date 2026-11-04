@@ -1,0 +1,37 @@
+# it-langs fiche — APL — corpus for the Pica agent (syntax-seed)
+name: APL
+slug: apl
+first_appeared: 1966
+year_note: Iverson's notation published 1962; APL\360 implemented 1966
+creators: Kenneth E. Iverson and Adin Falkoff (IBM)
+origin: IBM (USA; Iverson was Canadian)
+era: 1960s
+status: active
+paradigms:
+- array-functional (everything is an array)
+typing: dynamic
+execution: interpreted (workspace model)
+non_executable: false
+family: 'array family: APL, J, K, Q, BQN'
+influenced_by:
+- Iverson's mathematical notation ('A Programming Language', 1962)
+influenced:
+- J
+- K/kdb+
+- Q
+- BQN
+- the vectorized mindset echoes in NumPy
+- MATLAB
+- R
+underlying: APL interpreters (Dyalog APL, GNU APL)
+domains:
+- finance analytics
+- actuarial work
+- data wrangling
+- dense algorithmic thinking
+hello_world: ⎕← 'Hello, World!'
+docs: https://www.dyalog.com/documentation
+tag: executable math with glyphs — ancestor of the array family
+summary: 'Iverson''s executable mathematics: special glyphs, arrays as the only value, and programs measured in
+  single lines. Its descendants (J, K, BQN) keep proving that array thinking is among the densest programming styles
+  ever invented.'

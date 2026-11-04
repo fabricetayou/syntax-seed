@@ -1,0 +1,34 @@
+# it-langs fiche — Bourne Shell (sh) — corpus for the Pica agent (syntax-seed)
+name: Bourne Shell (sh)
+slug: sh
+first_appeared: 1977
+year_note: shipped in Version 7 Unix (1979)
+creators: Stephen Bourne (Bell Labs)
+origin: Bell Labs (USA)
+era: 1970s
+status: active
+paradigms:
+- imperative command language (pipelines, redirection, globs)
+typing: dynamic, string-valued, word-splitting semantics
+execution: interpreted
+non_executable: false
+family: shell family (csh is the rival branch)
+influenced_by:
+- Thompson's earlier shells
+- the Unix tool philosophy
+influenced:
+- ksh
+- bash
+- zsh
+- POSIX sh — the whole shell culture
+underlying: 'Unix process machinery: every construct spawns real programs'
+domains:
+- system scripts
+- cron jobs
+- container entry points
+- portable glue
+hello_world: echo "Hello, World!"
+docs: https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sh.html
+tag: the Unix command language — composability as a culture
+summary: 'The command language that made composability a culture: pipelines of small programs, files as universal
+  interface. Bash is its loud descendant; POSIX sh remains the only truly universal scripting dialect.'

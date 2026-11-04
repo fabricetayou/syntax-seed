@@ -1,0 +1,30 @@
+# it-langs fiche — Macsyma / Maxima — corpus for the Pica agent (syntax-seed)
+name: Macsyma / Maxima
+slug: maxima
+first_appeared: 1968
+year_note: MIT project from 1968; wide release of Macsyma 1982; GPL fork Maxima 1998
+creators: MIT Project MAC group (Engelman, Martin, Moses and others)
+origin: MIT (USA)
+era: 1960s
+status: maintained
+paradigms:
+- computer-algebra commands plus imperative scripting
+typing: dynamic
+execution: interpreted (Lisp runtime)
+non_executable: false
+family: computer-algebra family (with Reduce and Scratchpad/Axiom)
+influenced_by:
+- Lisp
+influenced:
+- Mathematica and Maple (the commercial CAS wave)
+- SageMath (wraps Maxima)
+underlying: implemented in Common Lisp
+domains:
+- symbolic algebra
+- calculus
+- differential equations
+- teaching
+docs: https://maxima.sourceforge.io/docs/manual/
+tag: the MIT computer-algebra classic, alive as Maxima
+summary: The pioneering computer-algebra system language from MIT's Project MAC era. Its commercial descendant faded,
+  but the GPL fork Maxima still differentiates and solves today — a living Lisp-era fossil.

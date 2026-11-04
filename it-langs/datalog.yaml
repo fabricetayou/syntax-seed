@@ -1,0 +1,34 @@
+# it-langs fiche — Datalog — corpus for the Pica agent (syntax-seed)
+name: Datalog
+slug: datalog
+first_appeared: 1977
+year_note: emerged from logic-programming database research in the late 1970s; renaissance since ~2010
+creators: the deductive-database research community
+origin: academic (US and Europe)
+era: 1970s
+status: active
+paradigms:
+- logic programming restricted to queries (no function symbols, guaranteed termination)
+typing: dynamic terms
+execution: evaluated by Datalog engines (semi-naive bottom-up or top-down)
+non_executable: false
+family: Prolog's query-restricted child
+influenced_by:
+- Prolog
+- relational algebra
+influenced:
+- Datomic
+- Souffle
+- CodeQL/SEMMLE
+- Flix
+- verification tooling
+- SQL:1999's WITH RECURSIVE
+underlying: specialized engines, often compiled to C++ or running inside databases
+domains:
+- program analysis
+- rules engines
+- knowledge graphs
+- access policies
+tag: logic queries that always terminate — the quiet renaissance
+summary: 'Prolog with training wheels: a syntactic subset that always terminates, which makes it safe to embed everywhere.
+  After thirty quiet years it came back as the engine of code analysis and policy rules at scale.'

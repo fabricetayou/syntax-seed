@@ -1,0 +1,41 @@
+# it-langs fiche — D — corpus for the Pica agent (syntax-seed)
+name: D
+slug: d
+first_appeared: 2001
+creators: Walter Bright (Digital Mars)
+origin: Digital Mars (USA)
+era: 2000s
+status: maintained
+paradigms:
+- 'multi-paradigm systems: OO'
+- templates
+- functional
+- contracts
+- memory-control options
+typing: static, strong, with templates and compile-time function execution
+execution: compiled to native machine code
+non_executable: false
+family: C lineage — the 'C++ rethought from scratch' branch
+influenced_by:
+- C++
+- C
+- Java/C# convenience features
+- Eiffel's contracts
+influenced:
+- a trail of systems-language experiments inspired by its ambition
+underlying: LLVM or own backends; betterC mode for kernel-adjacent work
+domains:
+- systems tooling
+- finance back-ends
+- gamedev experiments
+hello_world: |-
+  import std.stdio;
+
+  void main()
+  {
+      writeln("Hello, World!");
+  }
+docs: https://dlang.org/spec/spec.html
+tag: C++ rethought from a blank page (2001)
+summary: 'Walter Bright''s ''what C++ would be if started over'': full templates plus modules plus contracts, with
+  garbage collection you can refuse. Never mainstream, always respected.'

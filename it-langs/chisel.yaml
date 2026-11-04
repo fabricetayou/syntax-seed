@@ -1,0 +1,34 @@
+# it-langs fiche — Chisel — corpus for the Pica agent (syntax-seed)
+name: Chisel
+slug: chisel
+first_appeared: 2012
+creators: Jonathan Bachrach and UC Berkeley's ASPIRE group
+origin: UC Berkeley (USA)
+era: 2010s
+status: active
+paradigms:
+- hardware construction embedded in Scala (generators as programs that emit circuits)
+typing: static via Scala's
+execution: elaborated through FIRRTL to Verilog for synthesis
+non_executable: false
+family: HDL family — the embedded-DSL branch
+influenced_by:
+- Scala (host language)
+- prior HDL-generator practice
+influenced:
+- RISC-V's ecosystem (Rocket/BOOM cores)
+- SiFive's commercial chips
+underlying: Scala compiler front-end; FIRRTL → Verilog → silicon
+domains:
+- parameterized chip generators
+- RISC-V cores
+- accelerators
+hello_world: |-
+  class Hello extends Module {
+    val io = IO(new Bundle {})
+    printf("Hello, World!\n")
+  }
+docs: https://www.chisel-lang.org/docs
+tag: chips as Scala generators — the RISC-V foundry language
+summary: 'Hardware design as Scala programming: write a generator, get parameterized Verilog families of chips.
+  The RISC-V revolution''s circuits were typed, tested and generated in it.'

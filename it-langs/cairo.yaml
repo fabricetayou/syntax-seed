@@ -1,0 +1,33 @@
+# it-langs fiche — Cairo — corpus for the Pica agent (syntax-seed)
+name: Cairo
+slug: cairo
+first_appeared: 2020
+year_note: StarkWare's provable-computation language; Cairo 1.0 (2023) rewrote the surface in Rust-like syntax
+creators: StarkWare Industries
+origin: StarkWare (Israel)
+era: 2020s
+status: active
+paradigms:
+- 'provable computation: the language''s execution generates a STARK validity proof'
+typing: static (Cairo 1.0), strong
+execution: compiled to Cairo assembly; executed by provers whose outputs are verified on-chain
+non_executable: false
+family: ZK-proving family (its own branch)
+influenced_by:
+- STARK mathematics
+- Rust-like surface in 1.0
+influenced:
+- Starknet and the zk-rollup ecosystem
+underlying: prover/verifier pairs; proofs verified on Ethereum
+domains:
+- ZK rollups
+- provable off-chain compute
+- on-chain games with hidden state
+hello_world: |-
+  fn main() -> felt252 {
+      'Hello, World!'
+  }
+docs: https://www.cairo-lang.org/docs/
+tag: programs that prove themselves (StarkWare, 2020)
+summary: 'A language whose unit of meaning is the proof: running a program produces cryptographic evidence it ran
+  correctly. ''Don''t trust, verify'' pushed into the compiler itself.'

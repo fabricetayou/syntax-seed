@@ -1,0 +1,29 @@
+# it-langs fiche — BQN — corpus for the Pica agent (syntax-seed)
+name: BQN
+slug: bqn
+first_appeared: 2021
+creators: Marshall Lochbaum (Dyalog-trained array-language designer)
+origin: community project (array-language world)
+era: 2020s
+status: active
+paradigms:
+- modern array language (glyphs, based/diacritics arithmetic, first-class functions)
+typing: dynamic
+execution: interpreted (CBQN native runtime)
+non_executable: false
+family: APL family — the modern revision
+influenced_by:
+- APL
+- J
+- K (the whole array tradition)
+influenced:
+- the active array-language renaissance community
+underlying: CBQN interpreter
+domains:
+- data analysis
+- array-thinking pedagogy
+hello_world: •Out "Hello, World!"
+docs: https://mlochbaum.github.io/BQN/
+tag: the array language re-engineered for the 2020s
+summary: 'The array tradition''s newest synthesis: APL''s glyphs with K''s pragmatism and modern closure semantics.
+  Its community is the laboratory where ''programs as arrays'' gets re-proven each year.'

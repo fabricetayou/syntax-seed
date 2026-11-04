@@ -1,0 +1,34 @@
+# it-langs fiche — ML — corpus for the Pica agent (syntax-seed)
+name: ML
+slug: ml
+first_appeared: 1973
+year_note: the LCF implementation language; standardized as Standard ML in 1990
+creators: Robin Milner and colleagues (University of Edinburgh)
+origin: Edinburgh (UK)
+era: 1970s
+status: historical
+paradigms:
+- functional with imperative features
+- the birth of Hindley-Milner type inference
+typing: static, strong, inferred (polymorphic)
+execution: compiled (to native or abstract machine code)
+non_executable: false
+family: ML family (Standard ML, OCaml, F#, Haskell's typing partly)
+influenced_by:
+- Landin's ISWIM ideas
+- Lisp
+- the LCF theorem prover's needs
+influenced:
+- Standard ML
+- OCaml
+- F#
+- Haskell (type-class-free core ideas)
+- Rust (type discipline culture)
+underlying: LCF's metalanguage originally; descendants target native code
+domains:
+- theorem provers
+- language research
+tag: type inference was invented here (Edinburgh, 1973)
+summary: 'The Meta-Language of Milner''s LCF prover, which invented practical type inference: you rarely write types,
+  yet everything is checked. Every language with inferred types — Haskell, OCaml, F#, Swift, Rust — is in ML''s
+  debt.'

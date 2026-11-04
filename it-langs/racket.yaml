@@ -1,0 +1,36 @@
+# it-langs fiche — Racket — corpus for the Pica agent (syntax-seed)
+name: Racket
+slug: racket
+first_appeared: 2010
+year_note: PLT Scheme from 1995; renamed Racket in 2010
+creators: PLT group (Matthias Felleisen, Robby Findler, Matthew Flatt, Shriram Krishnamurthi)
+origin: Northeastern University / Utah (USA)
+era: 2010s
+status: active
+paradigms:
+- functional-first Scheme dialect
+- THE language-creation language (#lang planet)
+typing: dynamic, strong, contracts as values
+execution: compiled to native or bytecode on its runtime
+non_executable: false
+family: Lisp family — the pedagogy-and-macros branch
+influenced_by:
+- Scheme (its former self)
+- PLT research agenda
+influenced:
+- How to Design Programs pedagogy
+- typed racket
+- language-workbench thinking
+underlying: 'Racket runtime + DrRacket IDE; #lang modules as new languages'
+domains:
+- teaching
+- language research
+- scripting
+- DSL creation
+hello_world: |-
+  #lang racket
+  (displayln "Hello, World!")
+docs: https://docs.racket-lang.org/
+tag: the language for making languages (2010)
+summary: 'The programmable programming language: a Scheme that grew language-building machinery (#lang) as its core
+  feature. Half the world''s programming-language textbooks breathe its parentheses.'

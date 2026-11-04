@@ -1,0 +1,29 @@
+# it-langs fiche — GPSS — corpus for the Pica agent (syntax-seed)
+name: GPSS
+slug: gpss
+first_appeared: 1961
+creators: Geoffrey Gordon (IBM)
+origin: IBM (USA)
+era: 1960s
+status: maintained
+paradigms:
+- discrete-event simulation
+- process-interaction
+typing: n/a (entities flowing through blocks)
+execution: interpreted simulation engine
+non_executable: false
+family: simulation DSL family (commercial descendants such as GPSS/H and GPSS World)
+influenced_by:
+- operations-research queuing models
+influenced:
+- later simulation tools and courses (the block-flow worldview)
+underlying: simulation engines on mainframes, then PCs
+domains:
+- 'queueing simulation: factories'
+- airports
+- call centers
+- hospitals
+tag: the original queuing-simulation block language
+summary: 'The first widely used discrete-event simulation language: models are built by chaining blocks (GENERATE,
+  SEIZE, RELEASE...). Its worldview — transactions flowing through a block diagram — still shapes how simulation
+  is taught.'

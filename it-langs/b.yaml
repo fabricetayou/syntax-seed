@@ -1,0 +1,29 @@
+# it-langs fiche — B — corpus for the Pica agent (syntax-seed)
+name: B
+slug: b
+first_appeared: 1969
+creators: Ken Thompson (Bell Labs)
+origin: Bell Labs (USA)
+era: 1960s
+status: historical
+paradigms:
+- imperative
+- procedural
+- typeless
+typing: typeless (word-oriented)
+execution: compiled to threaded code interpreted on the PDP-7
+non_executable: false
+family: BCPL to B to C lineage
+influenced_by:
+- BCPL
+- filtered through Thompson's taste for simplicity
+influenced:
+- C (direct parent)
+underlying: PDP-7 threaded code
+domains:
+- the first Unix utilities on the PDP-7
+- before C existed
+tag: the immediate parent of C (1969)
+summary: Ken Thompson's tool language for the first Unix work on the PDP-7 — BCPL's ideas squeezed into a word-oriented,
+  typeless system language. When Dennis Ritchie added types and proper character handling, the result was first
+  called 'New B', then C.

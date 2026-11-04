@@ -1,0 +1,28 @@
+# it-langs fiche — CPL — corpus for the Pica agent (syntax-seed)
+name: CPL
+slug: cpl
+first_appeared: 1963
+creators: Christopher Strachey and colleagues (Cambridge and London universities)
+origin: UK
+era: 1960s
+status: historical
+paradigms:
+- imperative
+- procedural
+- block-structured
+typing: static, strong
+execution: compiled (implementations were late and slow)
+non_executable: false
+family: Algol family (UK branch)
+influenced_by:
+- ALGOL 60
+influenced:
+- BCPL (its stripped-down practical descendant)
+underlying: research compilers of the era
+domains:
+- research
+- teaching (never widely used)
+tag: the over-ambitious Algol that shrank into the C lineage
+summary: 'Cambridge-plus-London''s ambitious, baroque Algol: powerful but too heavy to implement well. It mattered
+  mostly by shrinking — Martin Richards cut it to BCPL, Ken Thompson pared that to B, and Dennis Ritchie polished
+  B into C.'

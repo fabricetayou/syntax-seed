@@ -1,0 +1,32 @@
+# it-langs fiche — Idris — corpus for the Pica agent (syntax-seed)
+name: Idris
+slug: idris
+first_appeared: 2007
+creators: Edwin Brady and community (University of St Andrews)
+origin: Durham then St Andrews (UK)
+era: 2000s
+status: maintained
+paradigms:
+- general-purpose dependently-typed functional (types as first-class design tools)
+typing: static, strong, dependent; quantities (linear types in Idris 2)
+execution: compiled via Scheme/chez backends to native code
+non_executable: false
+family: proof-assistant family — the 'programming for humans' branch
+influenced_by:
+- Agda
+- Haskell
+- Epigram's ideas
+influenced:
+- Idris 2's quantitative type teaching
+underlying: its own compiler (Idris 2 in Idris 2)
+domains:
+- type-driven development research and teaching
+hello_world: |-
+  module Main
+
+  main : IO ()
+  main = putStrLn "Hello, World!"
+docs: https://idris-lang.org/docs/
+tag: dependent types for everyday programs (2007)
+summary: 'Brady''s mission: dependent types for everyday programming, not just theorems — ''type-driven development''
+  with the compiler as a collaborator. Its QTT (quantitative types) married linear and dependent worlds.'

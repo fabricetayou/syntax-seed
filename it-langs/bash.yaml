@@ -1,0 +1,38 @@
+# it-langs fiche — Bash — corpus for the Pica agent (syntax-seed)
+name: Bash
+slug: bash
+first_appeared: 1989
+year_note: written 1987-1989 for GNU; maintained by Chet Ramey since 1990
+creators: Brian Fox (Free Software Foundation), maintained by Chet Ramey
+origin: Free Software Foundation (USA)
+era: 1980s
+status: active
+paradigms:
+- imperative command language (pipelines, redirection, arrays since v4)
+typing: dynamic, string-valued (word splitting and quoting rules are the language's soul)
+execution: interpreted, dispatching real programs
+non_executable: false
+family: Bourne shell family
+influenced_by:
+- Bourne shell
+- ksh
+- csh conveniences
+- POSIX requirements
+influenced:
+- zsh (rival sibling)
+- the DevOps script layer
+- container entry points
+- CI glue
+underlying: Unix process machinery plus external tools (grep/sed/awk)
+domains:
+- system automation
+- CI pipelines
+- Docker entry points
+- everyday Unix driving
+hello_world: echo "Hello, World!"
+install: default on Linux; brew install bash elsewhere
+docs: https://www.gnu.org/software/bash/manual/
+tag: the shell that runs the world's servers (GNU, 1989)
+summary: 'The GNU Bourne-Again Shell: the default command language of Linux and the connective tissue of automation
+  everywhere. Its quoting and word-splitting rules have simultaneously run the world and haunted it for thirty-five
+  years.'

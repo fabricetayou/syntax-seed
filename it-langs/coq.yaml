@@ -1,0 +1,38 @@
+# it-langs fiche — Coq — corpus for the Pica agent (syntax-seed)
+name: Coq
+slug: coq
+first_appeared: 1989
+year_note: project from 1984 at INRIA; V1 1989; renamed Rocq in 2024-2025
+creators: Thierry Coquand and Gerard Huet (INRIA), extended by the Coq community
+origin: INRIA (France)
+era: 1980s
+status: active
+paradigms:
+- dependently-typed functional (Gallina)
+- tactics as a separate proof language (Ltac, and later Ltac2/SSReflect)
+typing: static, strong, dependent types — proofs are programs (Curry-Howard)
+execution: kernel typechecks proof terms; extraction to OCaml/Haskell/Scheme
+non_executable: false
+family: proof-assistant family (the French school)
+influenced_by:
+- Coquand's calculus of constructions
+- ML
+- de Bruijn's AUTOMATH lineage
+influenced:
+- Agda
+- Lean
+- Idris
+- verified compilers (CompCert)
+- the four-color theorem's proof
+underlying: the Coq/Rocq kernel's small trusted core; extracted programs run as native code
+domains:
+- formal verification of algorithms
+- compilers
+- mathematics
+hello_world: |-
+  Theorem hello : True.
+  Proof. exact I. Qed.
+docs: https://coq.inria.fr/documentation
+tag: proofs as programs — the French school of verified math (1989)
+summary: 'The French proof assistant where mathematics becomes typechecking: a proof is a program whose type is
+  a theorem. It verified a C compiler and closed the four-color theorem — the lingua franca of certified software.'

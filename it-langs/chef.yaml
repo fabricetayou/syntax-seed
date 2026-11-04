@@ -1,0 +1,39 @@
+# it-langs fiche — Chef — corpus for the Pica agent (syntax-seed)
+name: Chef
+slug: chef
+first_appeared: 2002
+year_note: published in Morgan-Mar's esolang collection; exact year approximate
+creators: David Morgan-Mar
+origin: Australia (esolang community)
+era: 2000s
+status: esoteric
+paradigms:
+- esoteric — programs are recipes (ingredients as values, mixing bowls as stacks)
+typing: untyped liquid/solid/dry ingredients
+execution: interpreted
+non_executable: false
+family: esoteric family — the culinary branch
+influenced_by:
+- the aesthetic goal 'programs should look like recipes'
+influenced:
+- the genre of readable-joke languages
+underlying: Chef interpreters
+domains:
+- delight
+- double-duty recipes
+hello_world: |-
+  Hello World Souffle.
+
+  Ingredients.
+  72 g haricot beans
+  101 eggs
+  108 g lard
+  111 cups oil
+  32 zucchinis
+
+  Method.
+  Put beans into the mixing bowl.
+  ...
+tag: programs that could be cooked (2002)
+summary: 'Morgan-Mar''s rule: every program must be a valid, cookable recipe. Ingredients encode ASCII values; ''liquefy''
+  and ''fold'' are operations. The gag with the best smell in computing.'

@@ -1,0 +1,35 @@
+# it-langs fiche — Tcl — corpus for the Pica agent (syntax-seed)
+name: Tcl
+slug: tcl
+first_appeared: 1988
+year_note: Tk (1990) drove its explosion; Tcl 9 arrived 2023
+creators: John Ousterhout (UC Berkeley)
+origin: UC Berkeley (USA)
+era: 1980s
+status: active
+paradigms:
+- imperative
+- string-command scripting
+- embeddable
+typing: dynamic, everything-is-a-string
+execution: interpreted (bytecode engine in modern Tcl)
+non_executable: false
+family: embedding scripting line (Python partly followed its embedding use case)
+influenced_by:
+- the embed-a-language-into-tools problem
+- shell culture
+influenced:
+- Tk's widget ideas spread everywhere
+- expect-style testing (DejaGnu)
+- half of EDA industry tooling
+underlying: the Tcl interpreter embedded in applications
+domains:
+- EDA (chip design tools!)
+- Cisco routers' interfaces
+- testing harnesses
+- GUIs via Tk
+hello_world: puts "Hello, World!"
+docs: https://www.tcl.tk/doc/
+tag: the embeddable scripting language that wired EDA tools
+summary: 'Ousterhout''s embeddable string language: everything is a command, everything is a string, and the host
+  application grows a scripting interface. Chip design and networking quietly run on it to this day.'

@@ -1,0 +1,27 @@
+# it-langs fiche — Fish (friendly interactive shell) — corpus for the Pica agent (syntax-seed)
+name: Fish (friendly interactive shell)
+slug: fish
+first_appeared: 2005
+creators: Axel Liljencrantz (then fish team)
+origin: open source (Sweden)
+era: 2000s
+status: active
+paradigms:
+- imperative command language — a shell
+typing: dynamic, string-valued
+execution: interpreted
+non_executable: false
+family: shell family (csh-descended comfort branch)
+influenced_by:
+- csh's interactivity lessons
+- the decision to be non-POSIX on purpose
+influenced:
+- interactive-shell renaissance (zsh plugins borrowed its autosuggestion UX)
+underlying: Unix process machinery
+domains:
+- daily interactive shell use
+- scripts where readability beats POSIX compliance
+hello_world: echo "Hello, World!"
+tag: the shell that broke POSIX to be human (2005)
+summary: 'The shell that chose sanity over POSIX: autosuggestions, sane scripting variables, colors by default.
+  Heretical and beloved — the ''friendly'' in its name is a design philosophy.'

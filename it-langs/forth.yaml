@@ -1,0 +1,39 @@
+# it-langs fiche — Forth — corpus for the Pica agent (syntax-seed)
+name: Forth
+slug: forth
+first_appeared: 1970
+creators: Charles H. Moore
+origin: USA (national radio astronomy observatory work, then independents)
+era: 1970s
+status: active
+paradigms:
+- stack-based
+- concatenative
+- interactive
+- extensible (words define words)
+typing: untyped (cells on a stack; type discipline is the programmer's)
+execution: interpreted with incremental compilation to threaded code
+non_executable: false
+family: stack/concatenative family (with dc as forerunner)
+influenced_by:
+- dc and RPN calculator practice
+influenced:
+- PostScript (stack style)
+- Factor
+- Joy
+- the embedded world's minimalism
+underlying: tiny threaded-code kernels on bare metal; famously small footprints
+domains:
+- embedded systems
+- astronomy instruments
+- spacecraft (NASA probes)
+- Open Firmware (Apple PowerPC era)
+- printers
+hello_world: |-
+  : HELLO  ." Hello, World!" CR ;
+  HELLO
+docs: https://www.forth.com/starting-forth/
+tag: the minimalist stack language that flew to space
+summary: 'Chuck Moore''s two-stack interactive language: programs are dictionaries of new ''words'' built from old
+  ones, with almost no syntax at all. It ran observatories, spacecraft and Apple''s boot ROMs, and remains the ultimate
+  benchmark of language minimalism.'

@@ -1,0 +1,34 @@
+# it-langs fiche — Mojo — corpus for the Pica agent (syntax-seed)
+name: Mojo
+slug: mojo
+first_appeared: 2023
+creators: Modular (Chris Lattner's company)
+origin: Modular Inc (USA)
+era: 2020s
+status: active
+paradigms:
+- 'systems language for AI: Python superset ambitions'
+- ownership types
+- SIMD-first
+typing: static (with 'struct') + dynamic ('fn'/'def' modes), strong
+execution: compiled via MLIR to native (and GPU) code
+non_executable: false
+family: Python's family married to Swift/LLVM lineage
+influenced_by:
+- Python (the interop promise)
+- Swift and Rust (ownership/SIMD taste)
+- MLIR (Lattner's own IR)
+influenced:
+- the AI-infra systems wave it anchors
+underlying: MLIR stack; claims Python-scale interop with native-speed kernels
+domains:
+- AI kernel authorship
+- accelerator programming
+- replacing C++/CUDA glue in ML stacks
+hello_world: |-
+  fn main():
+      print("Hello, World!")
+docs: https://docs.modular.com/mojo/
+tag: Chris Lattner's bet on one language for all of AI (2023)
+summary: 'Lattner''s post-LLVM/Swift wager: one language from research notebook to GPU kernel — Python''s surface
+  over MLIR''s machinery. The most-watched language launch of the AI era.'

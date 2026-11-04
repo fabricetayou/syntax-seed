@@ -1,0 +1,37 @@
+# it-langs fiche — Scheme — corpus for the Pica agent (syntax-seed)
+name: Scheme
+slug: scheme
+first_appeared: 1975
+year_note: standards RRS 1985 through R7RS 2013
+creators: Gerald Jay Sussman and Guy Lewis Steele Jr. (MIT)
+origin: MIT AI Lab (USA)
+era: 1970s
+status: active
+paradigms:
+- functional-first minimal Lisp
+typing: dynamic, strong
+execution: interpreted and compiled (native or bytecode)
+non_executable: false
+family: Lisp family — the minimalist branch
+influenced_by:
+- Lisp
+- ALGOL's lexical scoping
+- the lambda calculus (properly honored)
+influenced:
+- Common Lisp (lexical scope adoption)
+- Racket
+- JavaScript (closures)
+- R (scoping model)
+- teaching texts like SICP
+underlying: 'many engines: Chez, Guile, Chicken, MIT/GNU Scheme'
+domains:
+- teaching (SICP)
+- embedded scripting (Guile in GNU tools)
+- research
+hello_world: (display "Hello, World!") (newline)
+install: Chez Scheme, Guile, Chicken Scheme
+docs: https://schemers.org/
+tag: the minimalist Lisp that cleaned up scope (MIT, 1975)
+summary: 'Sussman and Steele''s ''smaller is stronger'' Lisp: one lexical-rule tweak plus first-class continuations
+  and required tail calls created the cleanest lambda-calculus implementation ever shipped. Half of JavaScript''s
+  soul lives here.'

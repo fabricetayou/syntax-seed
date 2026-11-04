@@ -1,0 +1,28 @@
+# it-langs fiche — Rockstar — corpus for the Pica agent (syntax-seed)
+name: Rockstar
+slug: rockstar
+first_appeared: 2018
+creators: Dylan Beattie
+origin: UK (conference-stage creation)
+era: 2010s
+status: esoteric
+paradigms:
+- esoteric — programs are 1980s power-ballad lyrics
+typing: dynamic
+execution: interpreted
+non_executable: false
+family: esoteric family — the song lyric branch
+influenced_by:
+- the joke 'rockstar developer'
+- LOLCODE's genre
+influenced:
+- conference talk immortality
+underlying: rockstar interpreters (Satriani and friends)
+domains:
+- proving that job ads can be Turing-complete
+hello_world: |2-
+   Desire is a lovestruck ladykiller. My world is nothing. Fire is ice.
+  Shout it. Whisper "Hello, World!"
+tag: programs as 80s power ballads (2018)
+summary: 'Dylan Beattie''s conference stunt turned real language: variables are hearts, output is shouting. ''FizzBuzz''
+  as a power ballad — the most singable Turing completeness on record.'

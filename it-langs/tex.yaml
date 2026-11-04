@@ -1,0 +1,32 @@
+# it-langs fiche — TeX — corpus for the Pica agent (syntax-seed)
+name: TeX
+slug: tex
+first_appeared: 1978
+year_note: rewritten as TeX82; still the typesetting engine under everything
+creators: Donald Knuth (Stanford)
+origin: Stanford (USA)
+era: 1970s
+status: active
+paradigms:
+- macro expansion language (Turing-complete) plus typesetting markup
+typing: untyped token streams
+execution: executed by the TeX typesetting engine (macro expansion + page building)
+non_executable: false
+family: typesetting family (TeX → LaTeX, ConTeXt)
+influenced_by:
+- the state of mathematical typesetting Knuth found unacceptable
+influenced:
+- LaTeX
+- ConTeXt
+- and the entire scholarly publishing workflow
+underlying: the TeX engine (tex, pdftex, xetex, luatex)
+domains:
+- mathematical and scientific typesetting
+hello_world: |-
+  Hello, World!
+  \bye
+docs: https://tug.org/begin.html
+tag: the typesetting language that fixed mathematics on paper
+summary: Knuth's typesetting language, written because his Art of Computer Programming looked ugly in galley proofs.
+  Its macro system is a full programming language, which is why LaTeX could be built on top — and why mathematics
+  still looks like TeX.
