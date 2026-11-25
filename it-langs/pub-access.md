@@ -9,7 +9,7 @@ listed publicly in the Pollinations catalog.
 > Submit it from the **same GitHub account** used to sign in at [enter.pollinations.ai](https://enter.pollinations.ai).
 > **The issue is public — never paste API keys, bearer tokens or credentials.** The read-only
 > GitHub token used by the agent is intentionally kept out of this file (it stays in the private
-> `sys-prompt.MD` placeholder).
+> `sys-prompt.md` placeholder).
 
 ---
 
@@ -118,7 +118,7 @@ rate limit guidance from the team.
 
 ## After access is granted — deployment recipe
 
-1. Prepare the system prompt: take `it-langs/sys-prompt.MD` and replace `{{GITHUB_RO_TOKEN}}`
+1. Prepare the system prompt: take `it-langs/sys-prompt.md` and replace `{{GITHUB_RO_TOKEN}}`
    with the read-only GitHub token (keep it secret). The prompt is under the 8,000-character limit.
 
 2. Create `agent.json`:
@@ -128,7 +128,7 @@ rate limit guidance from the team.
   "title": "Pica — Picandra Everwise",
   "description": "The historian of programming languages: quick-starts, genealogies, scopes, underlying stacks and the languages that never execute. Bilingual, curious, precise.",
   "visibility": "public",
-  "systemPrompt": "<contents of sys-prompt.MD, with the token substituted>",
+  "systemPrompt": "<contents of sys-prompt.md, with the token substituted>",
   "baseModel": "<pick a text model ID from https://gen.pollinations.ai/v1/models>",
   "mcpServers": ["computer"]
 }
@@ -157,7 +157,7 @@ curl https://gen.pollinations.ai/v1/chat/completions \
 ```
 
 5. Maintenance: update the corpus in the repository (add fiches, fix `year_note` values),
-   update the count in `sys-prompt.MD` if needed, then `npx @pollinations/cli agents update <agent-id> --config agent.json`.
+   update the count in `sys-prompt.md` if needed, then `npx @pollinations/cli agents update <agent-id> --config agent.json`.
 
 Managed-agent economics: no owner-set price; callers pay their own base-model and MCP usage.
 Managed agents are always text-only.
