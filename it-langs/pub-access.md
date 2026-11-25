@@ -7,9 +7,8 @@ listed publicly in the Pollinations catalog.
 
 > The form requests **account-level access**; it does not register the agent itself.
 > Submit it from the **same GitHub account** used to sign in at [enter.pollinations.ai](https://enter.pollinations.ai).
-> **The issue is public — never paste API keys, bearer tokens or credentials.** The read-only
-> GitHub token used by the agent is intentionally kept out of this file (it stays in the private
-> `sys-prompt.md` placeholder).
+> **The issue is public — never paste API keys, bearer tokens or credentials.** The corpus repository is
+> public: the agent reads it without any token, and the kit carries no credentials at all.
 
 ---
 
@@ -48,7 +47,7 @@ Under the hood: an open structured corpus ("it-langs", 212 YAML fiches and growi
 one file per language from 1945 to the AI era — Fortran to Mojo, including data formats,
 query languages, hardware description, proof assistants and esoteric languages) stored
 in a versioned Git repository, read live by the agent through the hosted Computer MCP
-(curl to raw.githubusercontent.com, read-only token, results cached in /workspace).
+(curl to raw.githubusercontent.com — public repository, no token — results cached in /workspace).
 
 Main capabilities and intended use:
 - quick-start documents for ~200 languages (install, hello world, first concepts, docs links);
@@ -74,8 +73,8 @@ Why it is a good fit for the public catalog:
 ## 4. Relevant links (input, optional)
 
 ```
-https://github.com/fabricetayou/syntax-seed — corpus repository (private; contains the
-agent kit: sys-prompt, description, publication notes — read access granted on request)
+https://github.com/fabricetayou/syntax-seed — corpus repository (public; contains the
+agent kit: sys-prompt, description, publication notes)
 https://gen.pollinations.ai/docs — Pollinations API docs used to design the agent
 https://gen.pollinations.ai/mcp — MCP server catalog (Computer MCP used by Pica)
 ```
@@ -97,7 +96,7 @@ raw.githubusercontent.com (YAML files of a few KB each), jq/grep parsing locally
 then answer generation. No heavy compute, no long-running processes (each bash
 command is bounded to 60s by the platform), no external services, no user data
 retention beyond a small per-caller cache in /workspace.
-Access: read-only token on a single private repository; no write permissions anywhere.
+Access: public repository, read-only — no credentials, no write permissions anywhere.
 Expected load: low to moderate (educational Q&A traffic); happy to comply with any
 rate limit guidance from the team.
 ```
@@ -118,8 +117,8 @@ rate limit guidance from the team.
 
 ## After access is granted — deployment recipe
 
-1. Prepare the system prompt: take `it-langs/sys-prompt.md` and replace `{{GITHUB_RO_TOKEN}}`
-   with the read-only GitHub token (keep it secret). The prompt is under the 8,000-character limit.
+1. Prepare the system prompt: take `it-langs/sys-prompt.md` as is — the corpus repository is
+   public, no token is needed. The prompt is under the 8,000-character limit.
 
 2. Create `agent.json`:
 
@@ -128,7 +127,7 @@ rate limit guidance from the team.
   "title": "Pica — Picandra Everwise",
   "description": "The historian of programming languages: quick-starts, genealogies, scopes, underlying stacks and the languages that never execute. Bilingual, curious, precise.",
   "visibility": "public",
-  "systemPrompt": "<contents of sys-prompt.md, with the token substituted>",
+  "systemPrompt": "<contents of sys-prompt.md, taken as is>",
   "baseModel": "<pick a text model ID from https://gen.pollinations.ai/v1/models>",
   "mcpServers": ["computer"]
 }
